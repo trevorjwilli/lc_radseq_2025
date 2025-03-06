@@ -1,0 +1,72 @@
+populations v2.64, executed 2024-05-16 20:58:57 (zlib-1.2.11)
+populations --in-path /home/mterribilini/LeCh/denovo.M4.rm_pcr_dups --popmap /home/mterribilini/LeCh/popmap_Clear_Lake.txt --out-path /home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Clear_Lake/pop_r80_p2_mac3_cov5 --min-samples-per-pop 0.80 --min-populations 2 --min-mac 3 -t 32 --batch-size 100000 --hwe --fstats --structure --phylip --phylip-var --vcf --plink --write-single-snp
+Locus/sample distributions will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Clear_Lake/pop_r80_p2_mac3_cov5/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0.8
+  Locus Population limit: 2
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  F-stats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 28 samples, 2 population(s), 1 group(s).
+Working on 28 samples.
+Working on 2 population(s):
+    Clear_Lake: 2022_Clear_Lake_LTC1, 2022_Clear_Lake_LTC10, 2022_Clear_Lake_LTC11, 2022_Clear_Lake_LTC12, 2022_Clear_Lake_LTC13, 2022_Clear_Lake_LTC14, 
+                2022_Clear_Lake_LTC15, 2022_Clear_Lake_LTC2, 2022_Clear_Lake_LTC3, 2022_Clear_Lake_LTC4, 2022_Clear_Lake_LTC5, 2022_Clear_Lake_LTC6, 
+                2022_Clear_Lake_LTC7, 2022_Clear_Lake_LTC8, 2022_Clear_Lake_LTC9
+    Willow_Pond: 2022_Willow_Pond_LTC1, 2022_Willow_Pond_LTC10, 2022_Willow_Pond_LTC11, 2022_Willow_Pond_LTC12, 2022_Willow_Pond_LTC14, 2022_Willow_Pond_LTC2, 
+                 2022_Willow_Pond_LTC3, 2022_Willow_Pond_LTC4, 2022_Willow_Pond_LTC5, 2022_Willow_Pond_LTC6, 2022_Willow_Pond_LTC7, 2022_Willow_Pond_LTC8, 
+                 2022_Willow_Pond_LTC9
+Working on 1 group(s) of populations:
+    defaultgrp: Clear_Lake, Willow_Pond
+
+Polymorphic sites in Structure format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Clear_Lake/pop_r80_p2_mac3_cov5/populations.structure'
+Fixed difference sites in Phylip format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Clear_Lake/pop_r80_p2_mac3_cov5/populations.fixed.phylip'
+Polymorphic sites in Phylip format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Clear_Lake/pop_r80_p2_mac3_cov5/populations.var.phylip'
+SNPs and calls will be written in VCF format to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Clear_Lake/pop_r80_p2_mac3_cov5/populations.snps.vcf'
+Polymorphic sites in PLINK format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Clear_Lake/pop_r80_p2_mac3_cov5/populations.plink.ped'
+Raw haplotypes will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Clear_Lake/pop_r80_p2_mac3_cov5/populations.haplotypes.tsv'
+Population-level summary statistics will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Clear_Lake/pop_r80_p2_mac3_cov5/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Clear_Lake/pop_r80_p2_mac3_cov5/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * compute SNP- and haplotype-wise deviation from HWE
+  * compute F-statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Clear_Lake/pop_r80_p2_mac3_cov5/populations.log.distribs'.
+
+Now processing...
+Batch 1 
+
+Removed 508754 loci that did not pass sample/population constraints from 528666 loci.
+Kept 19912 loci, composed of 16067949 sites; 149820 of those sites were filtered, 3080 variant sites remained.
+Number of loci with PE contig: 19912.00 (100.0%);
+  Mean length of loci: 796.95bp (stderr 0.44);
+Number of loci with SE/PE overlap: 19911.00 (100.0%);
+  Mean length of overlapping loci: 806.95bp (stderr 0.44); mean overlap: 31.00bp (stderr 0.00);
+Mean genotyped sites per locus: 805.73bp (stderr 0.44).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  Clear_Lake: 13.479 samples per locus; pi: 0.22042; all/variant/polymorphic sites: 16030563/3080/2911; private alleles: 200
+  Willow_Pond: 12.043 samples per locus; pi: 0.23038; all/variant/polymorphic sites: 16031673/3080/2880; private alleles: 169
+
+Number of variable sites found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Clear_Lake: 75
+  Willow_Pond: 75
+Number of loci found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Clear_Lake: 1887
+  Willow_Pond: 2280
+(more detail in populations.sumstats.tsv and populations.hapstats.tsv)
+
+Population pair divergence statistics (more in populations.fst_summary.tsv and populations.phistats_summary.tsv):
+  Clear_Lake-Willow_Pond: mean Fst: 0.022601; mean Phi_st: 0.0035296; mean Fst': 0.0010614; mean Dxy: 0.00038494
+
+Populations is done.

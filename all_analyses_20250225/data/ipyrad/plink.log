@@ -1,0 +1,26 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --allow-extra-chr
+  --double-id
+  --make-bed
+  --vcf all_data_filtered.vcf
+
+Hostname: trevor-MS-7D91
+Working directory: /home/trevor/Projects/least_chub_radseq/all_analyses_20250225/data/ipyrad
+Start time: Wed Mar  5 19:06:12 2025
+
+Random number seed: 1741219572
+64069 MB RAM detected; reserving 32034 MB for main workspace.
+--vcf: plink-temporary.bed + plink-temporary.bim + plink-temporary.fam written.
+6978 variants loaded from .bim file.
+260 people (0 males, 0 females, 260 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to plink.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 260 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.976522.
+6978 variants and 260 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to plink.bed + plink.bim + plink.fam ... done.
+
+End time: Wed Mar  5 19:06:12 2025

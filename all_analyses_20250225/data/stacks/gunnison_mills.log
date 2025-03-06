@@ -1,0 +1,16 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf populations.snps.vcf
+	--keep gunnison_mills_samples.txt
+	--max-missing 0.8
+	--out gunnison_mills
+	--recode
+
+Keeping individuals in 'keep' list
+After filtering, kept 23 out of 260 Individuals
+Outputting VCF file...
+After filtering, kept 13126 out of a possible 13929 Sites
+Run Time = 1.00 seconds

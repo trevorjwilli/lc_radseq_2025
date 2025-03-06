@@ -1,0 +1,15 @@
+
+-------------------------------------------------------------------
+                            p o n g
+      by A. Behr, K. Liu, T. Devlin, G. Liu-Fang, and S. Ramachandran
+                       Version 1.5 (2021)
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+
+
+pong_filemap file: /home/trevor/Projects/least_chub_radseq/all_analyses_20250225/data/stacks/admixture/admixture_snps.multiplerun.Qfilemap
+Distance metric: jaccard
+Similarity threshold: 0.970000
+Verbose: False
+
+Full command: /home/trevor/.local/bin/pong -m admixture_snps.multiplerun.Qfilemap -i admixture_snps.ind2pop -n pop_order_collapsed.txt -l colors.txt

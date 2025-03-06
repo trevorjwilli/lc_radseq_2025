@@ -1,0 +1,6 @@
+genotypename: pca.plink.ped
+snpname: pca.plink.map 
+indivname: pca.plink.pedind
+evecoutname: pca/pca.evec
+evaloutname: pca/pca.eval
+numoutevec: 20

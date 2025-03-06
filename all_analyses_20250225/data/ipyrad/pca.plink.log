@@ -1,0 +1,28 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --allow-extra-chr
+  --const-fid
+  --out pca.plink
+  --recode
+  --vcf all_data_filtered.vcf
+
+Hostname: trevor-MS-7D91
+Working directory: /home/trevor/Projects/least_chub_radseq/all_analyses_20250225/data/ipyrad
+Start time: Wed Mar  5 19:54:58 2025
+
+Random number seed: 1741222498
+64069 MB RAM detected; reserving 32034 MB for main workspace.
+--vcf: pca.plink-temporary.bed + pca.plink-temporary.bim +
+pca.plink-temporary.fam written.
+6978 variants loaded from .bim file.
+260 people (0 males, 0 females, 260 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to pca.plink.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 260 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.976522.
+6978 variants and 260 people pass filters and QC.
+Note: No phenotypes present.
+--recode ped to pca.plink.ped + pca.plink.map ... done.
+
+End time: Wed Mar  5 19:54:58 2025

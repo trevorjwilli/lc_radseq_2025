@@ -1,0 +1,844 @@
+parameter file: pca.parfile
+### THE INPUT PARAMETERS
+##PARAMETER NAME: VALUE
+genotypename: pca.plink.ped
+snpname: pca.plink.map
+indivname: pca.plink.pedind
+evecoutname: pca/pca.evec
+evaloutname: pca/pca.eval
+numoutevec: 20
+## smartpca version: 18140
+norm used
+
+lsqproject used
+genetic distance set from physical distance
+snp order check fail; snp list not ordered: pca.plink.map (processing continues)    1     0     1 
+zzz 0 106
+snp order check fail; snp list not ordered: pca.plink.map (processing continues)    1     0     1 
+zzz 1 143
+snp order check fail; snp list not ordered: pca.plink.map (processing continues)    1     0     1 
+zzz 2 183
+snp order check fail; snp list not ordered: pca.plink.map (processing continues)    1     0     1 
+zzz 3 192
+snp order check fail; snp list not ordered: pca.plink.map (processing continues)    1     0     1 
+zzz 4 557
+snp order check fail; snp list not ordered: pca.plink.map (processing continues)    1     0     1 
+zzz 5 583
+snp order check fail; snp list not ordered: pca.plink.map (processing continues)    1     0     1 
+zzz 6 683
+snp order check fail; snp list not ordered: pca.plink.map (processing continues)    1     0     1 
+zzz 7 732
+snp order check fail; snp list not ordered: pca.plink.map (processing continues)    1     0     1 
+zzz 8 749
+0:2001_Mona_LTC1 ignored
+0:2001_Mona_LTC12 ignored
+0:2001_Mona_LTC2 ignored
+0:2001_Mona_LTC5 ignored
+0:2022_Big_Springs_LTC_1 ignored
+0:2022_Big_Springs_LTC_10 ignored
+0:2022_Big_Springs_LTC_11 ignored
+0:2022_Big_Springs_LTC_12 ignored
+0:2022_Big_Springs_LTC_13 ignored
+0:2022_Big_Springs_LTC_14 ignored
+0:2022_Big_Springs_LTC_15 ignored
+0:2022_Big_Springs_LTC_2 ignored
+0:2022_Big_Springs_LTC_3 ignored
+0:2022_Big_Springs_LTC_4 ignored
+0:2022_Big_Springs_LTC_5 ignored
+0:2022_Big_Springs_LTC_6 ignored
+0:2022_Big_Springs_LTC_7 ignored
+0:2022_Big_Springs_LTC_8 ignored
+0:2022_Big_Springs_LTC_9 ignored
+0:2022_Bishop_LTC1 ignored
+0:2022_Bishop_LTC10 ignored
+0:2022_Bishop_LTC11 ignored
+0:2022_Bishop_LTC12 ignored
+0:2022_Bishop_LTC13 ignored
+0:2022_Bishop_LTC15 ignored
+0:2022_Bishop_LTC2 ignored
+0:2022_Bishop_LTC3 ignored
+0:2022_Bishop_LTC4 ignored
+0:2022_Bishop_LTC5 ignored
+0:2022_Bishop_LTC6 ignored
+0:2022_Bishop_LTC7 ignored
+0:2022_Bishop_LTC8 ignored
+0:2022_Bishop_LTC9 ignored
+0:2022_Cartier_Slough_LTC1 ignored
+0:2022_Cartier_Slough_LTC10 ignored
+0:2022_Cartier_Slough_LTC11 ignored
+0:2022_Cartier_Slough_LTC12 ignored
+0:2022_Cartier_Slough_LTC13 ignored
+0:2022_Cartier_Slough_LTC14 ignored
+0:2022_Cartier_Slough_LTC15 ignored
+0:2022_Cartier_Slough_LTC2 ignored
+0:2022_Cartier_Slough_LTC3 ignored
+0:2022_Cartier_Slough_LTC4 ignored
+0:2022_Cartier_Slough_LTC5 ignored
+0:2022_Cartier_Slough_LTC6 ignored
+0:2022_Cartier_Slough_LTC7 ignored
+0:2022_Cartier_Slough_LTC8 ignored
+0:2022_Cartier_Slough_LTC9 ignored
+0:2022_Clear_Lake_LTC1 ignored
+0:2022_Clear_Lake_LTC10 ignored
+0:2022_Clear_Lake_LTC11 ignored
+0:2022_Clear_Lake_LTC12 ignored
+0:2022_Clear_Lake_LTC13 ignored
+0:2022_Clear_Lake_LTC14 ignored
+0:2022_Clear_Lake_LTC15 ignored
+0:2022_Clear_Lake_LTC2 ignored
+0:2022_Clear_Lake_LTC3 ignored
+0:2022_Clear_Lake_LTC4 ignored
+0:2022_Clear_Lake_LTC5 ignored
+0:2022_Clear_Lake_LTC6 ignored
+0:2022_Clear_Lake_LTC7 ignored
+0:2022_Clear_Lake_LTC8 ignored
+0:2022_Clear_Lake_LTC9 ignored
+0:2022_Cluster_LTC_1 ignored
+0:2022_Cluster_LTC_10 ignored
+0:2022_Cluster_LTC_11 ignored
+0:2022_Cluster_LTC_12 ignored
+0:2022_Cluster_LTC_13 ignored
+0:2022_Cluster_LTC_14 ignored
+0:2022_Cluster_LTC_15 ignored
+0:2022_Cluster_LTC_2 ignored
+0:2022_Cluster_LTC_3 ignored
+0:2022_Cluster_LTC_4 ignored
+0:2022_Cluster_LTC_5 ignored
+0:2022_Cluster_LTC_6 ignored
+0:2022_Cluster_LTC_7 ignored
+0:2022_Cluster_LTC_8 ignored
+0:2022_Cluster_LTC_9 ignored
+0:2022_Copilot_LTC1 ignored
+0:2022_Copilot_LTC10 ignored
+0:2022_Copilot_LTC11 ignored
+0:2022_Copilot_LTC12 ignored
+0:2022_Copilot_LTC13 ignored
+0:2022_Copilot_LTC14 ignored
+0:2022_Copilot_LTC2 ignored
+0:2022_Copilot_LTC3 ignored
+0:2022_Copilot_LTC4 ignored
+0:2022_Copilot_LTC5 ignored
+0:2022_Copilot_LTC6 ignored
+0:2022_Copilot_LTC7 ignored
+0:2022_Copilot_LTC8 ignored
+0:2022_Copilot_LTC9 ignored
+0:2022_Gandy_LTC1 ignored
+0:2022_Gandy_LTC10 ignored
+0:2022_Gandy_LTC11 ignored
+0:2022_Gandy_LTC12 ignored
+0:2022_Gandy_LTC13 ignored
+0:2022_Gandy_LTC14 ignored
+0:2022_Gandy_LTC15 ignored
+0:2022_Gandy_LTC2 ignored
+0:2022_Gandy_LTC3 ignored
+0:2022_Gandy_LTC4 ignored
+0:2022_Gandy_LTC5 ignored
+0:2022_Gandy_LTC6 ignored
+0:2022_Gandy_LTC7 ignored
+0:2022_Gandy_LTC8 ignored
+0:2022_Gandy_LTC9 ignored
+0:2022_Jail_Pond_LTC1 ignored
+0:2022_Jail_Pond_LTC10 ignored
+0:2022_Jail_Pond_LTC11 ignored
+0:2022_Jail_Pond_LTC12 ignored
+0:2022_Jail_Pond_LTC13 ignored
+0:2022_Jail_Pond_LTC14 ignored
+0:2022_Jail_Pond_LTC2 ignored
+0:2022_Jail_Pond_LTC3 ignored
+0:2022_Jail_Pond_LTC4 ignored
+0:2022_Jail_Pond_LTC5 ignored
+0:2022_Jail_Pond_LTC6 ignored
+0:2022_Jail_Pond_LTC7 ignored
+0:2022_Jail_Pond_LTC8 ignored
+0:2022_Jail_Pond_LTC9 ignored
+0:2022_Keg_Springs_LTC1 ignored
+0:2022_Keg_Springs_LTC2 ignored
+0:2022_Keg_Springs_LTC3 ignored
+0:2022_Keg_Springs_LTC4 ignored
+0:2022_Keg_Springs_LTC5 ignored
+0:2022_Keg_Springs_LTC6 ignored
+0:2022_Keg_Springs_LTC7 ignored
+0:2022_Keg_Springs_LTC8 ignored
+0:2022_Leland_Harris_LTC1 ignored
+0:2022_Leland_Harris_LTC10 ignored
+0:2022_Leland_Harris_LTC11 ignored
+0:2022_Leland_Harris_LTC12 ignored
+0:2022_Leland_Harris_LTC13 ignored
+0:2022_Leland_Harris_LTC14 ignored
+0:2022_Leland_Harris_LTC15 ignored
+0:2022_Leland_Harris_LTC2 ignored
+0:2022_Leland_Harris_LTC3 ignored
+0:2022_Leland_Harris_LTC4 ignored
+0:2022_Leland_Harris_LTC5 ignored
+0:2022_Leland_Harris_LTC6 ignored
+0:2022_Leland_Harris_LTC7 ignored
+0:2022_Leland_Harris_LTC8 ignored
+0:2022_Leland_Harris_LTC9 ignored
+0:2022_Lower_Rocky_LTC1 ignored
+0:2022_Lower_Rocky_LTC2 ignored
+0:2022_Lower_Rocky_LTC3 ignored
+0:2022_Lower_Rocky_LTC4 ignored
+0:2022_Lower_Rocky_LTC_10 ignored
+0:2022_Lower_Rocky_LTC_11 ignored
+0:2022_Lower_Rocky_LTC_12 ignored
+0:2022_Lower_Rocky_LTC_13 ignored
+0:2022_Lower_Rocky_LTC_14 ignored
+0:2022_Lower_Rocky_LTC_5 ignored
+0:2022_Lower_Rocky_LTC_6 ignored
+0:2022_Lower_Rocky_LTC_7 ignored
+0:2022_Lower_Rocky_LTC_8 ignored
+0:2022_Lower_Rocky_LTC_9 ignored
+0:2022_Mills_Valley_LTC1 ignored
+0:2022_Mills_Valley_LTC2 ignored
+0:2022_Mills_Valley_LTC3 ignored
+0:2022_Mills_Valley_LTC4 ignored
+0:2022_Mills_Valley_LTC5 ignored
+0:2022_Mills_Valley_LTC6 ignored
+0:2022_Mills_Valley_LTC7 ignored
+0:2022_Mills_Valley_LTC8 ignored
+0:2022_Mud_Basin_LTC_1 ignored
+0:2022_Mud_Basin_LTC_10 ignored
+0:2022_Mud_Basin_LTC_11 ignored
+0:2022_Mud_Basin_LTC_12 ignored
+0:2022_Mud_Basin_LTC_13 ignored
+0:2022_Mud_Basin_LTC_14 ignored
+0:2022_Mud_Basin_LTC_15 ignored
+0:2022_Mud_Basin_LTC_2 ignored
+0:2022_Mud_Basin_LTC_3 ignored
+0:2022_Mud_Basin_LTC_4 ignored
+0:2022_Mud_Basin_LTC_5 ignored
+0:2022_Mud_Basin_LTC_6 ignored
+0:2022_Mud_Basin_LTC_7 ignored
+0:2022_Mud_Basin_LTC_8 ignored
+0:2022_Mud_Basin_LTC_9 ignored
+0:2022_Red_Knolls_LTC1 ignored
+0:2022_Red_Knolls_LTC10 ignored
+0:2022_Red_Knolls_LTC12 ignored
+0:2022_Red_Knolls_LTC15 ignored
+0:2022_Red_Knolls_LTC2 ignored
+0:2022_Red_Knolls_LTC3 ignored
+0:2022_Red_Knolls_LTC4 ignored
+0:2022_Red_Knolls_LTC5 ignored
+0:2022_Red_Knolls_LTC6 ignored
+0:2022_Red_Knolls_LTC7 ignored
+0:2022_Red_Knolls_LTC8 ignored
+0:2022_Red_Knolls_LTC9 ignored
+0:2022_Rosebud_Top_P_LTC1 ignored
+0:2022_Rosebud_Top_P_LTC10 ignored
+0:2022_Rosebud_Top_P_LTC11 ignored
+0:2022_Rosebud_Top_P_LTC12 ignored
+0:2022_Rosebud_Top_P_LTC13 ignored
+0:2022_Rosebud_Top_P_LTC14 ignored
+0:2022_Rosebud_Top_P_LTC2 ignored
+0:2022_Rosebud_Top_P_LTC3 ignored
+0:2022_Rosebud_Top_P_LTC4 ignored
+0:2022_Rosebud_Top_P_LTC5 ignored
+0:2022_Rosebud_Top_P_LTC6 ignored
+0:2022_Rosebud_Top_P_LTC7 ignored
+0:2022_Rosebud_Top_P_LTC8 ignored
+0:2022_Rosebud_Top_P_LTC9 ignored
+0:2022_Tooele_Army_LTC1 ignored
+0:2022_Tooele_Army_LTC2 ignored
+0:2022_Tooele_Army_LTC3 ignored
+0:2022_Tooele_Army_LTC4 ignored
+0:2022_Tooele_Army_LTC5 ignored
+0:2022_Tooele_Army_LTC6 ignored
+0:2022_Tooele_Army_LTC7 ignored
+0:2022_Tooele_Army_LTC_10 ignored
+0:2022_Tooele_Army_LTC_8 ignored
+0:2022_Tooele_Army_LTC_9 ignored
+0:2022_Willow_Pond_LTC1 ignored
+0:2022_Willow_Pond_LTC10 ignored
+0:2022_Willow_Pond_LTC11 ignored
+0:2022_Willow_Pond_LTC12 ignored
+0:2022_Willow_Pond_LTC14 ignored
+0:2022_Willow_Pond_LTC2 ignored
+0:2022_Willow_Pond_LTC3 ignored
+0:2022_Willow_Pond_LTC4 ignored
+0:2022_Willow_Pond_LTC5 ignored
+0:2022_Willow_Pond_LTC6 ignored
+0:2022_Willow_Pond_LTC7 ignored
+0:2022_Willow_Pond_LTC8 ignored
+0:2022_Willow_Pond_LTC9 ignored
+0:2023_Deer_Parks_LTC_1 ignored
+0:2023_Deer_Parks_LTC_10 ignored
+0:2023_Deer_Parks_LTC_2 ignored
+0:2023_Deer_Parks_LTC_3 ignored
+0:2023_Deer_Parks_LTC_4 ignored
+0:2023_Deer_Parks_LTC_5 ignored
+0:2023_Deer_Parks_LTC_6 ignored
+0:2023_Deer_Parks_LTC_7 ignored
+0:2023_Deer_Parks_LTC_8 ignored
+0:2023_Deer_Parks_LTC_9 ignored
+0:2023_Harris_Ponds_LTC_1 ignored
+0:2023_Harris_Ponds_LTC_10 ignored
+0:2023_Harris_Ponds_LTC_2 ignored
+0:2023_Harris_Ponds_LTC_3 ignored
+0:2023_Harris_Ponds_LTC_4 ignored
+0:2023_Harris_Ponds_LTC_5 ignored
+0:2023_Harris_Ponds_LTC_6 ignored
+0:2023_Harris_Ponds_LTC_7 ignored
+0:2023_Harris_Ponds_LTC_8 ignored
+0:2023_Harris_Ponds_LTC_9 ignored
+0:2023_Henrys_Fork_LTC_1 ignored
+0:2023_Henrys_Fork_LTC_10 ignored
+0:2023_Henrys_Fork_LTC_2 ignored
+0:2023_Henrys_Fork_LTC_3 ignored
+0:2023_Henrys_Fork_LTC_4 ignored
+0:2023_Henrys_Fork_LTC_5 ignored
+0:2023_Henrys_Fork_LTC_6 ignored
+0:2023_Henrys_Fork_LTC_7 ignored
+0:2023_Henrys_Fork_LTC_8 ignored
+0:2023_Henrys_Fork_LTC_9 ignored
+all individuals set ignore.  Likely input problem (col 6)
+resetting all individual...
+genotype file processed
+snps deleted (nodata): 0.  deletesnpoutname: for detailsnumber of samples used: 260 number of snps used: 6978
+number of pops for axes: 1
+Using 31 threads, and partial sum lookup algorithm.
+total number of snps killed in pass: 0  used: 6978
+REMOVED outlier 0:2022_Red_Knolls_LTC9 iter 1 evec 7 sigmage 6.281 pop: ???
+number of samples after outlier removal: 259
+total number of snps killed in pass: 0  used: 6978
+mpstats:     0.366    0.478    0.635    0.564071
+
+## Tracy-Widom statistics: rows: 259  cols: 6978
+  #N    eigenvalue  difference    twstat      p-value effect. n
+   1     47.681001          NA    23.950  7.39261e-36    15.167
+   2     39.699099   -7.981902    40.666  4.63033e-77    19.943
+   3     24.197724  -15.501374    73.011 1.14826e-182    40.881
+   4     11.930470  -12.267255   138.457            0   133.577
+   5      3.792652   -8.137818   131.997            0   564.598
+   6      3.130804   -0.661848   141.638            0   797.135
+   7      2.522292   -0.608512   140.043            0  1112.980
+   8      1.253965   -1.268327    31.979  2.60183e-54  1478.940
+   9      1.185226   -0.068738    26.460  2.43483e-41  1531.908
+  10      1.073129   -0.112097    14.535  6.52694e-18  1577.560
+  11      1.003948   -0.069181     7.069  1.13118e-07  1606.756
+  12      0.998217   -0.005732     7.519  3.21689e-08  1626.923
+  13      0.970288   -0.027928     4.980  2.39892e-05  1647.996
+  14      0.961420   -0.008868     4.878  3.04823e-05  1666.317
+  15      0.944450   -0.016970     3.636  0.000476826  1684.810
+  16      0.930466   -0.013984     2.728   0.00286128  1702.085
+  17      0.907451   -0.023016     0.480      0.09635  1718.525
+  18      0.899662   -0.007789     0.282     0.122413  1732.533
+  19      0.891295   -0.008367    -0.018     0.171425  1746.495
+  20      0.865996   -0.025299    -2.804     0.903376  1760.286
+  21      0.862201   -0.003795    -2.572     0.863087  1771.026
+  22      0.841679   -0.020522    -4.807     0.999422  1782.149
+  23      0.833491   -0.008188    -5.307     0.999922  1790.878
+  24      0.818861   -0.014631    -6.795            1  1799.138
+  25      0.812669   -0.006192    -7.072            1  1805.854
+  26      0.806565   -0.006104    -7.350            1  1812.324
+  27      0.802557   -0.004008    -7.322            1  1818.542
+  28      0.790996   -0.011561    -8.453            1  1824.835
+  29      0.789777   -0.001220    -8.034            1  1829.952
+  30      0.785492   -0.004284    -8.078            1  1835.550
+  31      0.770304   -0.015188    -9.823            1  1841.135
+  32      0.766879   -0.003424    -9.790            1  1844.874
+  33      0.763942   -0.002937    -9.682            1  1848.660
+  34      0.757834   -0.006108   -10.073            1  1852.573
+  35      0.756000   -0.001834    -9.802            1  1856.079
+  36      0.752909   -0.003092    -9.724            1  1859.888
+  37      0.743983   -0.008926   -10.579            1  1863.793
+  38      0.741551   -0.002431   -10.421            1  1866.775
+  39      0.738517   -0.003035   -10.357            1  1869.932
+  40      0.733007   -0.005510   -10.694            1  1873.163
+  41      0.722766   -0.010241   -11.812            1  1876.024
+  42      0.719286   -0.003480   -11.863            1  1877.660
+  43      0.716804   -0.002482   -11.754            1  1879.228
+  44      0.712259   -0.004546   -11.983            1  1880.902
+  45      0.709712   -0.002547   -11.890            1  1882.310
+  46      0.706185   -0.003527   -11.959            1  1883.805
+  47      0.704462   -0.001723   -11.733            1  1885.208
+  48      0.699348   -0.005114   -12.066            1  1886.850
+  49      0.694163   -0.005185   -12.422            1  1888.100
+  50      0.691499   -0.002664   -12.368            1  1888.930
+  51      0.686195   -0.005304   -12.758            1  1889.799
+  52      0.681747   -0.004448   -13.016            1  1890.205
+  53      0.680485   -0.001262   -12.744            1  1890.292
+  54      0.676102   -0.004383   -12.995            1  1890.659
+  55      0.675110   -0.000992   -12.678            1  1890.710
+  56      0.666178   -0.008932   -13.708            1  1891.095
+  57      0.661616   -0.004561   -14.020            1  1890.270
+  58      0.657241   -0.004375   -14.309            1  1889.055
+  59      0.653538   -0.003704   -14.492            1  1887.472
+  60      0.650839   -0.002699   -14.507            1  1885.639
+  61      0.649286   -0.001553   -14.327            1  1883.742
+  62      0.645522   -0.003765   -14.525            1  1882.002
+  63      0.641250   -0.004272   -14.817            1  1879.989
+  64      0.638128   -0.003121   -14.918            1  1877.594
+  65      0.635776   -0.002352   -14.889            1  1875.032
+  66      0.633344   -0.002431   -14.874            1  1872.449
+  67      0.629294   -0.004050   -15.142            1  1869.830
+  68      0.624427   -0.004867   -15.560            1  1866.847
+  69      0.622626   -0.001801   -15.453            1  1863.330
+  70      0.619454   -0.003172   -15.584            1  1859.874
+  71      0.617911   -0.001543   -15.433            1  1856.207
+  72      0.616612   -0.001300   -15.237            1  1852.651
+  73      0.613586   -0.003026   -15.341            1  1849.261
+  74      0.610955   -0.002630   -15.379            1  1845.686
+  75      0.608456   -0.002499   -15.396            1  1842.004
+  76      0.602303   -0.006153   -16.060            1  1838.237
+  77      0.601002   -0.001301   -15.881            1  1833.626
+  78      0.595598   -0.005404   -16.426            1  1829.155
+  79      0.592818   -0.002780   -16.519            1  1823.979
+  80      0.590104   -0.002714   -16.602            1  1818.623
+  81      0.587124   -0.002979   -16.736            1  1813.096
+  82      0.584882   -0.002243   -16.741            1  1807.341
+  83      0.581758   -0.003124   -16.904            1  1801.502
+  84      0.579679   -0.002078   -16.886            1  1795.396
+  85      0.577522   -0.002157   -16.881            1  1789.234
+  86      0.575619   -0.001903   -16.832            1  1782.998
+  87      0.575179   -0.000440   -16.521            1  1776.738
+  88      0.567930   -0.007249   -17.419            1  1770.763
+  89      0.564529   -0.003401   -17.650            1  1763.657
+  90      0.562845   -0.001683   -17.579            1  1756.204
+  91      0.558750   -0.004095   -17.937            1  1748.747
+  92      0.557068   -0.001683   -17.873            1  1740.795
+  93      0.555180   -0.001888   -17.844            1  1732.831
+  94      0.554275   -0.000905   -17.640            1  1724.812
+  95      0.549386   -0.004889   -18.142            1  1716.940
+  96      0.545756   -0.003631   -18.430            1  1708.405
+  97      0.543139   -0.002617   -18.543            1  1699.456
+  98      0.540288   -0.002850   -18.699            1  1690.292
+  99      0.539522   -0.000766   -18.489            1  1680.865
+ 100      0.536939   -0.002583   -18.597            1  1671.582
+ 101      0.536676   -0.000263   -18.297            1  1662.087
+ 102      0.535547   -0.001129   -18.145            1  1652.840
+ 103      0.533889   -0.001658   -18.084            1  1643.675
+ 104      0.532220   -0.001670   -18.024            1  1634.486
+ 105      0.530438   -0.001781   -17.984            1  1625.273
+ 106      0.527041   -0.003398   -18.228            1  1616.012
+ 107      0.525594   -0.001446   -18.132            1  1606.376
+ 108      0.521494   -0.004101   -18.503            1  1596.754
+ 109      0.519623   -0.001871   -18.488            1  1586.613
+ 110      0.515038   -0.004585   -18.949            1  1576.395
+ 111      0.513829   -0.001209   -18.826            1  1565.564
+ 112      0.511953   -0.001876   -18.818            1  1554.775
+ 113      0.511091   -0.000862   -18.634            1  1543.902
+ 114      0.508819   -0.002272   -18.692            1  1533.141
+ 115      0.507201   -0.001618   -18.637            1  1522.219
+ 116      0.504493   -0.002708   -18.770            1  1511.263
+ 117      0.503175   -0.001318   -18.666            1  1500.061
+ 118      0.500047   -0.003128   -18.872            1  1488.881
+ 119      0.498247   -0.001800   -18.852            1  1477.374
+ 120      0.497422   -0.000825   -18.665            1  1465.794
+ 121      0.494464   -0.002958   -18.840            1  1454.328
+ 122      0.493432   -0.001032   -18.689            1  1442.570
+ 123      0.490264   -0.003168   -18.900            1  1430.885
+ 124      0.487057   -0.003207   -19.121            1  1418.870
+ 125      0.486252   -0.000805   -18.936            1  1406.518
+ 126      0.481563   -0.004688   -19.407            1  1394.276
+ 127      0.480932   -0.000631   -19.198            1  1381.431
+ 128      0.480092   -0.000840   -19.022            1  1368.720
+ 129      0.479705   -0.000387   -18.768            1  1356.107
+ 130      0.475811   -0.003894   -19.096            1  1343.680
+ 131      0.474914   -0.000896   -18.929            1  1330.803
+ 132      0.474036   -0.000878   -18.756            1  1318.016
+ 133      0.473758   -0.000279   -18.482            1  1305.324
+ 134      0.470632   -0.003125   -18.674            1  1292.840
+ 135      0.467675   -0.002957   -18.839            1  1280.051
+ 136      0.465392   -0.002283   -18.897            1  1266.990
+ 137      0.463433   -0.001959   -18.902            1  1253.778
+ 138      0.461882   -0.001550   -18.840            1  1240.472
+ 139      0.460530   -0.001353   -18.745            1  1227.144
+ 140      0.459203   -0.001327   -18.645            1  1213.828
+ 141      0.456845   -0.002358   -18.708            1  1200.532
+ 142      0.455685   -0.001160   -18.580            1  1187.081
+ 143      0.453855   -0.001830   -18.557            1  1173.678
+ 144      0.453037   -0.000817   -18.373            1  1160.213
+ 145      0.448939   -0.004099   -18.703            1  1146.856
+ 146      0.447138   -0.001801   -18.676            1  1133.066
+ 147      0.444773   -0.002364   -18.736            1  1119.221
+ 148      0.443107   -0.001666   -18.688            1  1105.235
+ 149      0.442188   -0.000920   -18.523            1  1091.219
+ 150      0.440970   -0.001218   -18.402            1  1077.294
+ 151      0.439128   -0.001842   -18.374            1  1063.414
+ 152      0.436255   -0.002873   -18.502            1  1049.484
+ 153      0.435287   -0.000968   -18.342            1  1035.347
+ 154      0.433924   -0.001363   -18.240            1  1021.297
+ 155      0.432209   -0.001715   -18.188            1  1007.275
+ 156      0.431415   -0.000794   -17.999            1   993.231
+ 157      0.429754   -0.001661   -17.934            1   979.305
+ 158      0.427201   -0.002553   -17.999            1   965.369
+ 159      0.425287   -0.001914   -17.971            1   951.294
+ 160      0.423619   -0.001668   -17.906            1   937.177
+ 161      0.422667   -0.000952   -17.736            1   923.056
+ 162      0.421018   -0.001649   -17.663            1   909.035
+ 163      0.419677   -0.001341   -17.545            1   895.017
+ 164      0.418295   -0.001383   -17.430            1   881.048
+ 165      0.414953   -0.003342   -17.589            1   867.124
+ 166      0.414254   -0.000698   -17.380            1   852.980
+ 167      0.413475   -0.000779   -17.178            1   838.977
+ 168      0.410838   -0.002637   -17.229            1   825.107
+ 169      0.409583   -0.001255   -17.091            1   811.124
+ 170      0.407741   -0.001842   -17.030            1   797.213
+ 171      0.404991   -0.002750   -17.089            1   783.302
+ 172      0.404594   -0.000397   -16.834            1   769.277
+ 173      0.402100   -0.002493   -16.852            1   755.440
+ 174      0.400911   -0.001190   -16.698            1   741.530
+ 175      0.397678   -0.003233   -16.808            1   727.711
+ 176      0.396730   -0.000948   -16.622            1   713.741
+ 177      0.394244   -0.002486   -16.630            1   699.896
+ 178      0.392702   -0.001542   -16.516            1   685.998
+ 179      0.390429   -0.002273   -16.492            1   672.161
+ 180      0.389681   -0.000748   -16.276            1   658.306
+ 181      0.387516   -0.002164   -16.232            1   644.605
+ 182      0.386771   -0.000745   -16.012            1   630.906
+ 183      0.385763   -0.001008   -15.821            1   617.366
+ 184      0.382387   -0.003376   -15.911            1   603.959
+ 185      0.379719   -0.002668   -15.915            1   590.438
+ 186      0.378958   -0.000761   -15.693            1   576.887
+ 187      0.376892   -0.002065   -15.619            1   563.499
+ 188      0.375460   -0.001433   -15.470            1   550.150
+ 189      0.375262   -0.000198   -15.179            1   536.904
+ 190      0.373226   -0.002036   -15.089            1   523.882
+ 191      0.370791   -0.002435   -15.041            1   510.912
+ 192      0.368416   -0.002375   -14.984            1   497.962
+ 193      0.366568   -0.001848   -14.867            1   485.043
+ 194      0.365382   -0.001186   -14.676            1   472.208
+ 195      0.363394   -0.001989   -14.566            1   459.517
+ 196      0.362653   -0.000741   -14.323            1   446.905
+ 197      0.361133   -0.001520   -14.156            1   434.479
+ 198      0.359391   -0.001742   -14.009            1   422.179
+ 199      0.357135   -0.002256   -13.909            1   409.989
+ 200      0.355539   -0.001596   -13.741            1   397.874
+ 201      0.353455   -0.002084   -13.616            1   385.888
+ 202      0.351382   -0.002073   -13.487            1   373.999
+ 203      0.350727   -0.000654   -13.220            1   362.213
+ 204      0.348992   -0.001736   -13.049            1   350.636
+ 205      0.348013   -0.000979   -12.805            1   339.193
+ 206      0.346552   -0.001462   -12.600            1   327.942
+ 207      0.345374   -0.001178   -12.365            1   316.852
+ 208      0.343653   -0.001721   -12.173            1   305.946
+ 209      0.340361   -0.003292   -12.112            1   295.189
+ 210      0.338649   -0.001712   -11.913            1   284.484
+ 211      0.336860   -0.001789   -11.715            1   273.939
+ 212      0.335486   -0.001374   -11.478            1   263.553
+ 213      0.333369   -0.002117   -11.296            1   253.354
+ 214      0.332081   -0.001288   -11.043            1   243.303
+ 215      0.330512   -0.001569   -10.806            1   233.453
+ 216      0.329244   -0.001268   -10.540            1   223.792
+ 217      0.327060   -0.002183   -10.336            1   214.340
+ 218      0.324326   -0.002734   -10.167            1   205.050
+ 219      0.322381   -0.001946    -9.934            1   195.897
+ 220      0.319999   -0.002382    -9.726            1   186.929
+ 221      0.317688   -0.002311    -9.506            1   178.128
+ 222      0.315764   -0.001923    -9.253            1   169.504
+ 223      0.312528   -0.003236    -9.078            1   161.081
+ 224      0.310386   -0.002142    -8.826            1   152.801
+ 225      0.308372   -0.002014    -8.557            1   144.722
+ 226      0.307377   -0.000995    -8.216            1   136.858
+ 227      0.305220   -0.002157    -7.934            1   129.263
+ 228      0.301997   -0.003222    -7.704            1   121.891
+ 229      0.299493   -0.002505    -7.422            1   114.698
+ 230      0.298362   -0.001131    -7.051            1   107.726
+ 231      0.294497   -0.003865    -6.814            1   101.050
+ 232      0.291756   -0.002741    -6.504            1    94.555
+ 233      0.290260   -0.001497    -6.111     0.999999    88.302
+ 234      0.287262   -0.002997    -5.773     0.999991    82.369
+ 235      0.282460   -0.004803    -5.504     0.999968    76.707
+ 236      0.278837   -0.003622    -5.155     0.999851    71.247
+ 237      0.275828   -0.003009    -4.747     0.999281    66.071
+ 238      0.273495   -0.002333    -4.266     0.996474    61.251
+ 239      0.262570   -0.010925    -4.141     0.994904    56.892
+ 240      0.252919   -0.009651    -3.946     0.991241    52.553
+ 241      0.243170   -0.009749    -3.733     0.984938    48.323
+ 242      0.240923   -0.002247    -3.138     0.945859    44.227
+ 243      0.233177   -0.007746    -2.685     0.883801    40.828
+ 244      0.221771   -0.011406    -2.298     0.803682    38.003
+ 245      0.205965   -0.015806    -2.029     0.733828    35.724
+ 246      0.198464   -0.007501    -1.237     0.490068    33.828
+ 247      0.188772   -0.009692    -0.080     0.183119    34.214
+ 248      0.145104   -0.043668    -0.302      0.22935    42.122
+ 249      0.098285   -0.046819    -2.373     0.821076    50.908
+ 250      0.095437   -0.002848        NA           NA        NA
+ 251      0.089267   -0.006169        NA           NA        NA
+ 252      0.087185   -0.002082        NA           NA        NA
+ 253      0.040372   -0.046814        NA           NA        NA
+ 254      0.038477   -0.001894        NA           NA        NA
+ 255      0.037614   -0.000863        NA           NA        NA
+ 256      0.034309   -0.003305        NA           NA        NA
+ 257      0.031353   -0.002955        NA           NA        NA
+ 258      0.030280   -0.001073        NA           NA        NA
+    kurtosis           snps    indivs
+ eigenvector    1     2.288     1.520
+ eigenvector    2     2.449     1.911
+ eigenvector    3     3.554     3.055
+ eigenvector    4     4.424     3.650
+ eigenvector    5     4.859     4.547
+ eigenvector    6     4.953     4.647
+ eigenvector    7     6.287     4.471
+ eigenvector    8     5.071    13.651
+ eigenvector    9     6.407     7.382
+ eigenvector   10     5.614    10.652
+ eigenvector   11     4.925    13.418
+ eigenvector   12     4.286    11.822
+ eigenvector   13     4.099    12.434
+ eigenvector   14     3.924    10.710
+ eigenvector   15     3.979    13.233
+ eigenvector   16     3.866    15.691
+ eigenvector   17     3.885     9.842
+ eigenvector   18     3.972    11.913
+ eigenvector   19     4.078    14.871
+ eigenvector   20     3.784    20.602
+lsqproj called!
+population:   0                  ???  259
+number of blocks for block jackknife: 1
+number of blocks 1: no standard error
+## end of Fst statistics between populations
+
+fst *1000:
+          ? 
+   ?      0
+
+std. err.  * 1000000:
+          ? 
+   ?      0
+
+eigenvector 1:means
+                 ???      0.000
+eigenvector 2:means
+                 ???      0.000
+eigenvector 3:means
+                 ???     -0.000
+eigenvector 4:means
+                 ???      0.000
+eigenvector 5:means
+                 ???     -0.000
+eigenvector 6:means
+                 ???     -0.000
+eigenvector 7:means
+                 ???     -0.000
+eigenvector 8:means
+                 ???      0.000
+eigenvector 9:means
+                 ???      0.000
+eigenvector 10:means
+                 ???      0.000
+eigenvector 11:means
+                 ???      0.000
+eigenvector 12:means
+                 ???     -0.000
+eigenvector 13:means
+                 ???     -0.000
+eigenvector 14:means
+                 ???      0.000
+eigenvector 15:means
+                 ???      0.000
+eigenvector 16:means
+                 ???     -0.000
+eigenvector 17:means
+                 ???      0.000
+eigenvector 18:means
+                 ???      0.000
+eigenvector 19:means
+                 ???     -0.000
+eigenvector 20:means
+                 ???      0.000
+
+## Statistical significance of differences beween populations:
+                                pop1                  pop2      chisq          p-value   |pop1|   |pop2|
+
+eigbestsnp    1       loc15948_pos45  1           46     2.703
+eigbestsnp    1       loc15489_pos71  1           72     2.666
+eigbestsnp    1       loc16126_pos40  1           41     2.663
+eigbestsnp    1       loc13892_pos40  1           41     2.651
+eigbestsnp    1      loc20857_pos118  1          119     2.650
+eigbestsnp    1        loc227_pos123  1          124     2.648
+eigbestsnp    1        loc246_pos121  1          122     2.630
+eigbestsnp    1       loc22393_pos25  1           26     2.606
+eigbestsnp    1       loc12697_pos68  1           69     2.581
+eigbestsnp    1        loc21206_pos1  1            2     2.577
+eigbestsnp    2       loc22244_pos32  1           33     2.820
+eigbestsnp    2      loc21140_pos125  1          126     2.761
+eigbestsnp    2       loc2796_pos103  1          104     2.740
+eigbestsnp    2      loc11400_pos122  1          123     2.716
+eigbestsnp    2       loc4971_pos120  1          121     2.708
+eigbestsnp    2       loc10238_pos12  1           13     2.699
+eigbestsnp    2       loc3137_pos149  1          150     2.699
+eigbestsnp    2       loc17403_pos12  1           13     2.699
+eigbestsnp    2        loc6559_pos74  1           75     2.688
+eigbestsnp    2       loc14687_pos73  1           74     2.662
+eigbestsnp    3       loc20073_pos31  1           32     3.222
+eigbestsnp    3       loc3839_pos111  1          112     3.218
+eigbestsnp    3        loc4195_pos24  1           25     3.198
+eigbestsnp    3        loc2567_pos75  1           76     3.189
+eigbestsnp    3       loc10421_pos46  1           47     3.181
+eigbestsnp    3        loc11066_pos5  1            6     3.145
+eigbestsnp    3       loc1879_pos148  1          149     3.137
+eigbestsnp    3        loc403_pos117  1          118     3.085
+eigbestsnp    3        loc1236_pos35  1           36     3.084
+eigbestsnp    3        loc3147_pos58  1           59     3.045
+eigbestsnp    4        loc6452_pos74  1           75     4.127
+eigbestsnp    4      loc11164_pos121  1          122     4.068
+eigbestsnp    4        loc5834_pos45  1           46     3.950
+eigbestsnp    4       loc21622_pos90  1           91     3.931
+eigbestsnp    4       loc7296_pos144  1          145     3.908
+eigbestsnp    4       loc6013_pos115  1          116     3.844
+eigbestsnp    4       loc22265_pos46  1           47     3.784
+eigbestsnp    4        loc5041_pos58  1           59     3.770
+eigbestsnp    4        loc9765_pos27  1           28     3.766
+eigbestsnp    4        loc1349_pos87  1           88     3.748
+eigbestsnp    5        loc8620_pos44  1           45     5.387
+eigbestsnp    5       loc14674_pos85  1           86     5.289
+eigbestsnp    5        loc4981_pos34  1           35     4.843
+eigbestsnp    5       loc8323_pos132  1          133     4.592
+eigbestsnp    5       loc10998_pos70  1           71     4.461
+eigbestsnp    5         loc488_pos79  1           80     4.431
+eigbestsnp    5         loc479_pos16  1           17     4.389
+eigbestsnp    5       loc1678_pos119  1          120     4.363
+eigbestsnp    5       loc18930_pos84  1           85     4.333
+eigbestsnp    5       loc17461_pos69  1           70     4.318
+eigbestsnp    6       loc17489_pos38  1           39     6.534
+eigbestsnp    6      loc21515_pos129  1          130     5.905
+eigbestsnp    6       loc21163_pos62  1           63     5.703
+eigbestsnp    6       loc3777_pos139  1          140     5.685
+eigbestsnp    6      loc20310_pos145  1          146     5.460
+eigbestsnp    6       loc5617_pos137  1          138     4.807
+eigbestsnp    6        loc9382_pos44  1           45     4.247
+eigbestsnp    6      loc19621_pos131  1          132     4.213
+eigbestsnp    6       loc12995_pos54  1           55     4.167
+eigbestsnp    6       loc21783_pos33  1           34     4.156
+eigbestsnp    7        loc5937_pos34  1           35     6.918
+eigbestsnp    7        loc9801_pos56  1           57     6.251
+eigbestsnp    7       loc18977_pos51  1           52     5.908
+eigbestsnp    7       loc2989_pos133  1          134     5.662
+eigbestsnp    7      loc15517_pos154  1          155     5.657
+eigbestsnp    7       loc19602_pos96  1           97     5.330
+eigbestsnp    7       loc7437_pos149  1          150     5.048
+eigbestsnp    7      loc11901_pos148  1          149     5.039
+eigbestsnp    7       loc1146_pos132  1          133     4.558
+eigbestsnp    7      loc17685_pos119  1          120     4.525
+eigbestsnp    8       loc22079_pos59  1           60     6.110
+eigbestsnp    8       loc18930_pos84  1           85     5.443
+eigbestsnp    8       loc1678_pos119  1          120     5.327
+eigbestsnp    8        loc306_pos127  1          128     4.563
+eigbestsnp    8       loc2012_pos148  1          149     4.384
+eigbestsnp    8        loc1890_pos69  1           70     4.354
+eigbestsnp    8       loc15194_pos65  1           66     4.319
+eigbestsnp    8        loc4229_pos37  1           38     4.292
+eigbestsnp    8      loc16179_pos146  1          147     4.289
+eigbestsnp    8       loc8623_pos140  1          141     4.151
+eigbestsnp    9       loc20209_pos32  1           33     6.078
+eigbestsnp    9      loc15517_pos154  1          155     5.985
+eigbestsnp    9        loc4156_pos85  1           86     5.581
+eigbestsnp    9        loc5211_pos19  1           20     5.443
+eigbestsnp    9       loc18052_pos65  1           66     5.106
+eigbestsnp    9        loc9680_pos21  1           22     5.062
+eigbestsnp    9       loc11095_pos25  1           26     4.902
+eigbestsnp    9      loc21699_pos122  1          123     4.888
+eigbestsnp    9        loc9002_pos33  1           34     4.877
+eigbestsnp    9      loc15921_pos148  1          149     4.825
+eigbestsnp   10      loc20077_pos134  1          135     6.487
+eigbestsnp   10      loc15674_pos125  1          126     6.276
+eigbestsnp   10       loc12497_pos66  1           67     5.545
+eigbestsnp   10      loc16549_pos102  1          103     4.922
+eigbestsnp   10       loc6177_pos115  1          116     4.856
+eigbestsnp   10         loc277_pos82  1           83     4.807
+eigbestsnp   10       loc8192_pos140  1          141     4.767
+eigbestsnp   10      loc13080_pos134  1          135     4.674
+eigbestsnp   10       loc21055_pos35  1           36     4.620
+eigbestsnp   10       loc18494_pos98  1           99     4.538
+eigbestsnp   11      loc15517_pos154  1          155     7.853
+eigbestsnp   11       loc8877_pos144  1          145     4.604
+eigbestsnp   11       loc2416_pos149  1          150     4.525
+eigbestsnp   11      loc21221_pos141  1          142     4.387
+eigbestsnp   11      loc11566_pos146  1          147     4.323
+eigbestsnp   11        loc7262_pos44  1           45     4.194
+eigbestsnp   11       loc1820_pos142  1          143     4.142
+eigbestsnp   11       loc3270_pos125  1          126     4.071
+eigbestsnp   11       loc16250_pos63  1           64     4.061
+eigbestsnp   11        loc5764_pos90  1           91     4.050
+eigbestsnp   12         loc505_pos90  1           91     5.228
+eigbestsnp   12       loc7524_pos128  1          129     4.926
+eigbestsnp   12       loc16692_pos20  1           21     4.820
+eigbestsnp   12      loc17893_pos116  1          117     4.547
+eigbestsnp   12      loc18747_pos125  1          126     4.455
+eigbestsnp   12        loc9102_pos51  1           52     4.281
+eigbestsnp   12        loc8812_pos36  1           37     4.213
+eigbestsnp   12       loc20972_pos53  1           54     4.190
+eigbestsnp   12       loc15969_pos21  1           22     4.188
+eigbestsnp   12        loc17152_pos0  1            1     4.046
+eigbestsnp   13          loc161_pos5  1            6     4.757
+eigbestsnp   13       loc2576_pos149  1          150     4.517
+eigbestsnp   13        loc9639_pos41  1           42     4.491
+eigbestsnp   13      loc16326_pos134  1          135     4.337
+eigbestsnp   13       loc8246_pos112  1          113     4.236
+eigbestsnp   13        loc1930_pos65  1           66     4.172
+eigbestsnp   13        loc9252_pos55  1           56     4.167
+eigbestsnp   13       loc18020_pos65  1           66     4.009
+eigbestsnp   13        loc791_pos113  1          114     3.819
+eigbestsnp   13       loc18687_pos82  1           83     3.802
+eigbestsnp   14        loc7119_pos99  1          100     4.682
+eigbestsnp   14      loc10208_pos143  1          144     4.474
+eigbestsnp   14      loc11251_pos143  1          144     4.385
+eigbestsnp   14       loc20508_pos98  1           99     4.076
+eigbestsnp   14        loc21851_pos3  1            4     4.022
+eigbestsnp   14        loc3650_pos19  1           20     3.992
+eigbestsnp   14        loc7800_pos27  1           28     3.904
+eigbestsnp   14       loc15975_pos51  1           52     3.856
+eigbestsnp   14        loc8159_pos12  1           13     3.793
+eigbestsnp   14       loc18924_pos85  1           86     3.747
+eigbestsnp   15       loc2804_pos122  1          123     4.911
+eigbestsnp   15        loc337_pos115  1          116     4.610
+eigbestsnp   15       loc9356_pos132  1          133     4.295
+eigbestsnp   15       loc17327_pos30  1           31     4.250
+eigbestsnp   15       loc11761_pos75  1           76     3.937
+eigbestsnp   15       loc22084_pos31  1           32     3.917
+eigbestsnp   15        loc6905_pos45  1           46     3.896
+eigbestsnp   15      loc16712_pos108  1          109     3.893
+eigbestsnp   15       loc4469_pos100  1          101     3.877
+eigbestsnp   15        loc21647_pos2  1            3     3.870
+eigbestsnp   16       loc3229_pos149  1          150     4.989
+eigbestsnp   16       loc13956_pos70  1           71     4.525
+eigbestsnp   16       loc21860_pos99  1          100     4.235
+eigbestsnp   16       loc17976_pos68  1           69     4.111
+eigbestsnp   16       loc22399_pos76  1           77     4.009
+eigbestsnp   16       loc3868_pos108  1          109     3.994
+eigbestsnp   16      loc12988_pos145  1          146     3.926
+eigbestsnp   16        loc9706_pos44  1           45     3.921
+eigbestsnp   16        loc4096_pos48  1           49     3.906
+eigbestsnp   16      loc22588_pos117  1          118     3.809
+eigbestsnp   17        loc1261_pos91  1           92     4.862
+eigbestsnp   17       loc12572_pos84  1           85     4.811
+eigbestsnp   17        loc5103_pos61  1           62     4.414
+eigbestsnp   17      loc18747_pos125  1          126     3.972
+eigbestsnp   17       loc14709_pos15  1           16     3.927
+eigbestsnp   17        loc1389_pos96  1           97     3.927
+eigbestsnp   17      loc20820_pos111  1          112     3.906
+eigbestsnp   17       loc4172_pos138  1          139     3.848
+eigbestsnp   17        loc6508_pos81  1           82     3.830
+eigbestsnp   17      loc18387_pos135  1          136     3.808
+eigbestsnp   18       loc19609_pos41  1           42     4.856
+eigbestsnp   18      loc21440_pos139  1          140     4.431
+eigbestsnp   18        loc22049_pos7  1            8     4.312
+eigbestsnp   18       loc19212_pos25  1           26     4.157
+eigbestsnp   18        loc1512_pos19  1           20     4.137
+eigbestsnp   18       loc12748_pos24  1           25     4.136
+eigbestsnp   18      loc20122_pos109  1          110     4.118
+eigbestsnp   18       loc15188_pos79  1           80     4.055
+eigbestsnp   18       loc1783_pos106  1          107     4.040
+eigbestsnp   18       loc14883_pos87  1           88     3.975
+eigbestsnp   19         loc449_pos86  1           87     5.337
+eigbestsnp   19       loc7381_pos105  1          106     4.782
+eigbestsnp   19       loc4200_pos120  1          121     4.725
+eigbestsnp   19        loc2275_pos89  1           90     4.504
+eigbestsnp   19       loc22376_pos80  1           81     4.407
+eigbestsnp   19        loc4153_pos39  1           40     4.277
+eigbestsnp   19       loc2150_pos136  1          137     4.210
+eigbestsnp   19       loc3245_pos145  1          146     4.182
+eigbestsnp   19       loc13186_pos33  1           34     4.069
+eigbestsnp   19       loc1481_pos145  1          146     3.987
+eigbestsnp   20        loc12482_pos9  1           10     4.413
+eigbestsnp   20        loc7461_pos92  1           93     4.117
+eigbestsnp   20        loc6255_pos94  1           95     4.050
+eigbestsnp   20       loc18354_pos35  1           36     3.945
+eigbestsnp   20         loc9166_pos9  1           10     3.896
+eigbestsnp   20       loc15733_pos67  1           68     3.761
+eigbestsnp   20       loc20636_pos47  1           48     3.752
+eigbestsnp   20       loc10785_pos15  1           16     3.668
+eigbestsnp   20        loc1780_pos96  1           97     3.629
+eigbestsnp   20       loc10669_pos54  1           55     3.580
+##end of smartpca:       10.550 seconds cpu        5.157 Mbytes in use

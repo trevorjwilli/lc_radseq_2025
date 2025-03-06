@@ -1,0 +1,291 @@
+# Note: Individual distributions can be extracted using the `stacks-dist-extract` utility.
+#       e.g. `stacks-dist-extract populations.log.distribs dist_name`
+
+BEGIN batch_progress
+Batch 1: analyzed 19025 loci; filtered 509641 loci; 528666 loci seen.
+    Calculating F statistics...done.
+END batch_progress
+
+BEGIN samples_per_loc_prefilters
+# Distribution of valid samples matched to a catalog locus prior to filtering.
+n_samples	n_loci
+0	467644
+1	33142
+2	1399
+3	593
+4	496
+5	373
+6	317
+7	258
+8	275
+9	287
+10	314
+11	288
+12	269
+13	288
+14	283
+15	323
+16	362
+17	439
+18	543
+19	822
+20	1340
+21	2788
+22	5903
+23	9920
+END samples_per_loc_prefilters
+
+BEGIN missing_samples_per_loc_prefilters
+# Distribution of missing samples for each catalog locus prior to filtering.
+Absent samples at locus	Count
+0	9920
+1	5903
+2	2788
+3	1340
+4	822
+5	543
+6	439
+7	362
+8	323
+9	283
+10	288
+11	269
+12	288
+13	314
+14	287
+15	275
+16	258
+17	317
+18	373
+19	496
+20	593
+21	1399
+22	33142
+23	467644
+END missing_samples_per_loc_prefilters
+
+BEGIN snps_per_loc_prefilters
+# Distribution of the number of SNPs per catalog locus prior to filtering.
+n_snps	n_loci
+0	489125
+1	5110
+2	2530
+3	1553
+4	1142
+5	932
+6	808
+7	707
+8	670
+9	645
+10	622
+11	643
+12	643
+13	701
+14	721
+15	816
+16	865
+17	871
+18	926
+19	1030
+20	962
+21	1028
+22	1041
+23	1089
+24	1015
+25	1124
+26	1041
+27	976
+28	975
+29	896
+30	808
+31	784
+32	725
+33	616
+34	571
+35	520
+36	461
+37	385
+38	319
+39	289
+40	228
+41	220
+42	187
+43	170
+44	122
+45	116
+46	118
+47	96
+48	75
+49	60
+50	56
+51	55
+52	45
+53	40
+54	27
+55	25
+56	27
+57	24
+58	30
+59	24
+60	16
+61	9
+62	12
+63	13
+64	10
+65	15
+66	10
+67	18
+68	11
+69	9
+70	8
+71	5
+72	6
+73	8
+74	3
+75	2
+76	3
+77	2
+78	5
+79	6
+80	7
+82	3
+83	3
+84	5
+85	1
+86	3
+87	1
+88	3
+89	1
+90	1
+91	2
+92	3
+93	2
+94	3
+95	1
+96	2
+97	1
+98	3
+99	1
+101	4
+102	2
+105	2
+107	1
+108	2
+111	1
+112	1
+114	1
+117	2
+124	2
+152	1
+END snps_per_loc_prefilters
+
+BEGIN samples_per_loc_postfilters
+# Distribution of valid samples matched to a catalog locus after filtering.
+n_samples	n_loci
+19	258
+20	777
+21	2167
+22	5903
+23	9920
+END samples_per_loc_postfilters
+
+BEGIN missing_samples_per_loc_postfilters
+# Distribution of missing samples for each catalog locus after filtering.
+Absent samples at locus	Count
+0	9920
+1	5903
+2	2167
+3	777
+4	258
+END missing_samples_per_loc_postfilters
+
+BEGIN snps_per_loc_postfilters
+# Distribution of the number of SNPs per catalog locus (after filtering).
+n_snps	n_loci
+0	15925
+1	3100
+END snps_per_loc_postfilters
+
+BEGIN loci_per_sample_prefilters
+# Number of loci per individual sample (before filtering).
+sample	n_loci	present_loci	missing_loci	frequency_missing
+2022_Gandy_LTC1	528666	23629	505037	0.9553
+2022_Gandy_LTC10	528666	23841	504825	0.9549
+2022_Gandy_LTC11	528666	23574	505092	0.9554
+2022_Gandy_LTC12	528666	24537	504129	0.9536
+2022_Gandy_LTC13	528666	22518	506148	0.9574
+2022_Gandy_LTC14	528666	25173	503493	0.9524
+2022_Gandy_LTC15	528666	24199	504467	0.9542
+2022_Gandy_LTC2	528666	24092	504574	0.9544
+2022_Gandy_LTC3	528666	24511	504155	0.9536
+2022_Gandy_LTC4	528666	26055	502611	0.9507
+2022_Gandy_LTC5	528666	23557	505109	0.9554
+2022_Gandy_LTC6	528666	24344	504322	0.9540
+2022_Gandy_LTC7	528666	24131	504535	0.9544
+2022_Gandy_LTC8	528666	23874	504792	0.9548
+2022_Gandy_LTC9	528666	23923	504743	0.9547
+2022_Keg_Springs_LTC1	528666	24094	504572	0.9544
+2022_Keg_Springs_LTC2	528666	24388	504278	0.9539
+2022_Keg_Springs_LTC3	528666	24345	504321	0.9540
+2022_Keg_Springs_LTC4	528666	24452	504214	0.9537
+2022_Keg_Springs_LTC5	528666	25620	503046	0.9515
+2022_Keg_Springs_LTC6	528666	23343	505323	0.9558
+2022_Keg_Springs_LTC7	528666	23402	505264	0.9557
+2022_Keg_Springs_LTC8	528666	22565	506101	0.9573
+END loci_per_sample_prefilters
+
+BEGIN loci_per_sample
+# Number of loci per individual sample (after filtering).
+sample	n_loci	present_loci	missing_loci	frequency_missing
+2022_Gandy_LTC1	19025	18490	535	0.0281
+2022_Gandy_LTC10	19025	18588	437	0.0230
+2022_Gandy_LTC11	19025	18491	534	0.0281
+2022_Gandy_LTC12	19025	18417	608	0.0320
+2022_Gandy_LTC13	19025	17903	1122	0.0590
+2022_Gandy_LTC14	19025	18437	588	0.0309
+2022_Gandy_LTC15	19025	18463	562	0.0295
+2022_Gandy_LTC2	19025	18497	528	0.0278
+2022_Gandy_LTC3	19025	18506	519	0.0273
+2022_Gandy_LTC4	19025	18473	552	0.0290
+2022_Gandy_LTC5	19025	18534	491	0.0258
+2022_Gandy_LTC6	19025	18566	459	0.0241
+2022_Gandy_LTC7	19025	18523	502	0.0264
+2022_Gandy_LTC8	19025	18535	490	0.0258
+2022_Gandy_LTC9	19025	18533	492	0.0259
+2022_Keg_Springs_LTC1	19025	18440	585	0.0307
+2022_Keg_Springs_LTC2	19025	18583	442	0.0232
+2022_Keg_Springs_LTC3	19025	18563	462	0.0243
+2022_Keg_Springs_LTC4	19025	18522	503	0.0264
+2022_Keg_Springs_LTC5	19025	18479	546	0.0287
+2022_Keg_Springs_LTC6	19025	18589	436	0.0229
+2022_Keg_Springs_LTC7	19025	18536	489	0.0257
+2022_Keg_Springs_LTC8	19025	17307	1718	0.0903
+END loci_per_sample
+
+BEGIN variant_sites_per_sample
+# Number of variant sites per individual sample (after filtering).
+sample	n_sites	present_sites	missing_sites	frequency_missing
+2022_Gandy_LTC1	3100	2819	281	0.0906
+2022_Gandy_LTC10	3100	2802	298	0.0961
+2022_Gandy_LTC11	3100	2770	330	0.1065
+2022_Gandy_LTC12	3100	2648	452	0.1458
+2022_Gandy_LTC13	3100	2476	624	0.2013
+2022_Gandy_LTC14	3100	2638	462	0.1490
+2022_Gandy_LTC15	3100	2726	374	0.1206
+2022_Gandy_LTC2	3100	2752	348	0.1123
+2022_Gandy_LTC3	3100	2772	328	0.1058
+2022_Gandy_LTC4	3100	2856	244	0.0787
+2022_Gandy_LTC5	3100	2788	312	0.1006
+2022_Gandy_LTC6	3100	2833	267	0.0861
+2022_Gandy_LTC7	3100	2842	258	0.0832
+2022_Gandy_LTC8	3100	2920	180	0.0581
+2022_Gandy_LTC9	3100	2854	246	0.0794
+2022_Keg_Springs_LTC1	3100	2934	166	0.0535
+2022_Keg_Springs_LTC2	3100	2928	172	0.0555
+2022_Keg_Springs_LTC3	3100	2943	157	0.0506
+2022_Keg_Springs_LTC4	3100	2960	140	0.0452
+2022_Keg_Springs_LTC5	3100	2937	163	0.0526
+2022_Keg_Springs_LTC6	3100	2931	169	0.0545
+2022_Keg_Springs_LTC7	3100	2938	162	0.0523
+2022_Keg_Springs_LTC8	3100	2793	307	0.0990
+END variant_sites_per_sample

@@ -1,0 +1,318 @@
+# Note: Individual distributions can be extracted using the `stacks-dist-extract` utility.
+#       e.g. `stacks-dist-extract populations.log.distribs dist_name`
+
+BEGIN batch_progress
+Batch 1: analyzed 19912 loci; filtered 508754 loci; 528666 loci seen.
+    Calculating F statistics...done.
+END batch_progress
+
+BEGIN samples_per_loc_prefilters
+# Distribution of valid samples matched to a catalog locus prior to filtering.
+n_samples	n_loci
+0	468895
+1	30823
+2	1878
+3	842
+4	521
+5	406
+6	301
+7	255
+8	222
+9	205
+10	202
+11	202
+12	193
+13	236
+14	226
+15	204
+16	236
+17	226
+18	291
+19	247
+20	344
+21	395
+22	448
+23	685
+24	1024
+25	1663
+26	3017
+27	5920
+28	8559
+END samples_per_loc_prefilters
+
+BEGIN missing_samples_per_loc_prefilters
+# Distribution of missing samples for each catalog locus prior to filtering.
+Absent samples at locus	Count
+0	8559
+1	5920
+2	3017
+3	1663
+4	1024
+5	685
+6	448
+7	395
+8	344
+9	247
+10	291
+11	226
+12	236
+13	204
+14	226
+15	236
+16	193
+17	202
+18	202
+19	205
+20	222
+21	255
+22	301
+23	406
+24	521
+25	842
+26	1878
+27	30823
+28	468895
+END missing_samples_per_loc_prefilters
+
+BEGIN snps_per_loc_prefilters
+# Distribution of the number of SNPs per catalog locus prior to filtering.
+n_snps	n_loci
+0	489125
+1	5110
+2	2530
+3	1553
+4	1142
+5	932
+6	808
+7	707
+8	670
+9	645
+10	622
+11	643
+12	643
+13	701
+14	721
+15	816
+16	865
+17	871
+18	926
+19	1030
+20	962
+21	1028
+22	1041
+23	1089
+24	1015
+25	1124
+26	1041
+27	976
+28	975
+29	896
+30	808
+31	784
+32	725
+33	616
+34	571
+35	520
+36	461
+37	385
+38	319
+39	289
+40	228
+41	220
+42	187
+43	170
+44	122
+45	116
+46	118
+47	96
+48	75
+49	60
+50	56
+51	55
+52	45
+53	40
+54	27
+55	25
+56	27
+57	24
+58	30
+59	24
+60	16
+61	9
+62	12
+63	13
+64	10
+65	15
+66	10
+67	18
+68	11
+69	9
+70	8
+71	5
+72	6
+73	8
+74	3
+75	2
+76	3
+77	2
+78	5
+79	6
+80	7
+82	3
+83	3
+84	5
+85	1
+86	3
+87	1
+88	3
+89	1
+90	1
+91	2
+92	3
+93	2
+94	3
+95	1
+96	2
+97	1
+98	3
+99	1
+101	4
+102	2
+105	2
+107	1
+108	2
+111	1
+112	1
+114	1
+117	2
+124	2
+152	1
+END snps_per_loc_prefilters
+
+BEGIN samples_per_loc_postfilters
+# Distribution of valid samples matched to a catalog locus after filtering.
+n_samples	n_loci
+23	232
+24	678
+25	1506
+26	3017
+27	5920
+28	8559
+END samples_per_loc_postfilters
+
+BEGIN missing_samples_per_loc_postfilters
+# Distribution of missing samples for each catalog locus after filtering.
+Absent samples at locus	Count
+0	8559
+1	5920
+2	3017
+3	1506
+4	678
+5	232
+END missing_samples_per_loc_postfilters
+
+BEGIN snps_per_loc_postfilters
+# Distribution of the number of SNPs per catalog locus (after filtering).
+n_snps	n_loci
+0	16832
+1	3080
+END snps_per_loc_postfilters
+
+BEGIN loci_per_sample_prefilters
+# Number of loci per individual sample (before filtering).
+sample	n_loci	present_loci	missing_loci	frequency_missing
+2022_Clear_Lake_LTC1	528666	23581	505085	0.9554
+2022_Clear_Lake_LTC10	528666	23765	504901	0.9550
+2022_Clear_Lake_LTC11	528666	22598	506068	0.9573
+2022_Clear_Lake_LTC12	528666	23408	505258	0.9557
+2022_Clear_Lake_LTC13	528666	22931	505735	0.9566
+2022_Clear_Lake_LTC14	528666	22982	505684	0.9565
+2022_Clear_Lake_LTC15	528666	22782	505884	0.9569
+2022_Clear_Lake_LTC2	528666	25028	503638	0.9527
+2022_Clear_Lake_LTC3	528666	23461	505205	0.9556
+2022_Clear_Lake_LTC4	528666	24005	504661	0.9546
+2022_Clear_Lake_LTC5	528666	24012	504654	0.9546
+2022_Clear_Lake_LTC6	528666	24024	504642	0.9546
+2022_Clear_Lake_LTC7	528666	23330	505336	0.9559
+2022_Clear_Lake_LTC8	528666	24138	504528	0.9543
+2022_Clear_Lake_LTC9	528666	23121	505545	0.9563
+2022_Willow_Pond_LTC1	528666	25316	503350	0.9521
+2022_Willow_Pond_LTC10	528666	23065	505601	0.9564
+2022_Willow_Pond_LTC11	528666	24501	504165	0.9537
+2022_Willow_Pond_LTC12	528666	22934	505732	0.9566
+2022_Willow_Pond_LTC14	528666	24878	503788	0.9529
+2022_Willow_Pond_LTC2	528666	25061	503605	0.9526
+2022_Willow_Pond_LTC3	528666	24821	503845	0.9530
+2022_Willow_Pond_LTC4	528666	23203	505463	0.9561
+2022_Willow_Pond_LTC5	528666	24945	503721	0.9528
+2022_Willow_Pond_LTC6	528666	24195	504471	0.9542
+2022_Willow_Pond_LTC7	528666	23490	505176	0.9556
+2022_Willow_Pond_LTC8	528666	23226	505440	0.9561
+2022_Willow_Pond_LTC9	528666	23900	504766	0.9548
+END loci_per_sample_prefilters
+
+BEGIN loci_per_sample
+# Number of loci per individual sample (after filtering).
+sample	n_loci	present_loci	missing_loci	frequency_missing
+2022_Clear_Lake_LTC1	19912	19194	718	0.0361
+2022_Clear_Lake_LTC10	19912	19193	719	0.0361
+2022_Clear_Lake_LTC11	19912	18927	985	0.0495
+2022_Clear_Lake_LTC12	19912	19062	850	0.0427
+2022_Clear_Lake_LTC13	19912	18968	944	0.0474
+2022_Clear_Lake_LTC14	19912	18964	948	0.0476
+2022_Clear_Lake_LTC15	19912	18897	1015	0.0510
+2022_Clear_Lake_LTC2	19912	19285	627	0.0315
+2022_Clear_Lake_LTC3	19912	19315	597	0.0300
+2022_Clear_Lake_LTC4	19912	19359	553	0.0278
+2022_Clear_Lake_LTC5	19912	19224	688	0.0346
+2022_Clear_Lake_LTC6	19912	19198	714	0.0359
+2022_Clear_Lake_LTC7	19912	19196	716	0.0360
+2022_Clear_Lake_LTC8	19912	19283	629	0.0316
+2022_Clear_Lake_LTC9	19912	19223	689	0.0346
+2022_Willow_Pond_LTC1	19912	19276	636	0.0319
+2022_Willow_Pond_LTC10	19912	19054	858	0.0431
+2022_Willow_Pond_LTC11	19912	19391	521	0.0262
+2022_Willow_Pond_LTC12	19912	19289	623	0.0313
+2022_Willow_Pond_LTC14	19912	19253	659	0.0331
+2022_Willow_Pond_LTC2	19912	19289	623	0.0313
+2022_Willow_Pond_LTC3	19912	19208	704	0.0354
+2022_Willow_Pond_LTC4	19912	19295	617	0.0310
+2022_Willow_Pond_LTC5	19912	18970	942	0.0473
+2022_Willow_Pond_LTC6	19912	19090	822	0.0413
+2022_Willow_Pond_LTC7	19912	19235	677	0.0340
+2022_Willow_Pond_LTC8	19912	19258	654	0.0328
+2022_Willow_Pond_LTC9	19912	19296	616	0.0309
+END loci_per_sample
+
+BEGIN variant_sites_per_sample
+# Number of variant sites per individual sample (after filtering).
+sample	n_sites	present_sites	missing_sites	frequency_missing
+2022_Clear_Lake_LTC1	3080	2782	298	0.0968
+2022_Clear_Lake_LTC10	3080	2759	321	0.1042
+2022_Clear_Lake_LTC11	3080	2648	432	0.1403
+2022_Clear_Lake_LTC12	3080	2678	402	0.1305
+2022_Clear_Lake_LTC13	3080	2647	433	0.1406
+2022_Clear_Lake_LTC14	3080	2706	374	0.1214
+2022_Clear_Lake_LTC15	3080	2621	459	0.1490
+2022_Clear_Lake_LTC2	3080	2935	145	0.0471
+2022_Clear_Lake_LTC3	3080	2863	217	0.0705
+2022_Clear_Lake_LTC4	3080	2859	221	0.0718
+2022_Clear_Lake_LTC5	3080	2891	189	0.0614
+2022_Clear_Lake_LTC6	3080	2770	310	0.1006
+2022_Clear_Lake_LTC7	3080	2771	309	0.1003
+2022_Clear_Lake_LTC8	3080	2829	251	0.0815
+2022_Clear_Lake_LTC9	3080	2756	324	0.1052
+2022_Willow_Pond_LTC1	3080	2768	312	0.1013
+2022_Willow_Pond_LTC10	3080	2655	425	0.1380
+2022_Willow_Pond_LTC11	3080	2925	155	0.0503
+2022_Willow_Pond_LTC12	3080	2786	294	0.0955
+2022_Willow_Pond_LTC14	3080	2904	176	0.0571
+2022_Willow_Pond_LTC2	3080	2899	181	0.0588
+2022_Willow_Pond_LTC3	3080	2915	165	0.0536
+2022_Willow_Pond_LTC4	3080	2869	211	0.0685
+2022_Willow_Pond_LTC5	3080	2894	186	0.0604
+2022_Willow_Pond_LTC6	3080	2898	182	0.0591
+2022_Willow_Pond_LTC7	3080	2904	176	0.0571
+2022_Willow_Pond_LTC8	3080	2774	306	0.0994
+2022_Willow_Pond_LTC9	3080	2900	180	0.0584
+END variant_sites_per_sample

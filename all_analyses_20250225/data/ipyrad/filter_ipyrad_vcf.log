@@ -1,0 +1,14 @@
+
+Command line call: ../../scripts/filter_ipyrad_vcf.py all_data.vcf
+
+Using 0.05 as the maf filter
+Using 0.8 as the genotyping frequency filter
+
+Reading in data from all_data.vcf
+Found 191428 bi-allelic loci from 260 samples
+
+Writing filtered data to "all_data_filtered.vcf"
+Filtered 14263 loci using genotyping frequency filter
+Filtered 166490 loci using maf filter
+
+Retained 6978 loci after filtering

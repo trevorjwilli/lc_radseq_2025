@@ -1,0 +1,70 @@
+populations v2.64, executed 2024-05-16 20:11:46 (zlib-1.2.11)
+populations --in-path /home/mterribilini/LeCh/denovo.M4.rm_pcr_dups --popmap /home/mterribilini/LeCh/popmap_Bishop.txt --out-path /home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Bishop/pop_r80_p2_mac3_cov5 --min-samples-per-pop 0.80 --min-populations 2 --min-mac 3 -t 32 --batch-size 100000 --hwe --fstats --structure --phylip --phylip-var --vcf --plink --write-single-snp
+Locus/sample distributions will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Bishop/pop_r80_p2_mac3_cov5/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0.8
+  Locus Population limit: 2
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  F-stats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 26 samples, 2 population(s), 1 group(s).
+Working on 26 samples.
+Working on 2 population(s):
+    Bishop: 2022_Bishop_LTC1, 2022_Bishop_LTC10, 2022_Bishop_LTC11, 2022_Bishop_LTC12, 2022_Bishop_LTC13, 2022_Bishop_LTC15, 2022_Bishop_LTC2, 
+            2022_Bishop_LTC3, 2022_Bishop_LTC4, 2022_Bishop_LTC5, 2022_Bishop_LTC6, 2022_Bishop_LTC7, 2022_Bishop_LTC8, 2022_Bishop_LTC9
+    Red_Knolls: 2022_Red_Knolls_LTC1, 2022_Red_Knolls_LTC10, 2022_Red_Knolls_LTC12, 2022_Red_Knolls_LTC15, 2022_Red_Knolls_LTC2, 2022_Red_Knolls_LTC3, 
+                2022_Red_Knolls_LTC4, 2022_Red_Knolls_LTC5, 2022_Red_Knolls_LTC6, 2022_Red_Knolls_LTC7, 2022_Red_Knolls_LTC8, 2022_Red_Knolls_LTC9
+Working on 1 group(s) of populations:
+    defaultgrp: Bishop, Red_Knolls
+
+Polymorphic sites in Structure format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Bishop/pop_r80_p2_mac3_cov5/populations.structure'
+Fixed difference sites in Phylip format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Bishop/pop_r80_p2_mac3_cov5/populations.fixed.phylip'
+Polymorphic sites in Phylip format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Bishop/pop_r80_p2_mac3_cov5/populations.var.phylip'
+SNPs and calls will be written in VCF format to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Bishop/pop_r80_p2_mac3_cov5/populations.snps.vcf'
+Polymorphic sites in PLINK format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Bishop/pop_r80_p2_mac3_cov5/populations.plink.ped'
+Raw haplotypes will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Bishop/pop_r80_p2_mac3_cov5/populations.haplotypes.tsv'
+Population-level summary statistics will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Bishop/pop_r80_p2_mac3_cov5/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Bishop/pop_r80_p2_mac3_cov5/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * compute SNP- and haplotype-wise deviation from HWE
+  * compute F-statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Bishop/pop_r80_p2_mac3_cov5/populations.log.distribs'.
+
+Now processing...
+Batch 1 
+
+Removed 509180 loci that did not pass sample/population constraints from 528666 loci.
+Kept 19486 loci, composed of 15727261 sites; 143615 of those sites were filtered, 2486 variant sites remained.
+Number of loci with PE contig: 19486.00 (100.0%);
+  Mean length of loci: 797.11bp (stderr 0.45);
+Number of loci with SE/PE overlap: 19485.00 (100.0%);
+  Mean length of overlapping loci: 807.11bp (stderr 0.45); mean overlap: 31.00bp (stderr 0.00);
+Mean genotyped sites per locus: 805.87bp (stderr 0.45).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  Bishop: 12.936 samples per locus; pi: 0.2295; all/variant/polymorphic sites: 15689909/2486/2201; private alleles: 274
+  Red_Knolls: 11.018 samples per locus; pi: 0.24662; all/variant/polymorphic sites: 15690670/2486/2212; private alleles: 285
+
+Number of variable sites found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Bishop: 55
+  Red_Knolls: 42
+Number of loci found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Bishop: 1897
+  Red_Knolls: 2103
+(more detail in populations.sumstats.tsv and populations.hapstats.tsv)
+
+Population pair divergence statistics (more in populations.fst_summary.tsv and populations.phistats_summary.tsv):
+  Bishop-Red_Knolls: mean Fst: 0.040243; mean Phi_st: 0.033651; mean Fst': 0.012675; mean Dxy: 0.0004
+
+Populations is done.

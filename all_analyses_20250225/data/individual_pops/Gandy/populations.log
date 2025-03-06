@@ -1,0 +1,70 @@
+populations v2.64, executed 2024-05-16 19:23:53 (zlib-1.2.11)
+populations --in-path /home/mterribilini/LeCh/denovo.M4.rm_pcr_dups --popmap /home/mterribilini/LeCh/popmap_Gandy.txt --out-path /home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Gandy/pop_r80_p2_mac3_cov5 --min-samples-per-pop 0.80 --min-populations 2 --min-mac 3 -t 32 --batch-size 100000 --hwe --fstats --structure --phylip --phylip-var --vcf --plink --write-single-snp
+Locus/sample distributions will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Gandy/pop_r80_p2_mac3_cov5/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0.8
+  Locus Population limit: 2
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  F-stats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 23 samples, 2 population(s), 1 group(s).
+Working on 23 samples.
+Working on 2 population(s):
+    Gandy: 2022_Gandy_LTC1, 2022_Gandy_LTC10, 2022_Gandy_LTC11, 2022_Gandy_LTC12, 2022_Gandy_LTC13, 2022_Gandy_LTC14, 2022_Gandy_LTC15, 
+           2022_Gandy_LTC2, 2022_Gandy_LTC3, 2022_Gandy_LTC4, 2022_Gandy_LTC5, 2022_Gandy_LTC6, 2022_Gandy_LTC7, 2022_Gandy_LTC8, 2022_Gandy_LTC9
+    Keg_Springs: 2022_Keg_Springs_LTC1, 2022_Keg_Springs_LTC2, 2022_Keg_Springs_LTC3, 2022_Keg_Springs_LTC4, 2022_Keg_Springs_LTC5, 2022_Keg_Springs_LTC6, 
+                 2022_Keg_Springs_LTC7, 2022_Keg_Springs_LTC8
+Working on 1 group(s) of populations:
+    defaultgrp: Gandy, Keg_Springs
+
+Polymorphic sites in Structure format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Gandy/pop_r80_p2_mac3_cov5/populations.structure'
+Fixed difference sites in Phylip format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Gandy/pop_r80_p2_mac3_cov5/populations.fixed.phylip'
+Polymorphic sites in Phylip format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Gandy/pop_r80_p2_mac3_cov5/populations.var.phylip'
+SNPs and calls will be written in VCF format to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Gandy/pop_r80_p2_mac3_cov5/populations.snps.vcf'
+Polymorphic sites in PLINK format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Gandy/pop_r80_p2_mac3_cov5/populations.plink.ped'
+Raw haplotypes will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Gandy/pop_r80_p2_mac3_cov5/populations.haplotypes.tsv'
+Population-level summary statistics will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Gandy/pop_r80_p2_mac3_cov5/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Gandy/pop_r80_p2_mac3_cov5/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * compute SNP- and haplotype-wise deviation from HWE
+  * compute F-statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Gandy/pop_r80_p2_mac3_cov5/populations.log.distribs'.
+
+Now processing...
+Batch 1 
+
+Removed 509641 loci that did not pass sample/population constraints from 528666 loci.
+Kept 19025 loci, composed of 15330075 sites; 136560 of those sites were filtered, 3100 variant sites remained.
+Number of loci with PE contig: 19025.00 (100.0%);
+  Mean length of loci: 795.79bp (stderr 0.47);
+Number of loci with SE/PE overlap: 19024.00 (100.0%);
+  Mean length of overlapping loci: 805.79bp (stderr 0.47); mean overlap: 31.00bp (stderr 0.00);
+Mean genotyped sites per locus: 804.65bp (stderr 0.47).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  Gandy: 13.386 samples per locus; pi: 0.28332; all/variant/polymorphic sites: 15298498/3100/2987; private alleles: 341
+  Keg_Springs: 7.5368 samples per locus; pi: 0.29114; all/variant/polymorphic sites: 15294319/3100/2759; private alleles: 113
+
+Number of variable sites found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Gandy: 70
+  Keg_Springs: 31
+Number of loci found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Gandy: 2030
+  Keg_Springs: 2250
+(more detail in populations.sumstats.tsv and populations.hapstats.tsv)
+
+Population pair divergence statistics (more in populations.fst_summary.tsv and populations.phistats_summary.tsv):
+  Gandy-Keg_Springs: mean Fst: 0.040441; mean Phi_st: 0.027774; mean Fst': 0.016274; mean Dxy: 0.00046181
+
+Populations is done.

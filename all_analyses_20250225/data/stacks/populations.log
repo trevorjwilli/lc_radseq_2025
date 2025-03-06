@@ -1,0 +1,159 @@
+populations v2.64, executed 2024-05-16 18:29:54 (zlib-1.2.11)
+populations --in-path /home/mterribilini/LeCh/denovo.M4.rm_pcr_dups --popmap /home/mterribilini/LeCh/popmap_Combined8.txt --out-path /home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/combined8/pop_r80_p6_mac3_cov5 --min-samples-per-pop 0.80 --min-populations 6 --min-mac 3 -t 32 --batch-size 100000 --hwe --fstats --structure --phylip --phylip-var --vcf --plink --write-single-snp
+Locus/sample distributions will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/combined8/pop_r80_p6_mac3_cov5/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0.8
+  Locus Population limit: 6
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  F-stats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 260 samples, 8 population(s), 1 group(s).
+Working on 260 samples.
+Working on 8 population(s):
+    Bishop: 2022_Bishop_LTC1, 2022_Bishop_LTC10, 2022_Bishop_LTC11, 2022_Bishop_LTC12, 2022_Bishop_LTC13, 2022_Bishop_LTC15, 2022_Bishop_LTC2, 
+            2022_Bishop_LTC3, 2022_Bishop_LTC4, 2022_Bishop_LTC5, 2022_Bishop_LTC6, 2022_Bishop_LTC7, 2022_Bishop_LTC8, 2022_Bishop_LTC9, 
+            2022_Red_Knolls_LTC1, 2022_Red_Knolls_LTC10, 2022_Red_Knolls_LTC12, 2022_Red_Knolls_LTC15, 2022_Red_Knolls_LTC2, 2022_Red_Knolls_LTC3, 
+            2022_Red_Knolls_LTC4, 2022_Red_Knolls_LTC5, 2022_Red_Knolls_LTC6, 2022_Red_Knolls_LTC7, 2022_Red_Knolls_LTC8, 2022_Red_Knolls_LTC9
+    Clear_Lake: 2022_Clear_Lake_LTC1, 2022_Clear_Lake_LTC10, 2022_Clear_Lake_LTC11, 2022_Clear_Lake_LTC12, 2022_Clear_Lake_LTC13, 2022_Clear_Lake_LTC14, 
+                2022_Clear_Lake_LTC15, 2022_Clear_Lake_LTC2, 2022_Clear_Lake_LTC3, 2022_Clear_Lake_LTC4, 2022_Clear_Lake_LTC5, 2022_Clear_Lake_LTC6, 
+                2022_Clear_Lake_LTC7, 2022_Clear_Lake_LTC8, 2022_Clear_Lake_LTC9, 2022_Willow_Pond_LTC1, 2022_Willow_Pond_LTC10, 2022_Willow_Pond_LTC11, 
+                2022_Willow_Pond_LTC12, 2022_Willow_Pond_LTC14, 2022_Willow_Pond_LTC2, 2022_Willow_Pond_LTC3, 2022_Willow_Pond_LTC4, 2022_Willow_Pond_LTC5, 
+                2022_Willow_Pond_LTC6, 2022_Willow_Pond_LTC7, 2022_Willow_Pond_LTC8, 2022_Willow_Pond_LTC9
+    Gandy: 2022_Gandy_LTC1, 2022_Gandy_LTC10, 2022_Gandy_LTC11, 2022_Gandy_LTC12, 2022_Gandy_LTC13, 2022_Gandy_LTC14, 2022_Gandy_LTC15, 
+           2022_Gandy_LTC2, 2022_Gandy_LTC3, 2022_Gandy_LTC4, 2022_Gandy_LTC5, 2022_Gandy_LTC6, 2022_Gandy_LTC7, 2022_Gandy_LTC8, 2022_Gandy_LTC9, 
+           2022_Keg_Springs_LTC1, 2022_Keg_Springs_LTC2, 2022_Keg_Springs_LTC3, 2022_Keg_Springs_LTC4, 2022_Keg_Springs_LTC5, 2022_Keg_Springs_LTC6, 
+           2022_Keg_Springs_LTC7, 2022_Keg_Springs_LTC8
+    Mona: 2001_Mona_LTC1, 2001_Mona_LTC12, 2001_Mona_LTC2, 2001_Mona_LTC5, 2022_Big_Springs_LTC_1, 2022_Big_Springs_LTC_10, 2022_Big_Springs_LTC_11, 
+          2022_Big_Springs_LTC_12, 2022_Big_Springs_LTC_13, 2022_Big_Springs_LTC_14, 2022_Big_Springs_LTC_15, 2022_Big_Springs_LTC_2, 
+          2022_Big_Springs_LTC_3, 2022_Big_Springs_LTC_4, 2022_Big_Springs_LTC_5, 2022_Big_Springs_LTC_6, 2022_Big_Springs_LTC_7, 2022_Big_Springs_LTC_8, 
+          2022_Big_Springs_LTC_9, 2022_Jail_Pond_LTC1, 2022_Jail_Pond_LTC10, 2022_Jail_Pond_LTC11, 2022_Jail_Pond_LTC12, 2022_Jail_Pond_LTC13, 
+          2022_Jail_Pond_LTC14, 2022_Jail_Pond_LTC2, 2022_Jail_Pond_LTC3, 2022_Jail_Pond_LTC4, 2022_Jail_Pond_LTC5, 2022_Jail_Pond_LTC6, 
+          2022_Jail_Pond_LTC7, 2022_Jail_Pond_LTC8, 2022_Jail_Pond_LTC9, 2022_Tooele_Army_LTC1, 2022_Tooele_Army_LTC2, 2022_Tooele_Army_LTC3, 
+          2022_Tooele_Army_LTC4, 2022_Tooele_Army_LTC5, 2022_Tooele_Army_LTC6, 2022_Tooele_Army_LTC7, 2022_Tooele_Army_LTC_10, 2022_Tooele_Army_LTC_8, 
+          2022_Tooele_Army_LTC_9
+    Leland_Harris: 2022_Leland_Harris_LTC1, 2022_Leland_Harris_LTC10, 2022_Leland_Harris_LTC11, 2022_Leland_Harris_LTC12, 2022_Leland_Harris_LTC13, 
+                   2022_Leland_Harris_LTC14, 2022_Leland_Harris_LTC15, 2022_Leland_Harris_LTC2, 2022_Leland_Harris_LTC3, 2022_Leland_Harris_LTC4, 
+                   2022_Leland_Harris_LTC5, 2022_Leland_Harris_LTC6, 2022_Leland_Harris_LTC7, 2022_Leland_Harris_LTC8, 2022_Leland_Harris_LTC9, 
+                   2022_Lower_Rocky_LTC1, 2022_Lower_Rocky_LTC2, 2022_Lower_Rocky_LTC3, 2022_Lower_Rocky_LTC4, 2022_Lower_Rocky_LTC_10, 2022_Lower_Rocky_LTC_11, 
+                   2022_Lower_Rocky_LTC_12, 2022_Lower_Rocky_LTC_13, 2022_Lower_Rocky_LTC_14, 2022_Lower_Rocky_LTC_5, 2022_Lower_Rocky_LTC_6, 
+                   2022_Lower_Rocky_LTC_7, 2022_Lower_Rocky_LTC_8, 2022_Lower_Rocky_LTC_9
+    Mills_Valley: 2022_Cluster_LTC_1, 2022_Cluster_LTC_10, 2022_Cluster_LTC_11, 2022_Cluster_LTC_12, 2022_Cluster_LTC_13, 2022_Cluster_LTC_14, 
+                  2022_Cluster_LTC_15, 2022_Cluster_LTC_2, 2022_Cluster_LTC_3, 2022_Cluster_LTC_4, 2022_Cluster_LTC_5, 2022_Cluster_LTC_6, 
+                  2022_Cluster_LTC_7, 2022_Cluster_LTC_8, 2022_Cluster_LTC_9, 2022_Copilot_LTC1, 2022_Copilot_LTC10, 2022_Copilot_LTC11, 2022_Copilot_LTC12, 
+                  2022_Copilot_LTC13, 2022_Copilot_LTC14, 2022_Copilot_LTC2, 2022_Copilot_LTC3, 2022_Copilot_LTC4, 2022_Copilot_LTC5, 2022_Copilot_LTC6, 
+                  2022_Copilot_LTC7, 2022_Copilot_LTC8, 2022_Copilot_LTC9, 2022_Mills_Valley_LTC1, 2022_Mills_Valley_LTC2, 2022_Mills_Valley_LTC3, 
+                  2022_Mills_Valley_LTC4, 2022_Mills_Valley_LTC5, 2022_Mills_Valley_LTC6, 2022_Mills_Valley_LTC7, 2022_Mills_Valley_LTC8, 2022_Rosebud_Top_P_LTC1, 
+                  2022_Rosebud_Top_P_LTC10, 2022_Rosebud_Top_P_LTC11, 2022_Rosebud_Top_P_LTC12, 2022_Rosebud_Top_P_LTC13, 2022_Rosebud_Top_P_LTC14, 
+                  2022_Rosebud_Top_P_LTC2, 2022_Rosebud_Top_P_LTC3, 2022_Rosebud_Top_P_LTC4, 2022_Rosebud_Top_P_LTC5, 2022_Rosebud_Top_P_LTC6, 
+                  2022_Rosebud_Top_P_LTC7, 2022_Rosebud_Top_P_LTC8, 2022_Rosebud_Top_P_LTC9
+    Snake: 2022_Cartier_Slough_LTC1, 2022_Cartier_Slough_LTC10, 2022_Cartier_Slough_LTC11, 2022_Cartier_Slough_LTC12, 2022_Cartier_Slough_LTC13, 
+           2022_Cartier_Slough_LTC14, 2022_Cartier_Slough_LTC15, 2022_Cartier_Slough_LTC2, 2022_Cartier_Slough_LTC3, 2022_Cartier_Slough_LTC4, 
+           2022_Cartier_Slough_LTC5, 2022_Cartier_Slough_LTC6, 2022_Cartier_Slough_LTC7, 2022_Cartier_Slough_LTC8, 2022_Cartier_Slough_LTC9, 
+           2023_Deer_Parks_LTC_1, 2023_Deer_Parks_LTC_10, 2023_Deer_Parks_LTC_2, 2023_Deer_Parks_LTC_3, 2023_Deer_Parks_LTC_4, 2023_Deer_Parks_LTC_5, 
+           2023_Deer_Parks_LTC_6, 2023_Deer_Parks_LTC_7, 2023_Deer_Parks_LTC_8, 2023_Deer_Parks_LTC_9, 2023_Harris_Ponds_LTC_1, 2023_Harris_Ponds_LTC_10, 
+           2023_Harris_Ponds_LTC_2, 2023_Harris_Ponds_LTC_3, 2023_Harris_Ponds_LTC_4, 2023_Harris_Ponds_LTC_5, 2023_Harris_Ponds_LTC_6, 
+           2023_Harris_Ponds_LTC_7, 2023_Harris_Ponds_LTC_8, 2023_Harris_Ponds_LTC_9, 2023_Henrys_Fork_LTC_1, 2023_Henrys_Fork_LTC_10, 
+           2023_Henrys_Fork_LTC_2, 2023_Henrys_Fork_LTC_3, 2023_Henrys_Fork_LTC_4, 2023_Henrys_Fork_LTC_5, 2023_Henrys_Fork_LTC_6, 2023_Henrys_Fork_LTC_7, 
+           2023_Henrys_Fork_LTC_8, 2023_Henrys_Fork_LTC_9
+    Mud_Basin: 2022_Mud_Basin_LTC_1, 2022_Mud_Basin_LTC_10, 2022_Mud_Basin_LTC_11, 2022_Mud_Basin_LTC_12, 2022_Mud_Basin_LTC_13, 2022_Mud_Basin_LTC_14, 
+               2022_Mud_Basin_LTC_15, 2022_Mud_Basin_LTC_2, 2022_Mud_Basin_LTC_3, 2022_Mud_Basin_LTC_4, 2022_Mud_Basin_LTC_5, 2022_Mud_Basin_LTC_6, 
+               2022_Mud_Basin_LTC_7, 2022_Mud_Basin_LTC_8, 2022_Mud_Basin_LTC_9
+Working on 1 group(s) of populations:
+    defaultgrp: Bishop, Clear_Lake, Gandy, Mona, Leland_Harris, Mills_Valley, Snake, Mud_Basin
+
+Polymorphic sites in Structure format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/combined8/pop_r80_p6_mac3_cov5/populations.structure'
+Fixed difference sites in Phylip format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/combined8/pop_r80_p6_mac3_cov5/populations.fixed.phylip'
+Polymorphic sites in Phylip format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/combined8/pop_r80_p6_mac3_cov5/populations.var.phylip'
+SNPs and calls will be written in VCF format to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/combined8/pop_r80_p6_mac3_cov5/populations.snps.vcf'
+Polymorphic sites in PLINK format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/combined8/pop_r80_p6_mac3_cov5/populations.plink.ped'
+Raw haplotypes will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/combined8/pop_r80_p6_mac3_cov5/populations.haplotypes.tsv'
+Population-level summary statistics will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/combined8/pop_r80_p6_mac3_cov5/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/combined8/pop_r80_p6_mac3_cov5/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * compute SNP- and haplotype-wise deviation from HWE
+  * compute F-statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/combined8/pop_r80_p6_mac3_cov5/populations.log.distribs'.
+
+Now processing...
+Batch 1 
+
+Removed 509477 loci that did not pass sample/population constraints from 528666 loci.
+Kept 19189 loci, composed of 15484572 sites; 389949 of those sites were filtered, 13929 variant sites remained.
+Number of loci with PE contig: 19189.00 (100.0%);
+  Mean length of loci: 796.95bp (stderr 0.47);
+Number of loci with SE/PE overlap: 19188.00 (100.0%);
+  Mean length of overlapping loci: 806.95bp (stderr 0.47); mean overlap: 31.00bp (stderr 0.00);
+Mean genotyped sites per locus: 806.95bp (stderr 0.47).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  Bishop: 23.905 samples per locus; pi: 0.06411; all/variant/polymorphic sites: 15054254/11742/4402; private alleles: 477
+  Clear_Lake: 25.817 samples per locus; pi: 0.062134; all/variant/polymorphic sites: 15061857/11335/4597; private alleles: 447
+  Gandy: 21.325 samples per locus; pi: 0.066939; all/variant/polymorphic sites: 14899504/12281/4177; private alleles: 421
+  Mona: 40.148 samples per locus; pi: 0.06323; all/variant/polymorphic sites: 15146925/13522/5135; private alleles: 1212
+  Leland_Harris: 27.143 samples per locus; pi: 0.0505; all/variant/polymorphic sites: 14903825/13279/3382; private alleles: 387
+  Mills_Valley: 47.688 samples per locus; pi: 0.056329; all/variant/polymorphic sites: 15304138/13637/5170; private alleles: 1241
+  Snake: 42.298 samples per locus; pi: 0.059135; all/variant/polymorphic sites: 15203207/13696/4278; private alleles: 1166
+  Mud_Basin: 14.345 samples per locus; pi: 0.045658; all/variant/polymorphic sites: 15305439/13676/2382; private alleles: 373
+
+Number of variable sites found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Bishop: 73
+  Clear_Lake: 70
+  Gandy: 79
+  Mona: 126
+  Leland_Harris: 70
+  Mills_Valley: 132
+  Snake: 162
+  Mud_Basin: 52
+Number of loci found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Bishop: 12021
+  Clear_Lake: 11543
+  Gandy: 12704
+  Mona: 13491
+  Leland_Harris: 14775
+  Mills_Valley: 13623
+  Snake: 14604
+  Mud_Basin: 16172
+(more detail in populations.sumstats.tsv and populations.hapstats.tsv)
+
+Population pair divergence statistics (more in populations.fst_summary.tsv and populations.phistats_summary.tsv):
+  Bishop-Clear_Lake: mean Fst: 0.053137; mean Phi_st: 0.068939; mean Fst': 0.036813; mean Dxy: 0.00028115
+  Bishop-Gandy: mean Fst: 0.034484; mean Phi_st: 0.041663; mean Fst': 0.016662; mean Dxy: 0.0002969
+  Bishop-Mona: mean Fst: 0.087664; mean Phi_st: 0.12357; mean Fst': 0.073211; mean Dxy: 0.00030628
+  Bishop-Leland_Harris: mean Fst: 0.059271; mean Phi_st: 0.080256; mean Fst': 0.043191; mean Dxy: 0.00028819
+  Bishop-Mills_Valley: mean Fst: 0.069985; mean Phi_st: 0.10341; mean Fst': 0.054216; mean Dxy: 0.0002707
+  Bishop-Snake: mean Fst: 0.10147; mean Phi_st: 0.14228; mean Fst': 0.088165; mean Dxy: 0.00030447
+  Bishop-Mud_Basin: mean Fst: 0.10244; mean Phi_st: 0.13296; mean Fst': 0.086152; mean Dxy: 0.00032624
+  Clear_Lake-Gandy: mean Fst: 0.066129; mean Phi_st: 0.087459; mean Fst': 0.049131; mean Dxy: 0.00029428
+  Clear_Lake-Mona: mean Fst: 0.083609; mean Phi_st: 0.11616; mean Fst': 0.069689; mean Dxy: 0.00028593
+  Clear_Lake-Leland_Harris: mean Fst: 0.088236; mean Phi_st: 0.11606; mean Fst': 0.073583; mean Dxy: 0.0002932
+  Clear_Lake-Mills_Valley: mean Fst: 0.0271; mean Phi_st: 0.040497; mean Fst': 0.0098757; mean Dxy: 0.00022501
+  Clear_Lake-Snake: mean Fst: 0.093905; mean Phi_st: 0.13009; mean Fst': 0.081049; mean Dxy: 0.00028372
+  Clear_Lake-Mud_Basin: mean Fst: 0.043408; mean Phi_st: 0.05622; mean Fst': 0.024089; mean Dxy: 0.0002549
+  Gandy-Mona: mean Fst: 0.1044; mean Phi_st: 0.14756; mean Fst': 0.091403; mean Dxy: 0.00032617
+  Gandy-Leland_Harris: mean Fst: 0.072512; mean Phi_st: 0.099736; mean Fst': 0.05622; mean Dxy: 0.00030643
+  Gandy-Mills_Valley: mean Fst: 0.08321; mean Phi_st: 0.12399; mean Fst': 0.068812; mean Dxy: 0.00028849
+  Gandy-Snake: mean Fst: 0.11739; mean Phi_st: 0.16469; mean Fst': 0.10544; mean Dxy: 0.00032383
+  Gandy-Mud_Basin: mean Fst: 0.12536; mean Phi_st: 0.16089; mean Fst': 0.10831; mean Dxy: 0.00035489
+  Mona-Leland_Harris: mean Fst: 0.1309; mean Phi_st: 0.17306; mean Fst': 0.12302; mean Dxy: 0.00033386
+  Mona-Mills_Valley: mean Fst: 0.10257; mean Phi_st: 0.13718; mean Fst': 0.091065; mean Dxy: 0.00028652
+  Mona-Snake: mean Fst: 0.09272; mean Phi_st: 0.12716; mean Fst': 0.082467; mean Dxy: 0.00027778
+  Mona-Mud_Basin: mean Fst: 0.13355; mean Phi_st: 0.18774; mean Fst': 0.13184; mean Dxy: 0.00034642
+  Leland_Harris-Mills_Valley: mean Fst: 0.1084; mean Phi_st: 0.14684; mean Fst': 0.10045; mean Dxy: 0.00029821
+  Leland_Harris-Snake: mean Fst: 0.14955; mean Phi_st: 0.194; mean Fst': 0.14278; mean Dxy: 0.00033555
+  Leland_Harris-Mud_Basin: mean Fst: 0.16987; mean Phi_st: 0.22156; mean Fst': 0.15972; mean Dxy: 0.00038802
+  Mills_Valley-Snake: mean Fst: 0.11685; mean Phi_st: 0.15387; mean Fst': 0.10701; mean Dxy: 0.00028876
+  Mills_Valley-Mud_Basin: mean Fst: 0.03132; mean Phi_st: 0.052088; mean Fst': 0.020749; mean Dxy: 0.00024186
+  Snake-Mud_Basin: mean Fst: 0.15654; mean Phi_st: 0.22127; mean Fst': 0.15755; mean Dxy: 0.00036349
+
+Populations is done.

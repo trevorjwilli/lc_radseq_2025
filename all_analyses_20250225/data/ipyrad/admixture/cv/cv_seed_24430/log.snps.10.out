@@ -1,0 +1,112 @@
+****                   ADMIXTURE Version 1.3.0                  ****
+****                    Copyright 2008-2015                     ****
+****           David Alexander, Suyash Shringarpure,            ****
+****                John  Novembre, Ken Lange                   ****
+****                                                            ****
+****                 Please cite our paper!                     ****
+****   Information at www.genetics.ucla.edu/software/admixture  ****
+
+Cross-validation will be performed.  Folds=5.
+Random seed: 24430
+Point estimation method: Block relaxation algorithm
+Convergence acceleration algorithm: QuasiNewton, 3 secant conditions
+Point estimation will terminate when objective function delta < 0.0001
+Estimation of standard errors disabled; will compute point estimates only.
+Size of G: 260x6978
+Performing five EM steps to prime main algorithm
+1 (EM) 	Elapsed: 0.145	Loglikelihood: -1.8117e+06	(delta): 761772
+2 (EM) 	Elapsed: 0.142	Loglikelihood: -1.75682e+06	(delta): 54877.4
+3 (EM) 	Elapsed: 0.135	Loglikelihood: -1.74178e+06	(delta): 15043
+4 (EM) 	Elapsed: 0.133	Loglikelihood: -1.72841e+06	(delta): 13372
+5 (EM) 	Elapsed: 0.132	Loglikelihood: -1.7121e+06	(delta): 16307
+Initial loglikelihood: -1.7121e+06
+Starting main algorithm
+1 (QN/Block) 	Elapsed: 0.368	Loglikelihood: -1.15906e+06	(delta): 553040
+2 (QN/Block) 	Elapsed: 0.37	Loglikelihood: -1.08148e+06	(delta): 77576.1
+3 (QN/Block) 	Elapsed: 0.405	Loglikelihood: -1.05267e+06	(delta): 28816.9
+4 (QN/Block) 	Elapsed: 0.393	Loglikelihood: -1.03514e+06	(delta): 17530.3
+5 (QN/Block) 	Elapsed: 0.388	Loglikelihood: -1.02758e+06	(delta): 7556.73
+6 (QN/Block) 	Elapsed: 0.388	Loglikelihood: -1.02407e+06	(delta): 3513.5
+7 (QN/Block) 	Elapsed: 0.387	Loglikelihood: -1.02274e+06	(delta): 1329.43
+8 (QN/Block) 	Elapsed: 0.399	Loglikelihood: -1.02226e+06	(delta): 479.824
+9 (QN/Block) 	Elapsed: 0.4	Loglikelihood: -1.02201e+06	(delta): 251.528
+10 (QN/Block) 	Elapsed: 0.412	Loglikelihood: -1.02175e+06	(delta): 256.44
+11 (QN/Block) 	Elapsed: 0.387	Loglikelihood: -1.02164e+06	(delta): 107.072
+12 (QN/Block) 	Elapsed: 0.388	Loglikelihood: -1.02147e+06	(delta): 171.738
+13 (QN/Block) 	Elapsed: 0.389	Loglikelihood: -1.02137e+06	(delta): 100.284
+14 (QN/Block) 	Elapsed: 0.388	Loglikelihood: -1.0213e+06	(delta): 67.8666
+15 (QN/Block) 	Elapsed: 0.388	Loglikelihood: -1.02125e+06	(delta): 54.897
+16 (QN/Block) 	Elapsed: 0.389	Loglikelihood: -1.02122e+06	(delta): 30.9409
+17 (QN/Block) 	Elapsed: 0.387	Loglikelihood: -1.02119e+06	(delta): 24.7128
+18 (QN/Block) 	Elapsed: 0.387	Loglikelihood: -1.02117e+06	(delta): 17.1852
+19 (QN/Block) 	Elapsed: 0.423	Loglikelihood: -1.02116e+06	(delta): 18.6525
+20 (QN/Block) 	Elapsed: 0.399	Loglikelihood: -1.02113e+06	(delta): 26.3295
+21 (QN/Block) 	Elapsed: 0.4	Loglikelihood: -1.02112e+06	(delta): 13.4676
+22 (QN/Block) 	Elapsed: 0.421	Loglikelihood: -1.0211e+06	(delta): 13.7322
+23 (QN/Block) 	Elapsed: 0.4	Loglikelihood: -1.0211e+06	(delta): 3.05003
+24 (QN/Block) 	Elapsed: 0.421	Loglikelihood: -1.0211e+06	(delta): 4.3105
+25 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.59652
+26 (QN/Block) 	Elapsed: 0.41	Loglikelihood: -1.02109e+06	(delta): 0.464675
+27 (QN/Block) 	Elapsed: 0.411	Loglikelihood: -1.02109e+06	(delta): 0.17163
+28 (QN/Block) 	Elapsed: 0.41	Loglikelihood: -1.02109e+06	(delta): 0.377146
+29 (QN/Block) 	Elapsed: 0.423	Loglikelihood: -1.02109e+06	(delta): 0.0928379
+30 (QN/Block) 	Elapsed: 0.387	Loglikelihood: -1.02109e+06	(delta): 0.0643754
+31 (QN/Block) 	Elapsed: 0.387	Loglikelihood: -1.02109e+06	(delta): 0.0122976
+32 (QN/Block) 	Elapsed: 0.388	Loglikelihood: -1.02109e+06	(delta): 0.00370902
+33 (QN/Block) 	Elapsed: 0.388	Loglikelihood: -1.02109e+06	(delta): 0.00155066
+34 (QN/Block) 	Elapsed: 0.388	Loglikelihood: -1.02109e+06	(delta): 0.00458821
+35 (QN/Block) 	Elapsed: 0.423	Loglikelihood: -1.02109e+06	(delta): 0.00138793
+36 (QN/Block) 	Elapsed: 0.423	Loglikelihood: -1.02109e+06	(delta): 0.00113447
+37 (QN/Block) 	Elapsed: 0.423	Loglikelihood: -1.02109e+06	(delta): 0.00111294
+38 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00116244
+39 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00124492
+40 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00134793
+41 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00146702
+42 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00160085
+43 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00174951
+44 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00191379
+45 (QN/Block) 	Elapsed: 0.421	Loglikelihood: -1.02109e+06	(delta): 0.00209496
+46 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00229462
+47 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00251468
+48 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00275735
+49 (QN/Block) 	Elapsed: 0.421	Loglikelihood: -1.02109e+06	(delta): 0.00302518
+50 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.0033211
+51 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00364848
+52 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00401143
+53 (QN/Block) 	Elapsed: 0.423	Loglikelihood: -1.02109e+06	(delta): 0.00442633
+54 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00489607
+55 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00542119
+56 (QN/Block) 	Elapsed: 0.423	Loglikelihood: -1.02109e+06	(delta): 0.00600899
+57 (QN/Block) 	Elapsed: 0.423	Loglikelihood: -1.02109e+06	(delta): 0.00666832
+58 (QN/Block) 	Elapsed: 0.421	Loglikelihood: -1.02109e+06	(delta): 0.00740969
+59 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00824568
+60 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.00919137
+61 (QN/Block) 	Elapsed: 0.423	Loglikelihood: -1.02109e+06	(delta): 0.010265
+62 (QN/Block) 	Elapsed: 0.423	Loglikelihood: -1.02109e+06	(delta): 0.0114887
+63 (QN/Block) 	Elapsed: 0.423	Loglikelihood: -1.02109e+06	(delta): 0.0128897
+64 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.0145016
+65 (QN/Block) 	Elapsed: 0.421	Loglikelihood: -1.02109e+06	(delta): 0.0163665
+66 (QN/Block) 	Elapsed: 0.421	Loglikelihood: -1.02109e+06	(delta): 0.0185375
+67 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.021082
+68 (QN/Block) 	Elapsed: 0.422	Loglikelihood: -1.02109e+06	(delta): 0.0118366
+69 (QN/Block) 	Elapsed: 0.423	Loglikelihood: -1.02109e+06	(delta): 0.00156233
+70 (QN/Block) 	Elapsed: 0.387	Loglikelihood: -1.02109e+06	(delta): 0.00316328
+71 (QN/Block) 	Elapsed: 0.387	Loglikelihood: -1.02109e+06	(delta): 0.000118793
+72 (QN/Block) 	Elapsed: 0.388	Loglikelihood: -1.02109e+06	(delta): 1.5466e-05
+Summary: 
+Converged in 72 iterations (31.085 sec)
+Loglikelihood: -1021093.381978
+Fst divergences between estimated populations: 
+	Pop0	Pop1	Pop2	Pop3	Pop4	Pop5	Pop6	Pop7	Pop8	
+Pop0	
+Pop1	0.419	
+Pop2	0.436	0.379	
+Pop3	0.135	0.381	0.403	
+Pop4	0.470	0.151	0.442	0.436	
+Pop5	0.383	0.444	0.460	0.348	0.503	
+Pop6	0.440	0.382	0.054	0.406	0.441	0.461	
+Pop7	0.450	0.511	0.524	0.414	0.569	0.141	0.524	
+Pop8	0.298	0.368	0.385	0.259	0.426	0.101	0.388	0.183	
+Pop9	0.276	0.481	0.501	0.236	0.535	0.446	0.503	0.512	0.365	
+CV error (K=10): 0.38030
+Writing output files.

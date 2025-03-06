@@ -1,0 +1,1372 @@
+parameter file: pca.parfile
+### THE INPUT PARAMETERS
+##PARAMETER NAME: VALUE
+genotypename: populations.plink.ped
+snpname: populations.plink.map
+indivname: populations.plink.pedind
+evecoutname: pca/pca.evec
+evaloutname: pca/pca.eval
+numoutevec: 20
+## smartpca version: 18140
+norm used
+
+lsqproject used
+genetic distance set from physical distance
+genotype file processed
+snps deleted (nodata): 0.  deletesnpoutname: for detailsnumber of samples used: 260 number of snps used: 13929
+number of pops for axes: 8
+Using 31 threads, and partial sum lookup algorithm.
+total number of snps killed in pass: 0  used: 13929
+REMOVED outlier Bishop:2022_Red_Knolls_LTC9 iter 1 evec 7 sigmage 8.710 pop: Bishop
+REMOVED outlier Mona:2022_Big_Springs_LTC_8 iter 1 evec 8 sigmage -8.247 pop: Mona
+REMOVED outlier Mona:2022_Big_Springs_LTC_9 iter 1 evec 8 sigmage 7.263 pop: Mona
+REMOVED outlier Mona:2022_Big_Springs_LTC_13 iter 1 evec 8 sigmage 7.322 pop: Mona
+REMOVED outlier Mona:2022_Big_Springs_LTC_15 iter 1 evec 8 sigmage -8.144 pop: Mona
+number of samples after outlier removal: 255
+ snp             3451_350 ignored . allelecnt:     0  missing:    71
+ snp            14419_312 ignored . allelecnt:     0  missing:    45
+ snp            14890_464 ignored . allelecnt:     0  missing:    75
+ snp             19186_68 ignored . allelecnt:     0  missing:    30
+ snp            23297_306 ignored . allelecnt:     0  missing:    62
+ snp            26214_188 ignored . allelecnt:     0  missing:    77
+ snp            45707_206 ignored . allelecnt:     0  missing:    68
+ snp           580291_388 ignored . allelecnt:     0  missing:    99
+total number of snps killed in pass: 8  used: 13921
+REMOVED outlier Bishop:2022_Red_Knolls_LTC6 iter 2 evec 7 sigmage 6.404 pop: Bishop
+REMOVED outlier Bishop:2022_Red_Knolls_LTC8 iter 2 evec 7 sigmage 9.625 pop: Bishop
+REMOVED outlier Gandy:2022_Keg_Springs_LTC4 iter 2 evec 8 sigmage 7.054 pop: Gandy
+REMOVED outlier Mills_Valley:2022_Mills_Valley_LTC1 iter 2 evec 9 sigmage -6.110 pop: Mills_Valley
+REMOVED outlier Mills_Valley:2022_Mills_Valley_LTC5 iter 2 evec 9 sigmage -7.399 pop: Mills_Valley
+number of samples after outlier removal: 250
+ snp             6498_308 ignored . allelecnt:     0  missing:    43
+ snp            10328_383 ignored . allelecnt:     0  missing:    36
+total number of snps killed in pass: 25  used: 13904
+REMOVED outlier Gandy:2022_Keg_Springs_LTC1 iter 3 evec 7 sigmage 6.156 pop: Gandy
+REMOVED outlier Mills_Valley:2022_Mills_Valley_LTC2 iter 3 evec 8 sigmage -9.654 pop: Mills_Valley
+REMOVED outlier Mills_Valley:2022_Mills_Valley_LTC8 iter 3 evec 8 sigmage -10.119 pop: Mills_Valley
+number of samples after outlier removal: 247
+total number of snps killed in pass: 30  used: 13899
+REMOVED outlier Gandy:2022_Keg_Springs_LTC7 iter 4 evec 7 sigmage -6.643 pop: Gandy
+number of samples after outlier removal: 246
+total number of snps killed in pass: 37  used: 13892
+REMOVED outlier Gandy:2022_Keg_Springs_LTC5 iter 5 evec 7 sigmage -6.833 pop: Gandy
+number of samples after outlier removal: 245
+total number of snps killed in pass: 43  used: 13886
+mpstats:     0.655    0.790    0.945    0.367350
+
+## Tracy-Widom statistics: rows: 245  cols: 13892
+  #N    eigenvalue  difference    twstat      p-value effect. n
+   1     18.049948          NA    86.615 1.88944e-235   104.405
+   2     12.237321   -5.812627   103.178 1.59943e-305   181.873
+   3     11.269281   -0.968040   167.469            0   297.809
+   4      5.127058   -6.142223   161.937            0   892.301
+   5      3.735847   -1.391211   150.551            0  1409.337
+   6      2.993072   -0.742775   138.438            0  1954.772
+   7      2.627458   -0.365614   137.412            0  2518.371
+   8      1.364102   -1.263356    10.193  2.98746e-11  3182.740
+   9      1.338518   -0.025584     8.195  1.34464e-08  3231.347
+  10      1.288623   -0.049895     2.863   0.00221701  3276.146
+  11      1.284200   -0.004423     3.267   0.00101138  3309.586
+  12      1.263166   -0.021034     1.458    0.0248465  3344.430
+  13      1.260459   -0.002707     2.028   0.00992472  3375.786
+  14      1.246797   -0.013662     1.126    0.0406298  3408.866
+  15      1.232523   -0.014274     0.090     0.152296  3440.396
+  16      1.231801   -0.000722     0.876    0.0576062  3470.042
+  17      1.213563   -0.018238    -0.753     0.343637  3501.881
+  18      1.189753   -0.023810    -3.245     0.955895  3530.435
+  19      1.178539   -0.011215    -4.062     0.993628  3553.798
+  20      1.172028   -0.006510    -4.246      0.99625  3575.637
+  21      1.167655   -0.004373    -4.134     0.994792  3597.305
+  22      1.152494   -0.015161    -5.577     0.999977  3619.447
+  23      1.142002   -0.010492    -6.400            1  3638.638
+  24      1.135806   -0.006196    -6.629            1  3656.213
+  25      1.132389   -0.003417    -6.463            1  3673.440
+  26      1.124804   -0.007585    -6.907            1  3691.177
+  27      1.116028   -0.008776    -7.545            1  3708.081
+  28      1.114723   -0.001305    -7.098            1  3723.709
+  29      1.108310   -0.006413    -7.401            1  3740.451
+  30      1.102947   -0.005363    -7.559            1  3756.642
+  31      1.092032   -0.010915    -8.562            1  3772.597
+  32      1.084907   -0.007125    -9.027            1  3786.396
+  33      1.079453   -0.005454    -9.254            1  3799.235
+  34      1.069895   -0.009558   -10.118            1  3811.632
+  35      1.068902   -0.000993    -9.697            1  3822.154
+  36      1.057875   -0.011027   -10.808            1  3833.663
+  37      1.054360   -0.003515   -10.795            1  3842.713
+  38      1.048932   -0.005429   -11.079            1  3851.809
+  39      1.046090   -0.002842   -10.972            1  3860.280
+  40      1.042015   -0.004074   -11.055            1  3869.004
+  41      1.029079   -0.012936   -12.527            1  3877.549
+  42      1.022493   -0.006586   -13.046            1  3882.760
+  43      1.020256   -0.002237   -12.896            1  3886.784
+  44      1.013635   -0.006621   -13.434            1  3891.101
+  45      1.011361   -0.002273   -13.301            1  3894.170
+  46      1.007076   -0.004285   -13.483            1  3897.485
+  47      1.002111   -0.004965   -13.779            1  3900.334
+  48      0.997311   -0.004800   -14.057            1  3902.454
+  49      0.993245   -0.004067   -14.227            1  3903.880
+  50      0.990250   -0.002994   -14.230            1  3904.849
+  51      0.988866   -0.001385   -13.978            1  3905.732
+  52      0.988117   -0.000748   -13.618            1  3907.116
+  53      0.979562   -0.008555   -14.503            1  3909.263
+  54      0.975345   -0.004217   -14.713            1  3909.274
+  55      0.964211   -0.011135   -16.042            1  3908.708
+  56      0.961206   -0.003005   -16.092            1  3905.019
+  57      0.957285   -0.003921   -16.290            1  3901.099
+  58      0.955729   -0.001556   -16.113            1  3896.610
+  59      0.950959   -0.004770   -16.451            1  3892.396
+  60      0.949435   -0.001524   -16.272            1  3887.289
+  61      0.947781   -0.001654   -16.111            1  3882.456
+  62      0.944735   -0.003046   -16.173            1  3877.862
+  63      0.941442   -0.003294   -16.277            1  3872.992
+  64      0.940104   -0.001337   -16.067            1  3867.745
+  65      0.934655   -0.005449   -16.520            1  3862.854
+  66      0.931300   -0.003355   -16.643            1  3856.761
+  67      0.927756   -0.003544   -16.800            1  3850.235
+  68      0.923309   -0.004448   -17.107            1  3843.193
+  69      0.919078   -0.004230   -17.386            1  3835.279
+  70      0.916908   -0.002170   -17.335            1  3826.559
+  71      0.914522   -0.002386   -17.319            1  3817.792
+  72      0.912990   -0.001531   -17.164            1  3808.898
+  73      0.908560   -0.004430   -17.479            1  3800.202
+  74      0.906719   -0.001841   -17.378            1  3790.595
+  75      0.903398   -0.003321   -17.517            1  3781.054
+  76      0.898520   -0.004878   -17.912            1  3771.008
+  77      0.896281   -0.002238   -17.885            1  3759.851
+  78      0.894417   -0.001864   -17.798            1  3748.573
+  79      0.892115   -0.002302   -17.780            1  3737.319
+  80      0.890436   -0.001679   -17.661            1  3725.922
+  81      0.888320   -0.002116   -17.611            1  3714.622
+  82      0.886385   -0.001936   -17.531            1  3703.255
+  83      0.883928   -0.002457   -17.535            1  3691.890
+  84      0.880512   -0.003416   -17.695            1  3680.324
+  85      0.879565   -0.000947   -17.457            1  3668.169
+  86      0.873910   -0.005655   -17.979            1  3656.403
+  87      0.873320   -0.000590   -17.690            1  3643.148
+  88      0.868811   -0.004508   -18.030            1  3630.402
+  89      0.865589   -0.003222   -18.169            1  3616.607
+  90      0.862222   -0.003368   -18.334            1  3602.262
+  91      0.859543   -0.002679   -18.390            1  3587.299
+  92      0.857149   -0.002394   -18.402            1  3571.982
+  93      0.854476   -0.002673   -18.459            1  3556.420
+  94      0.853749   -0.000727   -18.204            1  3540.498
+  95      0.851812   -0.001936   -18.139            1  3524.989
+  96      0.849121   -0.002691   -18.194            1  3509.419
+  97      0.848176   -0.000945   -17.971            1  3493.486
+  98      0.845322   -0.002854   -18.049            1  3477.891
+  99      0.843128   -0.002194   -18.024            1  3461.868
+ 100      0.838356   -0.004772   -18.409            1  3445.680
+ 101      0.836303   -0.002053   -18.368            1  3428.276
+ 102      0.834318   -0.001984   -18.315            1  3410.741
+ 103      0.833256   -0.001063   -18.115            1  3393.103
+ 104      0.830830   -0.002426   -18.128            1  3375.740
+ 105      0.828871   -0.001959   -18.067            1  3358.102
+ 106      0.827939   -0.000932   -17.842            1  3340.378
+ 107      0.825137   -0.002802   -17.909            1  3322.995
+ 108      0.823113   -0.002025   -17.855            1  3305.187
+ 109      0.821912   -0.001201   -17.670            1  3287.272
+ 110      0.816906   -0.005006   -18.080            1  3269.596
+ 111      0.816227   -0.000678   -17.818            1  3250.574
+ 112      0.814309   -0.001918   -17.746            1  3231.992
+ 113      0.809449   -0.004860   -18.133            1  3213.343
+ 114      0.808196   -0.001254   -17.963            1  3193.401
+ 115      0.805415   -0.002781   -18.028            1  3173.648
+ 116      0.804208   -0.001207   -17.849            1  3153.457
+ 117      0.802856   -0.001352   -17.690            1  3133.478
+ 118      0.798120   -0.004736   -18.052            1  3113.661
+ 119      0.796875   -0.001245   -17.881            1  3092.593
+ 120      0.794913   -0.001962   -17.817            1  3071.716
+ 121      0.792392   -0.002521   -17.838            1  3050.737
+ 122      0.792190   -0.000202   -17.504            1  3029.424
+ 123      0.788479   -0.003711   -17.700            1  3008.751
+ 124      0.787249   -0.001230   -17.521            1  2987.252
+ 125      0.784171   -0.003078   -17.620            1  2965.965
+ 126      0.783080   -0.001091   -17.419            1  2944.116
+ 127      0.780005   -0.003075   -17.514            1  2922.539
+ 128      0.778230   -0.001775   -17.416            1  2900.402
+ 129      0.775664   -0.002566   -17.433            1  2878.252
+ 130      0.773847   -0.001817   -17.339            1  2855.755
+ 131      0.772929   -0.000919   -17.109            1  2833.228
+ 132      0.771309   -0.001620   -16.979            1  2811.059
+ 133      0.769530   -0.001779   -16.871            1  2788.961
+ 134      0.766861   -0.002669   -16.891            1  2766.872
+ 135      0.761622   -0.005239   -17.291            1  2744.412
+ 136      0.760379   -0.001243   -17.110            1  2720.484
+ 137      0.758821   -0.001559   -16.971            1  2696.769
+ 138      0.758779   -0.000042   -16.610            1  2673.144
+ 139      0.755985   -0.002794   -16.641            1  2650.270
+ 140      0.753667   -0.002318   -16.604            1  2626.980
+ 141      0.752828   -0.000838   -16.352            1  2603.477
+ 142      0.749082   -0.003747   -16.513            1  2580.405
+ 143      0.747538   -0.001543   -16.362            1  2556.514
+ 144      0.745988   -0.001550   -16.208            1  2532.751
+ 145      0.744115   -0.001873   -16.097            1  2509.121
+ 146      0.742676   -0.001439   -15.923            1  2485.492
+ 147      0.740987   -0.001689   -15.780            1  2462.064
+ 148      0.738622   -0.002365   -15.729            1  2438.736
+ 149      0.736824   -0.001798   -15.597            1  2415.217
+ 150      0.733191   -0.003632   -15.718            1  2391.763
+ 151      0.729901   -0.003291   -15.793            1  2367.563
+ 152      0.727957   -0.001944   -15.683            1  2342.766
+ 153      0.725747   -0.002210   -15.607            1  2317.959
+ 154      0.722677   -0.003070   -15.647            1  2293.032
+ 155      0.720424   -0.002253   -15.576            1  2267.612
+ 156      0.718232   -0.002191   -15.494            1  2242.056
+ 157      0.715328   -0.002904   -15.506            1  2216.393
+ 158      0.713202   -0.002126   -15.414            1  2190.320
+ 159      0.712769   -0.000433   -15.093            1  2164.174
+ 160      0.710009   -0.002761   -15.074            1  2138.702
+ 161      0.706705   -0.003304   -15.127            1  2112.904
+ 162      0.704849   -0.001855   -14.989            1  2086.548
+ 163      0.703279   -0.001570   -14.811            1  2060.262
+ 164      0.700959   -0.002320   -14.726            1  2034.180
+ 165      0.696660   -0.004299   -14.894            1  2007.988
+ 166      0.696194   -0.000466   -14.572            1  1980.833
+ 167      0.694015   -0.002179   -14.462            1  1954.367
+ 168      0.691891   -0.002124   -14.342            1  1927.870
+ 169      0.690900   -0.000991   -14.076            1  1901.374
+ 170      0.686974   -0.003926   -14.172            1  1875.390
+ 171      0.684717   -0.002257   -14.061            1  1848.646
+ 172      0.683292   -0.001424   -13.843            1  1821.868
+ 173      0.679480   -0.003812   -13.914            1  1795.432
+ 174      0.678216   -0.001265   -13.674            1  1768.311
+ 175      0.676878   -0.001337   -13.437            1  1741.612
+ 176      0.672310   -0.004569   -13.584            1  1715.329
+ 177      0.670182   -0.002128   -13.440            1  1688.062
+ 178      0.669423   -0.000759   -13.129            1  1660.870
+ 179      0.665380   -0.004043   -13.198            1  1634.369
+ 180      0.664502   -0.000878   -12.897            1  1607.145
+ 181      0.660910   -0.003592   -12.903            1  1580.583
+ 182      0.656505   -0.004404   -13.002            1  1553.518
+ 183      0.655545   -0.000960   -12.708            1  1525.608
+ 184      0.654036   -0.001509   -12.467            1  1498.337
+ 185      0.649226   -0.004810   -12.593            1  1471.500
+ 186      0.648982   -0.000244   -12.209            1  1443.686
+ 187      0.646215   -0.002766   -12.094            1  1416.869
+ 188      0.644100   -0.002116   -11.904            1  1389.992
+ 189      0.641393   -0.002706   -11.772            1  1363.356
+ 190      0.637427   -0.003966   -11.771            1  1336.723
+ 191      0.633380   -0.004047   -11.778            1  1309.558
+ 192      0.632328   -0.001053   -11.465            1  1281.836
+ 193      0.626119   -0.006209   -11.684            1  1254.856
+ 194      0.623212   -0.002906   -11.562            1  1226.439
+ 195      0.621331   -0.001881   -11.331            1  1197.985
+ 196      0.620388   -0.000943   -10.996            1  1169.940
+ 197      0.618472   -0.001916   -10.749            1  1142.736
+ 198      0.615538   -0.002934   -10.595            1  1116.011
+ 199      0.610134   -0.005404   -10.677            1  1089.362
+ 200      0.607690   -0.002444   -10.471            1  1061.755
+ 201      0.603785   -0.003905   -10.398            1  1034.449
+ 202      0.598719   -0.005066   -10.430            1  1006.861
+ 203      0.595901   -0.002819   -10.249            1   978.533
+ 204      0.594302   -0.001598    -9.947            1   950.399
+ 205      0.592797   -0.001505    -9.627            1   922.993
+ 206      0.590008   -0.002789    -9.409            1   896.413
+ 207      0.587463   -0.002545    -9.159            1   870.181
+ 208      0.585390   -0.002073    -8.857            1   844.450
+ 209      0.579207   -0.006183    -8.897            1   819.483
+ 210      0.575319   -0.003888    -8.739            1   793.567
+ 211      0.573241   -0.002077    -8.420            1   767.693
+ 212      0.569997   -0.003245    -8.182            1   742.683
+ 213      0.567427   -0.002569    -7.876            1   718.118
+ 214      0.566014   -0.001413    -7.459            1   694.375
+ 215      0.561391   -0.004623    -7.274            1   672.108
+ 216      0.556757   -0.004634    -7.076            1   649.986
+ 217      0.549090   -0.007667    -7.099            1   628.075
+ 218      0.545203   -0.003887    -6.831            1   604.996
+ 219      0.543261   -0.001942    -6.399            1   582.551
+ 220      0.536731   -0.006531    -6.274     0.999999   561.858
+ 221      0.533752   -0.002979    -5.878     0.999995   540.843
+ 222      0.524122   -0.009630    -5.926     0.999996   521.455
+ 223      0.520769   -0.003353    -5.530     0.999971   500.380
+ 224      0.494624   -0.026145    -6.692            1   481.000
+ 225      0.491662   -0.002961    -6.340            1   451.901
+ 226      0.489362   -0.002301    -5.920     0.999996   424.015
+ 227      0.487538   -0.001823    -5.436     0.999956   397.830
+ 228      0.485042   -0.002496    -4.951     0.999663   373.883
+ 229      0.481213   -0.003829    -4.495     0.998287   352.341
+ 230      0.463915   -0.017298    -4.786     0.999376   333.156
+ 231      0.462743   -0.001172    -4.166     0.995251   309.399
+ 232      0.450505   -0.012239    -4.087     0.994054   289.625
+ 233      0.445588   -0.004917    -3.587     0.978695   268.461
+ 234      0.435806   -0.009782    -3.256     0.956872   250.554
+ 235      0.428422   -0.007384    -2.725      0.89059   234.163
+ 236      0.415455   -0.012967        NA           NA        NA
+ 237      0.409606   -0.005849        NA           NA        NA
+ 238      0.375620   -0.033985        NA           NA        NA
+ 239      0.347446   -0.028175        NA           NA        NA
+ 240      0.336792   -0.010654        NA           NA        NA
+ 241      0.285961   -0.050831        NA           NA        NA
+ 242      0.261087   -0.024873        NA           NA        NA
+ 243      0.245631   -0.015456        NA           NA        NA
+ 244      0.201532   -0.044099        NA           NA        NA
+    kurtosis           snps    indivs
+ eigenvector    1     6.561     1.772
+ eigenvector    2     6.903     2.053
+ eigenvector    3     6.903     3.199
+ eigenvector    4     6.912     3.925
+ eigenvector    5    12.666     9.767
+ eigenvector    6     4.963     3.853
+ eigenvector    7     5.346     4.869
+ eigenvector    8    10.692    12.659
+ eigenvector    9    11.210    17.197
+ eigenvector   10    15.262    31.389
+ eigenvector   11     7.394    12.860
+ eigenvector   12    11.706    39.730
+ eigenvector   13     9.236    28.272
+ eigenvector   14    13.725    27.889
+ eigenvector   15    15.491    55.379
+ eigenvector   16     9.555    31.922
+ eigenvector   17     6.546    10.274
+ eigenvector   18     7.430    19.055
+ eigenvector   19     5.858     9.040
+ eigenvector   20     6.077    10.541
+lsqproj called!
+population:   0               Bishop   23
+population:   1           Clear_Lake   28
+population:   2                Gandy   19
+population:   3                 Mona   39
+population:   4        Leland_Harris   29
+population:   5         Mills_Valley   47
+population:   6                Snake   45
+population:   7            Mud_Basin   15
+number of blocks for block jackknife: 4
+## end of Fst statistics between populations
+
+fst *1000:
+          B     C     G     M     L     M     S     M 
+   B      0   204    85   350   212   306   399   383
+   C    204     0   250   354   354    69   392   144
+   G     85   250     0   388   245   344   428   419
+   M    350   354   388     0   473   435   369   498
+   L    212   354   245   473     0   445   516   514
+   M    306    69   344   435   445     0   475   114
+   S    399   392   428   369   516   475     0   531
+   M    383   144   419   498   514   114   531     0
+
+std. err.  * 1000000:
+          B     C     G     M     L     M     S     M 
+   B      0  3525  1987 11032  8098  3031  2934  6229
+   C   3525     0  5849  9999  3724  3790  5133  3767
+   G   1987  5849     0 11045  7428  9687  6585  6300
+   M  11032  9999 11045     0 10303  6123  6262  8670
+   L   8098  3724  7428 10303     0  2284  7871  1961
+   M   3031  3790  9687  6123  2284     0  5681  3122
+   S   2934  5133  6585  6262  7871  5681     0  8499
+   M   6229  3767  6300  8670  1961  3122  8499     0
+
+eigenvector 1:means
+           Mud_Basin     -0.073
+        Mills_Valley     -0.064
+       Leland_Harris     -0.039
+          Clear_Lake     -0.032
+               Gandy     -0.026
+              Bishop     -0.020
+                Mona      0.062
+               Snake      0.103
+## Anova statistics for population differences along each eigenvector:
+                                              p-value
+                  eigenvector_1_overall_             0 +++
+            Mud_Basin minv:    -0.073                Snake maxv:     0.103
+        eigenvector_1_Bishop_Clear_Lake_             0 +++
+             eigenvector_1_Bishop_Gandy_   3.74845e-12 +++
+              eigenvector_1_Bishop_Mona_             0 +++
+     eigenvector_1_Bishop_Leland_Harris_             0 +++
+      eigenvector_1_Bishop_Mills_Valley_             0 +++
+             eigenvector_1_Bishop_Snake_             0 +++
+         eigenvector_1_Bishop_Mud_Basin_             0 +++
+         eigenvector_1_Clear_Lake_Gandy_   2.62744e-11 +++
+          eigenvector_1_Clear_Lake_Mona_             0 +++
+ eigenvector_1_Clear_Lake_Leland_Harris_   8.65974e-15 +++
+  eigenvector_1_Clear_Lake_Mills_Valley_             0 +++
+         eigenvector_1_Clear_Lake_Snake_             0 +++
+     eigenvector_1_Clear_Lake_Mud_Basin_             0 +++
+               eigenvector_1_Gandy_Mona_             0 +++
+      eigenvector_1_Gandy_Leland_Harris_             0 +++
+       eigenvector_1_Gandy_Mills_Valley_             0 +++
+              eigenvector_1_Gandy_Snake_             0 +++
+          eigenvector_1_Gandy_Mud_Basin_             0 +++
+       eigenvector_1_Mona_Leland_Harris_             0 +++
+        eigenvector_1_Mona_Mills_Valley_             0 +++
+               eigenvector_1_Mona_Snake_   3.33067e-16 +++
+           eigenvector_1_Mona_Mud_Basin_             0 +++
+eigenvector_1_Leland_Harris_Mills_Valley_             0 +++
+      eigenvector_1_Leland_Harris_Snake_   1.11022e-16 +++
+  eigenvector_1_Leland_Harris_Mud_Basin_             0 +++
+       eigenvector_1_Mills_Valley_Snake_             0 +++
+   eigenvector_1_Mills_Valley_Mud_Basin_   2.41048e-07 +++
+          eigenvector_1_Snake_Mud_Basin_             0 +++
+eigenvector 2:means
+       Leland_Harris     -0.117
+               Gandy     -0.065
+              Bishop     -0.049
+                Mona     -0.031
+          Clear_Lake      0.023
+               Snake      0.043
+        Mills_Valley      0.066
+           Mud_Basin      0.085
+                  eigenvector_2_overall_             0 +++
+        Leland_Harris minv:    -0.117            Mud_Basin maxv:     0.085
+        eigenvector_2_Bishop_Clear_Lake_             0 +++
+             eigenvector_2_Bishop_Gandy_   4.17344e-12 +++
+              eigenvector_2_Bishop_Mona_    4.9738e-14 +++
+     eigenvector_2_Bishop_Leland_Harris_             0 +++
+      eigenvector_2_Bishop_Mills_Valley_   1.11022e-16 +++
+             eigenvector_2_Bishop_Snake_             0 +++
+         eigenvector_2_Bishop_Mud_Basin_   1.11022e-16 +++
+         eigenvector_2_Clear_Lake_Gandy_             0 +++
+          eigenvector_2_Clear_Lake_Mona_   1.11022e-16 +++
+ eigenvector_2_Clear_Lake_Leland_Harris_             0 +++
+  eigenvector_2_Clear_Lake_Mills_Valley_             0 +++
+         eigenvector_2_Clear_Lake_Snake_             0 +++
+     eigenvector_2_Clear_Lake_Mud_Basin_   2.22045e-16 +++
+               eigenvector_2_Gandy_Mona_             0 +++
+      eigenvector_2_Gandy_Leland_Harris_             0 +++
+       eigenvector_2_Gandy_Mills_Valley_             0 +++
+              eigenvector_2_Gandy_Snake_             0 +++
+          eigenvector_2_Gandy_Mud_Basin_             0 +++
+       eigenvector_2_Mona_Leland_Harris_             0 +++
+        eigenvector_2_Mona_Mills_Valley_   1.11022e-16 +++
+               eigenvector_2_Mona_Snake_             0 +++
+           eigenvector_2_Mona_Mud_Basin_   1.11022e-16 +++
+eigenvector_2_Leland_Harris_Mills_Valley_             0 +++
+      eigenvector_2_Leland_Harris_Snake_             0 +++
+  eigenvector_2_Leland_Harris_Mud_Basin_             0 +++
+       eigenvector_2_Mills_Valley_Snake_             0 +++
+   eigenvector_2_Mills_Valley_Mud_Basin_   1.27849e-08 +++
+          eigenvector_2_Snake_Mud_Basin_             0 +++
+eigenvector 3:means
+                Mona     -0.127
+           Mud_Basin     -0.014
+        Mills_Valley     -0.012
+          Clear_Lake     -0.002
+              Bishop      0.019
+               Gandy      0.028
+       Leland_Harris      0.052
+               Snake      0.073
+                  eigenvector_3_overall_             0 +++
+                 Mona minv:    -0.127                Snake maxv:     0.073
+        eigenvector_3_Bishop_Clear_Lake_             0 +++
+             eigenvector_3_Bishop_Gandy_             0 +++
+              eigenvector_3_Bishop_Mona_             0 +++
+     eigenvector_3_Bishop_Leland_Harris_             0 +++
+      eigenvector_3_Bishop_Mills_Valley_             0 +++
+             eigenvector_3_Bishop_Snake_   1.11022e-16 +++
+         eigenvector_3_Bishop_Mud_Basin_             0 +++
+         eigenvector_3_Clear_Lake_Gandy_             0 +++
+          eigenvector_3_Clear_Lake_Mona_             0 +++
+ eigenvector_3_Clear_Lake_Leland_Harris_             0 +++
+  eigenvector_3_Clear_Lake_Mills_Valley_   2.22045e-16 +++
+         eigenvector_3_Clear_Lake_Snake_             0 +++
+     eigenvector_3_Clear_Lake_Mud_Basin_             0 +++
+               eigenvector_3_Gandy_Mona_   1.11022e-16 +++
+      eigenvector_3_Gandy_Leland_Harris_             0 +++
+       eigenvector_3_Gandy_Mills_Valley_             0 +++
+              eigenvector_3_Gandy_Snake_   2.22045e-16 +++
+          eigenvector_3_Gandy_Mud_Basin_             0 +++
+       eigenvector_3_Mona_Leland_Harris_   1.11022e-16 +++
+        eigenvector_3_Mona_Mills_Valley_   3.33067e-16 +++
+               eigenvector_3_Mona_Snake_             0 +++
+           eigenvector_3_Mona_Mud_Basin_   1.11022e-16 +++
+eigenvector_3_Leland_Harris_Mills_Valley_             0 +++
+      eigenvector_3_Leland_Harris_Snake_   1.11022e-16 +++
+  eigenvector_3_Leland_Harris_Mud_Basin_             0 +++
+       eigenvector_3_Mills_Valley_Snake_             0 +++
+   eigenvector_3_Mills_Valley_Mud_Basin_   0.000203212 ***
+          eigenvector_3_Snake_Mud_Basin_             0 +++
+eigenvector 4:means
+               Gandy     -0.152
+              Bishop     -0.083
+          Clear_Lake     -0.020
+               Snake      0.010
+                Mona      0.013
+        Mills_Valley      0.018
+           Mud_Basin      0.032
+       Leland_Harris      0.107
+                  eigenvector_4_overall_             0 +++
+                Gandy minv:    -0.152        Leland_Harris maxv:     0.107
+        eigenvector_4_Bishop_Clear_Lake_             0 +++
+             eigenvector_4_Bishop_Gandy_   1.11022e-16 +++
+              eigenvector_4_Bishop_Mona_             0 +++
+     eigenvector_4_Bishop_Leland_Harris_             0 +++
+      eigenvector_4_Bishop_Mills_Valley_             0 +++
+             eigenvector_4_Bishop_Snake_             0 +++
+         eigenvector_4_Bishop_Mud_Basin_             0 +++
+         eigenvector_4_Clear_Lake_Gandy_             0 +++
+          eigenvector_4_Clear_Lake_Mona_   2.22045e-16 +++
+ eigenvector_4_Clear_Lake_Leland_Harris_             0 +++
+  eigenvector_4_Clear_Lake_Mills_Valley_             0 +++
+         eigenvector_4_Clear_Lake_Snake_             0 +++
+     eigenvector_4_Clear_Lake_Mud_Basin_             0 +++
+               eigenvector_4_Gandy_Mona_             0 +++
+      eigenvector_4_Gandy_Leland_Harris_             0 +++
+       eigenvector_4_Gandy_Mills_Valley_             0 +++
+              eigenvector_4_Gandy_Snake_             0 +++
+          eigenvector_4_Gandy_Mud_Basin_             0 +++
+       eigenvector_4_Mona_Leland_Harris_             0 +++
+        eigenvector_4_Mona_Mills_Valley_     0.0014533 
+               eigenvector_4_Mona_Snake_     0.0274008 
+           eigenvector_4_Mona_Mud_Basin_   3.22372e-10 +++
+eigenvector_4_Leland_Harris_Mills_Valley_             0 +++
+      eigenvector_4_Leland_Harris_Snake_   1.11022e-16 +++
+  eigenvector_4_Leland_Harris_Mud_Basin_             0 +++
+       eigenvector_4_Mills_Valley_Snake_             0 +++
+   eigenvector_4_Mills_Valley_Mud_Basin_             0 +++
+          eigenvector_4_Snake_Mud_Basin_             0 +++
+eigenvector 5:means
+           Mud_Basin     -0.218
+               Gandy     -0.026
+                Mona     -0.004
+       Leland_Harris     -0.003
+               Snake     -0.003
+              Bishop     -0.002
+          Clear_Lake      0.035
+        Mills_Valley      0.067
+                  eigenvector_5_overall_             0 +++
+            Mud_Basin minv:    -0.218         Mills_Valley maxv:     0.067
+        eigenvector_5_Bishop_Clear_Lake_             0 +++
+             eigenvector_5_Bishop_Gandy_             0 +++
+              eigenvector_5_Bishop_Mona_     0.0215144 
+     eigenvector_5_Bishop_Leland_Harris_       0.79806 
+      eigenvector_5_Bishop_Mills_Valley_   1.11022e-16 +++
+             eigenvector_5_Bishop_Snake_      0.783484 
+         eigenvector_5_Bishop_Mud_Basin_   1.11022e-16 +++
+         eigenvector_5_Clear_Lake_Gandy_             0 +++
+          eigenvector_5_Clear_Lake_Mona_             0 +++
+ eigenvector_5_Clear_Lake_Leland_Harris_             0 +++
+  eigenvector_5_Clear_Lake_Mills_Valley_             0 +++
+         eigenvector_5_Clear_Lake_Snake_             0 +++
+     eigenvector_5_Clear_Lake_Mud_Basin_   1.11022e-16 +++
+               eigenvector_5_Gandy_Mona_   1.11022e-16 +++
+      eigenvector_5_Gandy_Leland_Harris_   1.11022e-16 +++
+       eigenvector_5_Gandy_Mills_Valley_   1.11022e-16 +++
+              eigenvector_5_Gandy_Snake_             0 +++
+          eigenvector_5_Gandy_Mud_Basin_   2.22045e-16 +++
+       eigenvector_5_Mona_Leland_Harris_     0.0251009 
+        eigenvector_5_Mona_Mills_Valley_             0 +++
+               eigenvector_5_Mona_Snake_    0.00389141 
+           eigenvector_5_Mona_Mud_Basin_             0 +++
+eigenvector_5_Leland_Harris_Mills_Valley_             0 +++
+      eigenvector_5_Leland_Harris_Snake_      0.954117 
+  eigenvector_5_Leland_Harris_Mud_Basin_             0 +++
+       eigenvector_5_Mills_Valley_Snake_   1.11022e-16 +++
+   eigenvector_5_Mills_Valley_Mud_Basin_             0 +++
+          eigenvector_5_Snake_Mud_Basin_             0 +++
+eigenvector 6:means
+              Bishop     -0.126
+          Clear_Lake     -0.083
+           Mud_Basin     -0.006
+               Snake      0.007
+                Mona      0.009
+       Leland_Harris      0.014
+        Mills_Valley      0.039
+               Gandy      0.129
+                  eigenvector_6_overall_   1.11022e-16 +++
+               Bishop minv:    -0.126                Gandy maxv:     0.129
+        eigenvector_6_Bishop_Clear_Lake_   7.61991e-08 +++
+             eigenvector_6_Bishop_Gandy_             0 +++
+              eigenvector_6_Bishop_Mona_             0 +++
+     eigenvector_6_Bishop_Leland_Harris_             0 +++
+      eigenvector_6_Bishop_Mills_Valley_             0 +++
+             eigenvector_6_Bishop_Snake_             0 +++
+         eigenvector_6_Bishop_Mud_Basin_             0 +++
+         eigenvector_6_Clear_Lake_Gandy_             0 +++
+          eigenvector_6_Clear_Lake_Mona_             0 +++
+ eigenvector_6_Clear_Lake_Leland_Harris_             0 +++
+  eigenvector_6_Clear_Lake_Mills_Valley_             0 +++
+         eigenvector_6_Clear_Lake_Snake_             0 +++
+     eigenvector_6_Clear_Lake_Mud_Basin_             0 +++
+               eigenvector_6_Gandy_Mona_   1.11022e-16 +++
+      eigenvector_6_Gandy_Leland_Harris_   1.11022e-16 +++
+       eigenvector_6_Gandy_Mills_Valley_             0 +++
+              eigenvector_6_Gandy_Snake_             0 +++
+          eigenvector_6_Gandy_Mud_Basin_   2.22045e-16 +++
+       eigenvector_6_Mona_Leland_Harris_   4.72123e-05 ***
+        eigenvector_6_Mona_Mills_Valley_   1.11022e-16 +++
+               eigenvector_6_Mona_Snake_     0.0253098 
+           eigenvector_6_Mona_Mud_Basin_   2.22045e-16 +++
+eigenvector_6_Leland_Harris_Mills_Valley_   2.22045e-16 +++
+      eigenvector_6_Leland_Harris_Snake_   1.66128e-11 +++
+  eigenvector_6_Leland_Harris_Mud_Basin_             0 +++
+       eigenvector_6_Mills_Valley_Snake_             0 +++
+   eigenvector_6_Mills_Valley_Mud_Basin_             0 +++
+          eigenvector_6_Snake_Mud_Basin_   1.11022e-16 +++
+eigenvector 7:means
+          Clear_Lake     -0.141
+               Gandy     -0.038
+       Leland_Harris     -0.007
+           Mud_Basin      0.002
+                Mona      0.003
+               Snake      0.005
+        Mills_Valley      0.043
+              Bishop      0.107
+                  eigenvector_7_overall_             0 +++
+           Clear_Lake minv:    -0.141               Bishop maxv:     0.107
+        eigenvector_7_Bishop_Clear_Lake_   2.22045e-16 +++
+             eigenvector_7_Bishop_Gandy_             0 +++
+              eigenvector_7_Bishop_Mona_   2.22045e-16 +++
+     eigenvector_7_Bishop_Leland_Harris_   2.22045e-16 +++
+      eigenvector_7_Bishop_Mills_Valley_             0 +++
+             eigenvector_7_Bishop_Snake_             0 +++
+         eigenvector_7_Bishop_Mud_Basin_   1.03251e-14 +++
+         eigenvector_7_Clear_Lake_Gandy_             0 +++
+          eigenvector_7_Clear_Lake_Mona_             0 +++
+ eigenvector_7_Clear_Lake_Leland_Harris_             0 +++
+  eigenvector_7_Clear_Lake_Mills_Valley_             0 +++
+         eigenvector_7_Clear_Lake_Snake_   2.22045e-16 +++
+     eigenvector_7_Clear_Lake_Mud_Basin_   1.11022e-16 +++
+               eigenvector_7_Gandy_Mona_             0 +++
+      eigenvector_7_Gandy_Leland_Harris_             0 +++
+       eigenvector_7_Gandy_Mills_Valley_             0 +++
+              eigenvector_7_Gandy_Snake_   1.11022e-16 +++
+          eigenvector_7_Gandy_Mud_Basin_             0 +++
+       eigenvector_7_Mona_Leland_Harris_   1.05769e-08 +++
+        eigenvector_7_Mona_Mills_Valley_   2.22045e-16 +++
+               eigenvector_7_Mona_Snake_      0.105553 
+           eigenvector_7_Mona_Mud_Basin_      0.604403 
+eigenvector_7_Leland_Harris_Mills_Valley_             0 +++
+      eigenvector_7_Leland_Harris_Snake_   3.33067e-16 +++
+  eigenvector_7_Leland_Harris_Mud_Basin_   6.65069e-06 ***
+       eigenvector_7_Mills_Valley_Snake_             0 +++
+   eigenvector_7_Mills_Valley_Mud_Basin_   1.11022e-16 +++
+          eigenvector_7_Snake_Mud_Basin_     0.0121511 
+eigenvector 8:means
+               Gandy     -0.012
+          Clear_Lake     -0.007
+       Leland_Harris     -0.005
+               Snake     -0.002
+                Mona     -0.002
+        Mills_Valley     -0.001
+           Mud_Basin     -0.000
+              Bishop      0.033
+                  eigenvector_8_overall_      0.403181 
+                Gandy minv:    -0.012               Bishop maxv:     0.033
+        eigenvector_8_Bishop_Clear_Lake_      0.251045 
+             eigenvector_8_Bishop_Gandy_      0.351112 
+              eigenvector_8_Bishop_Mona_      0.250061 
+     eigenvector_8_Bishop_Leland_Harris_      0.275241 
+      eigenvector_8_Bishop_Mills_Valley_      0.204746 
+             eigenvector_8_Bishop_Snake_      0.208274 
+         eigenvector_8_Bishop_Mud_Basin_      0.490944 
+         eigenvector_8_Clear_Lake_Gandy_      0.828322 
+          eigenvector_8_Clear_Lake_Mona_      0.295596 
+ eigenvector_8_Clear_Lake_Leland_Harris_      0.453211 
+  eigenvector_8_Clear_Lake_Mills_Valley_     0.0347005 
+         eigenvector_8_Clear_Lake_Snake_     0.0296228 
+     eigenvector_8_Clear_Lake_Mud_Basin_     0.0919607 
+               eigenvector_8_Gandy_Mona_      0.563455 
+      eigenvector_8_Gandy_Leland_Harris_      0.715093 
+       eigenvector_8_Gandy_Mills_Valley_      0.485748 
+              eigenvector_8_Gandy_Snake_      0.511077 
+          eigenvector_8_Gandy_Mud_Basin_      0.670069 
+       eigenvector_8_Mona_Leland_Harris_      0.558905 
+        eigenvector_8_Mona_Mills_Valley_      0.920193 
+               eigenvector_8_Mona_Snake_      0.993785 
+           eigenvector_8_Mona_Mud_Basin_      0.841529 
+eigenvector_8_Leland_Harris_Mills_Valley_      0.167302 
+      eigenvector_8_Leland_Harris_Snake_      0.161304 
+  eigenvector_8_Leland_Harris_Mud_Basin_      0.182329 
+       eigenvector_8_Mills_Valley_Snake_      0.796671 
+   eigenvector_8_Mills_Valley_Mud_Basin_      0.715854 
+          eigenvector_8_Snake_Mud_Basin_      0.457246 
+eigenvector 9:means
+               Gandy     -0.009
+          Clear_Lake     -0.005
+       Leland_Harris     -0.001
+                Mona     -0.000
+               Snake      0.000
+           Mud_Basin      0.001
+        Mills_Valley      0.001
+              Bishop      0.012
+                  eigenvector_9_overall_      0.988127 
+                Gandy minv:    -0.009               Bishop maxv:     0.012
+        eigenvector_9_Bishop_Clear_Lake_      0.372508 
+             eigenvector_9_Bishop_Gandy_       0.65469 
+              eigenvector_9_Bishop_Mona_      0.490199 
+     eigenvector_9_Bishop_Leland_Harris_      0.503965 
+      eigenvector_9_Bishop_Mills_Valley_       0.45542 
+             eigenvector_9_Bishop_Snake_      0.416252 
+         eigenvector_9_Bishop_Mud_Basin_      0.671305 
+         eigenvector_9_Clear_Lake_Gandy_      0.907358 
+          eigenvector_9_Clear_Lake_Mona_      0.623519 
+ eigenvector_9_Clear_Lake_Leland_Harris_      0.513191 
+  eigenvector_9_Clear_Lake_Mills_Valley_      0.116967 
+         eigenvector_9_Clear_Lake_Snake_      0.172095 
+     eigenvector_9_Clear_Lake_Mud_Basin_      0.305551 
+               eigenvector_9_Gandy_Mona_      0.790505 
+      eigenvector_9_Gandy_Leland_Harris_      0.816768 
+       eigenvector_9_Gandy_Mills_Valley_      0.713981 
+              eigenvector_9_Gandy_Snake_      0.747864 
+          eigenvector_9_Gandy_Mud_Basin_      0.839513 
+       eigenvector_9_Mona_Leland_Harris_       0.98593 
+        eigenvector_9_Mona_Mills_Valley_      0.788798 
+               eigenvector_9_Mona_Snake_       0.92124 
+           eigenvector_9_Mona_Mud_Basin_      0.881715 
+eigenvector_9_Leland_Harris_Mills_Valley_      0.659796 
+      eigenvector_9_Leland_Harris_Snake_      0.846532 
+  eigenvector_9_Leland_Harris_Mud_Basin_      0.789429 
+       eigenvector_9_Mills_Valley_Snake_      0.596193 
+   eigenvector_9_Mills_Valley_Mud_Basin_      0.979534 
+          eigenvector_9_Snake_Mud_Basin_      0.655393 
+eigenvector 10:means
+        Mills_Valley     -0.002
+          Clear_Lake     -0.001
+               Gandy     -0.001
+               Snake      0.000
+                Mona      0.000
+           Mud_Basin      0.002
+       Leland_Harris      0.002
+              Bishop      0.002
+                 eigenvector_10_overall_      0.999994 
+         Mills_Valley minv:    -0.002               Bishop maxv:     0.002
+       eigenvector_10_Bishop_Clear_Lake_       0.91758 
+            eigenvector_10_Bishop_Gandy_      0.936522 
+             eigenvector_10_Bishop_Mona_      0.957885 
+    eigenvector_10_Bishop_Leland_Harris_      0.997651 
+     eigenvector_10_Bishop_Mills_Valley_      0.881053 
+            eigenvector_10_Bishop_Snake_      0.942927 
+        eigenvector_10_Bishop_Mud_Basin_      0.993203 
+        eigenvector_10_Clear_Lake_Gandy_      0.979005 
+         eigenvector_10_Clear_Lake_Mona_        0.8736 
+eigenvector_10_Clear_Lake_Leland_Harris_      0.642886 
+ eigenvector_10_Clear_Lake_Mills_Valley_      0.950035 
+        eigenvector_10_Clear_Lake_Snake_       0.72232 
+    eigenvector_10_Clear_Lake_Mud_Basin_      0.682949 
+              eigenvector_10_Gandy_Mona_      0.906567 
+     eigenvector_10_Gandy_Leland_Harris_      0.701666 
+      eigenvector_10_Gandy_Mills_Valley_      0.945893 
+             eigenvector_10_Gandy_Snake_      0.774367 
+         eigenvector_10_Gandy_Mud_Basin_      0.719685 
+      eigenvector_10_Mona_Leland_Harris_      0.895853 
+       eigenvector_10_Mona_Mills_Valley_      0.836355 
+              eigenvector_10_Mona_Snake_       0.97637 
+          eigenvector_10_Mona_Mud_Basin_      0.935489 
+eigenvector_10_Leland_Harris_Mills_Valley_       0.72607 
+     eigenvector_10_Leland_Harris_Snake_      0.685705 
+ eigenvector_10_Leland_Harris_Mud_Basin_      0.967767 
+      eigenvector_10_Mills_Valley_Snake_      0.792755 
+  eigenvector_10_Mills_Valley_Mud_Basin_      0.805566 
+         eigenvector_10_Snake_Mud_Basin_      0.608608 
+eigenvector 11:means
+           Mud_Basin     -0.004
+       Leland_Harris     -0.002
+               Snake     -0.001
+                Mona     -0.001
+              Bishop     -0.001
+          Clear_Lake     -0.000
+               Gandy      0.002
+        Mills_Valley      0.003
+                 eigenvector_11_overall_      0.999955 
+            Mud_Basin minv:    -0.004         Mills_Valley maxv:     0.003
+       eigenvector_11_Bishop_Clear_Lake_      0.983891 
+            eigenvector_11_Bishop_Gandy_      0.933679 
+             eigenvector_11_Bishop_Mona_      0.992333 
+    eigenvector_11_Bishop_Leland_Harris_      0.936705 
+     eigenvector_11_Bishop_Mills_Valley_      0.883286 
+            eigenvector_11_Bishop_Snake_      0.989145 
+        eigenvector_11_Bishop_Mud_Basin_      0.918164 
+        eigenvector_11_Clear_Lake_Gandy_      0.859441 
+         eigenvector_11_Clear_Lake_Mona_      0.960636 
+eigenvector_11_Clear_Lake_Leland_Harris_      0.641332 
+ eigenvector_11_Clear_Lake_Mills_Valley_      0.857354 
+        eigenvector_11_Clear_Lake_Snake_      0.853083 
+    eigenvector_11_Clear_Lake_Mud_Basin_       0.50291 
+              eigenvector_11_Gandy_Mona_      0.885869 
+     eigenvector_11_Gandy_Leland_Harris_      0.698052 
+      eigenvector_11_Gandy_Mills_Valley_      0.948408 
+             eigenvector_11_Gandy_Snake_      0.754954 
+         eigenvector_11_Gandy_Mud_Basin_       0.69868 
+      eigenvector_11_Mona_Leland_Harris_      0.910667 
+       eigenvector_11_Mona_Mills_Valley_      0.827822 
+              eigenvector_11_Mona_Snake_             1 
+          eigenvector_11_Mona_Mud_Basin_      0.875683 
+eigenvector_11_Leland_Harris_Mills_Valley_       0.76875 
+     eigenvector_11_Leland_Harris_Snake_      0.656166 
+ eigenvector_11_Leland_Harris_Mud_Basin_      0.762832 
+      eigenvector_11_Mills_Valley_Snake_      0.785073 
+  eigenvector_11_Mills_Valley_Mud_Basin_      0.793042 
+         eigenvector_11_Snake_Mud_Basin_      0.424123 
+eigenvector 12:means
+          Clear_Lake     -0.006
+           Mud_Basin     -0.002
+               Gandy     -0.001
+              Bishop     -0.000
+               Snake     -0.000
+                Mona     -0.000
+       Leland_Harris      0.002
+        Mills_Valley      0.004
+                 eigenvector_12_overall_      0.999608 
+           Clear_Lake minv:    -0.006         Mills_Valley maxv:     0.004
+       eigenvector_12_Bishop_Clear_Lake_      0.740464 
+            eigenvector_12_Bishop_Gandy_      0.966732 
+             eigenvector_12_Bishop_Mona_      0.989029 
+    eigenvector_12_Bishop_Leland_Harris_      0.891615 
+     eigenvector_12_Bishop_Mills_Valley_       0.79564 
+            eigenvector_12_Bishop_Snake_      0.981781 
+        eigenvector_12_Bishop_Mud_Basin_      0.953869 
+        eigenvector_12_Clear_Lake_Gandy_      0.624719 
+         eigenvector_12_Clear_Lake_Mona_      0.811499 
+eigenvector_12_Clear_Lake_Leland_Harris_      0.194423 
+ eigenvector_12_Clear_Lake_Mills_Valley_      0.348251 
+        eigenvector_12_Clear_Lake_Snake_        0.1119 
+    eigenvector_12_Clear_Lake_Mud_Basin_       0.47926 
+              eigenvector_12_Gandy_Mona_      0.965853 
+     eigenvector_12_Gandy_Leland_Harris_      0.744839 
+      eigenvector_12_Gandy_Mills_Valley_      0.704036 
+             eigenvector_12_Gandy_Snake_      0.860176 
+         eigenvector_12_Gandy_Mud_Basin_      0.973125 
+      eigenvector_12_Mona_Leland_Harris_      0.940274 
+       eigenvector_12_Mona_Mills_Valley_      0.852329 
+              eigenvector_12_Mona_Snake_      0.994792 
+          eigenvector_12_Mona_Mud_Basin_      0.959792 
+eigenvector_12_Leland_Harris_Mills_Valley_      0.845538 
+     eigenvector_12_Leland_Harris_Snake_      0.624363 
+ eigenvector_12_Leland_Harris_Mud_Basin_      0.596195 
+      eigenvector_12_Mills_Valley_Snake_       0.61712 
+  eigenvector_12_Mills_Valley_Mud_Basin_      0.686608 
+         eigenvector_12_Snake_Mud_Basin_      0.627038 
+eigenvector 13:means
+        Mills_Valley     -0.002
+                Mona     -0.001
+       Leland_Harris     -0.001
+               Snake      0.000
+          Clear_Lake      0.001
+           Mud_Basin      0.001
+              Bishop      0.002
+               Gandy      0.003
+                 eigenvector_13_overall_      0.999995 
+         Mills_Valley minv:    -0.002                Gandy maxv:     0.003
+       eigenvector_13_Bishop_Clear_Lake_      0.916239 
+            eigenvector_13_Bishop_Gandy_      0.915351 
+             eigenvector_13_Bishop_Mona_      0.926409 
+    eigenvector_13_Bishop_Leland_Harris_       0.67049 
+     eigenvector_13_Bishop_Mills_Valley_      0.805218 
+            eigenvector_13_Bishop_Snake_      0.735037 
+        eigenvector_13_Bishop_Mud_Basin_      0.923895 
+        eigenvector_13_Clear_Lake_Gandy_        0.8644 
+         eigenvector_13_Clear_Lake_Mona_      0.948727 
+eigenvector_13_Clear_Lake_Leland_Harris_      0.842602 
+ eigenvector_13_Clear_Lake_Mills_Valley_      0.843723 
+        eigenvector_13_Clear_Lake_Snake_      0.936416 
+    eigenvector_13_Clear_Lake_Mud_Basin_      0.980348 
+              eigenvector_13_Gandy_Mona_      0.901465 
+     eigenvector_13_Gandy_Leland_Harris_      0.730306 
+      eigenvector_13_Gandy_Mills_Valley_      0.779153 
+             eigenvector_13_Gandy_Snake_      0.746096 
+         eigenvector_13_Gandy_Mud_Basin_      0.891277 
+      eigenvector_13_Mona_Leland_Harris_      0.994739 
+       eigenvector_13_Mona_Mills_Valley_      0.956338 
+              eigenvector_13_Mona_Snake_      0.951687 
+          eigenvector_13_Mona_Mud_Basin_      0.956074 
+eigenvector_13_Leland_Harris_Mills_Valley_      0.918645 
+     eigenvector_13_Leland_Harris_Snake_      0.745887 
+ eigenvector_13_Leland_Harris_Mud_Basin_      0.753231 
+      eigenvector_13_Mills_Valley_Snake_      0.822694 
+  eigenvector_13_Mills_Valley_Mud_Basin_      0.868255 
+         eigenvector_13_Snake_Mud_Basin_      0.847959 
+eigenvector 14:means
+          Clear_Lake     -0.011
+       Leland_Harris      0.001
+               Snake      0.001
+                Mona      0.001
+        Mills_Valley      0.001
+               Gandy      0.002
+           Mud_Basin      0.003
+              Bishop      0.004
+                 eigenvector_14_overall_      0.994454 
+           Clear_Lake minv:    -0.011               Bishop maxv:     0.004
+       eigenvector_14_Bishop_Clear_Lake_      0.621033 
+            eigenvector_14_Bishop_Gandy_      0.905709 
+             eigenvector_14_Bishop_Mona_      0.754116 
+    eigenvector_14_Bishop_Leland_Harris_      0.674986 
+     eigenvector_14_Bishop_Mills_Valley_      0.900418 
+            eigenvector_14_Bishop_Snake_      0.623322 
+        eigenvector_14_Bishop_Mud_Basin_      0.970796 
+        eigenvector_14_Clear_Lake_Gandy_      0.693721 
+         eigenvector_14_Clear_Lake_Mona_      0.606589 
+eigenvector_14_Clear_Lake_Leland_Harris_       0.65162 
+ eigenvector_14_Clear_Lake_Mills_Valley_      0.627892 
+        eigenvector_14_Clear_Lake_Snake_      0.565918 
+    eigenvector_14_Clear_Lake_Mud_Basin_      0.690723 
+              eigenvector_14_Gandy_Mona_      0.909182 
+     eigenvector_14_Gandy_Leland_Harris_      0.880319 
+      eigenvector_14_Gandy_Mills_Valley_      0.973455 
+             eigenvector_14_Gandy_Snake_       0.86961 
+         eigenvector_14_Gandy_Mud_Basin_      0.926725 
+      eigenvector_14_Mona_Leland_Harris_      0.976437 
+       eigenvector_14_Mona_Mills_Valley_      0.967383 
+              eigenvector_14_Mona_Snake_             1 
+          eigenvector_14_Mona_Mud_Basin_      0.779649 
+eigenvector_14_Leland_Harris_Mills_Valley_      0.960524 
+     eigenvector_14_Leland_Harris_Snake_      0.940152 
+ eigenvector_14_Leland_Harris_Mud_Basin_      0.488778 
+      eigenvector_14_Mills_Valley_Snake_      0.962596 
+  eigenvector_14_Mills_Valley_Mud_Basin_      0.929728 
+         eigenvector_14_Snake_Mud_Basin_      0.429658 
+eigenvector 15:means
+              Bishop     -0.002
+                Mona     -0.001
+           Mud_Basin     -0.001
+        Mills_Valley     -0.000
+       Leland_Harris      0.000
+               Snake      0.001
+          Clear_Lake      0.001
+               Gandy      0.002
+                 eigenvector_15_overall_      0.999999 
+               Bishop minv:    -0.002                Gandy maxv:     0.002
+       eigenvector_15_Bishop_Clear_Lake_       0.90464 
+            eigenvector_15_Bishop_Gandy_      0.906955 
+             eigenvector_15_Bishop_Mona_      0.983686 
+    eigenvector_15_Bishop_Leland_Harris_      0.935777 
+     eigenvector_15_Bishop_Mills_Valley_       0.93776 
+            eigenvector_15_Bishop_Snake_      0.908671 
+        eigenvector_15_Bishop_Mud_Basin_       0.97137 
+        eigenvector_15_Clear_Lake_Gandy_      0.941245 
+         eigenvector_15_Clear_Lake_Mona_      0.882103 
+eigenvector_15_Clear_Lake_Leland_Harris_      0.817178 
+ eigenvector_15_Clear_Lake_Mills_Valley_      0.813511 
+        eigenvector_15_Clear_Lake_Snake_      0.844891 
+    eigenvector_15_Clear_Lake_Mud_Basin_      0.758485 
+              eigenvector_15_Gandy_Mona_       0.88073 
+     eigenvector_15_Gandy_Leland_Harris_      0.815996 
+      eigenvector_15_Gandy_Mills_Valley_      0.802597 
+             eigenvector_15_Gandy_Snake_      0.817068 
+         eigenvector_15_Gandy_Mud_Basin_      0.801924 
+      eigenvector_15_Mona_Leland_Harris_      0.929922 
+       eigenvector_15_Mona_Mills_Valley_      0.940352 
+              eigenvector_15_Mona_Snake_      0.895864 
+          eigenvector_15_Mona_Mud_Basin_      0.976178 
+eigenvector_15_Leland_Harris_Mills_Valley_      0.939496 
+     eigenvector_15_Leland_Harris_Snake_      0.919807 
+ eigenvector_15_Leland_Harris_Mud_Basin_      0.812341 
+      eigenvector_15_Mills_Valley_Snake_      0.878947 
+  eigenvector_15_Mills_Valley_Mud_Basin_      0.964867 
+         eigenvector_15_Snake_Mud_Basin_      0.756342 
+eigenvector 16:means
+              Bishop     -0.002
+          Clear_Lake     -0.002
+       Leland_Harris     -0.001
+               Snake     -0.000
+           Mud_Basin      0.000
+               Gandy      0.001
+        Mills_Valley      0.001
+                Mona      0.002
+                 eigenvector_16_overall_      0.999998 
+               Bishop minv:    -0.002                 Mona maxv:     0.002
+       eigenvector_16_Bishop_Clear_Lake_      0.966387 
+            eigenvector_16_Bishop_Gandy_       0.89542 
+             eigenvector_16_Bishop_Mona_      0.876632 
+    eigenvector_16_Bishop_Leland_Harris_      0.909819 
+     eigenvector_16_Bishop_Mills_Valley_      0.859016 
+            eigenvector_16_Bishop_Snake_      0.846727 
+        eigenvector_16_Bishop_Mud_Basin_      0.905069 
+        eigenvector_16_Clear_Lake_Gandy_      0.900802 
+         eigenvector_16_Clear_Lake_Mona_      0.883915 
+eigenvector_16_Clear_Lake_Leland_Harris_      0.931266 
+ eigenvector_16_Clear_Lake_Mills_Valley_       0.87277 
+        eigenvector_16_Clear_Lake_Snake_      0.857075 
+    eigenvector_16_Clear_Lake_Mud_Basin_      0.907399 
+              eigenvector_16_Gandy_Mona_      0.960787 
+     eigenvector_16_Gandy_Leland_Harris_       0.92498 
+      eigenvector_16_Gandy_Mills_Valley_       0.99362 
+             eigenvector_16_Gandy_Snake_      0.950411 
+         eigenvector_16_Gandy_Mud_Basin_      0.979454 
+      eigenvector_16_Mona_Leland_Harris_      0.909177 
+       eigenvector_16_Mona_Mills_Valley_      0.947977 
+              eigenvector_16_Mona_Snake_      0.911245 
+          eigenvector_16_Mona_Mud_Basin_      0.953153 
+eigenvector_16_Leland_Harris_Mills_Valley_      0.913953 
+     eigenvector_16_Leland_Harris_Snake_      0.889608 
+ eigenvector_16_Leland_Harris_Mud_Basin_      0.909609 
+      eigenvector_16_Mills_Valley_Snake_      0.939757 
+  eigenvector_16_Mills_Valley_Mud_Basin_      0.973328 
+         eigenvector_16_Snake_Mud_Basin_      0.963019 
+eigenvector 17:means
+              Bishop     -0.003
+           Mud_Basin     -0.002
+               Gandy     -0.001
+               Snake     -0.000
+        Mills_Valley     -0.000
+       Leland_Harris      0.001
+                Mona      0.001
+          Clear_Lake      0.003
+                 eigenvector_17_overall_      0.999986 
+               Bishop minv:    -0.003           Clear_Lake maxv:     0.003
+       eigenvector_17_Bishop_Clear_Lake_      0.778212 
+            eigenvector_17_Bishop_Gandy_      0.897411 
+             eigenvector_17_Bishop_Mona_      0.805288 
+    eigenvector_17_Bishop_Leland_Harris_       0.74896 
+     eigenvector_17_Bishop_Mills_Valley_      0.905197 
+            eigenvector_17_Bishop_Snake_      0.796727 
+        eigenvector_17_Bishop_Mud_Basin_      0.956946 
+        eigenvector_17_Clear_Lake_Gandy_      0.853803 
+         eigenvector_17_Clear_Lake_Mona_      0.909462 
+eigenvector_17_Clear_Lake_Leland_Harris_      0.882986 
+ eigenvector_17_Clear_Lake_Mills_Valley_       0.87337 
+        eigenvector_17_Clear_Lake_Snake_      0.786224 
+    eigenvector_17_Clear_Lake_Mud_Basin_      0.821726 
+              eigenvector_17_Gandy_Mona_      0.904101 
+     eigenvector_17_Gandy_Leland_Harris_      0.844215 
+      eigenvector_17_Gandy_Mills_Valley_      0.983055 
+             eigenvector_17_Gandy_Snake_      0.959293 
+         eigenvector_17_Gandy_Mud_Basin_      0.914905 
+      eigenvector_17_Mona_Leland_Harris_      0.977255 
+       eigenvector_17_Mona_Mills_Valley_      0.935936 
+              eigenvector_17_Mona_Snake_      0.872998 
+          eigenvector_17_Mona_Mud_Basin_      0.849998 
+eigenvector_17_Leland_Harris_Mills_Valley_      0.951088 
+     eigenvector_17_Leland_Harris_Snake_      0.726585 
+ eigenvector_17_Leland_Harris_Mud_Basin_      0.550321 
+      eigenvector_17_Mills_Valley_Snake_       0.99327 
+  eigenvector_17_Mills_Valley_Mud_Basin_      0.945115 
+         eigenvector_17_Snake_Mud_Basin_      0.753946 
+eigenvector 18:means
+          Clear_Lake     -0.002
+        Mills_Valley     -0.001
+              Bishop     -0.000
+               Gandy     -0.000
+               Snake      0.001
+                Mona      0.001
+       Leland_Harris      0.001
+           Mud_Basin      0.002
+                 eigenvector_18_overall_      0.999999 
+           Clear_Lake minv:    -0.002            Mud_Basin maxv:     0.002
+       eigenvector_18_Bishop_Clear_Lake_       0.88204 
+            eigenvector_18_Bishop_Gandy_      0.996999 
+             eigenvector_18_Bishop_Mona_      0.936375 
+    eigenvector_18_Bishop_Leland_Harris_       0.89663 
+     eigenvector_18_Bishop_Mills_Valley_      0.958528 
+            eigenvector_18_Bishop_Snake_      0.909642 
+        eigenvector_18_Bishop_Mud_Basin_      0.868781 
+        eigenvector_18_Clear_Lake_Gandy_      0.947254 
+         eigenvector_18_Clear_Lake_Mona_      0.827964 
+eigenvector_18_Clear_Lake_Leland_Harris_      0.760371 
+ eigenvector_18_Clear_Lake_Mills_Valley_         0.948 
+        eigenvector_18_Clear_Lake_Snake_      0.748038 
+    eigenvector_18_Clear_Lake_Mud_Basin_      0.768081 
+              eigenvector_18_Gandy_Mona_      0.970101 
+     eigenvector_18_Gandy_Leland_Harris_      0.968616 
+      eigenvector_18_Gandy_Mills_Valley_      0.971432 
+             eigenvector_18_Gandy_Snake_      0.970831 
+         eigenvector_18_Gandy_Mud_Basin_      0.965799 
+      eigenvector_18_Mona_Leland_Harris_      0.995009 
+       eigenvector_18_Mona_Mills_Valley_      0.891782 
+              eigenvector_18_Mona_Snake_      0.984592 
+          eigenvector_18_Mona_Mud_Basin_      0.968836 
+eigenvector_18_Leland_Harris_Mills_Valley_      0.883102 
+     eigenvector_18_Leland_Harris_Snake_       0.96669 
+ eigenvector_18_Leland_Harris_Mud_Basin_      0.938101 
+      eigenvector_18_Mills_Valley_Snake_      0.876359 
+  eigenvector_18_Mills_Valley_Mud_Basin_      0.889996 
+         eigenvector_18_Snake_Mud_Basin_      0.910265 
+eigenvector 19:means
+          Clear_Lake     -0.004
+               Gandy     -0.002
+       Leland_Harris     -0.002
+           Mud_Basin     -0.001
+               Snake     -0.000
+                Mona      0.000
+        Mills_Valley      0.003
+              Bishop      0.003
+                 eigenvector_19_overall_      0.999894 
+           Clear_Lake minv:    -0.004               Bishop maxv:     0.003
+       eigenvector_19_Bishop_Clear_Lake_      0.519934 
+            eigenvector_19_Bishop_Gandy_        0.7628 
+             eigenvector_19_Bishop_Mona_      0.854204 
+    eigenvector_19_Bishop_Leland_Harris_      0.455064 
+     eigenvector_19_Bishop_Mills_Valley_      0.974187 
+            eigenvector_19_Bishop_Snake_      0.505823 
+        eigenvector_19_Bishop_Mud_Basin_      0.672367 
+        eigenvector_19_Clear_Lake_Gandy_      0.927828 
+         eigenvector_19_Clear_Lake_Mona_      0.774874 
+eigenvector_19_Clear_Lake_Leland_Harris_      0.814274 
+ eigenvector_19_Clear_Lake_Mills_Valley_      0.764585 
+        eigenvector_19_Clear_Lake_Snake_      0.583973 
+    eigenvector_19_Clear_Lake_Mud_Basin_      0.781264 
+              eigenvector_19_Gandy_Mona_      0.897227 
+     eigenvector_19_Gandy_Leland_Harris_      0.978085 
+      eigenvector_19_Gandy_Mills_Valley_      0.861994 
+             eigenvector_19_Gandy_Snake_      0.860934 
+         eigenvector_19_Gandy_Mud_Basin_      0.936411 
+      eigenvector_19_Mona_Leland_Harris_      0.866315 
+       eigenvector_19_Mona_Mills_Valley_      0.916294 
+              eigenvector_19_Mona_Snake_      0.958138 
+          eigenvector_19_Mona_Mud_Basin_      0.958183 
+eigenvector_19_Leland_Harris_Mills_Valley_      0.829691 
+     eigenvector_19_Leland_Harris_Snake_      0.567176 
+ eigenvector_19_Leland_Harris_Mud_Basin_      0.806719 
+      eigenvector_19_Mills_Valley_Snake_      0.868863 
+  eigenvector_19_Mills_Valley_Mud_Basin_      0.912932 
+         eigenvector_19_Snake_Mud_Basin_      0.905398 
+eigenvector 20:means
+           Mud_Basin     -0.002
+       Leland_Harris     -0.001
+          Clear_Lake     -0.001
+              Bishop     -0.001
+                Mona     -0.000
+               Snake     -0.000
+               Gandy      0.001
+        Mills_Valley      0.002
+                 eigenvector_20_overall_      0.999999 
+            Mud_Basin minv:    -0.002         Mills_Valley maxv:     0.002
+       eigenvector_20_Bishop_Clear_Lake_      0.973706 
+            eigenvector_20_Bishop_Gandy_      0.938808 
+             eigenvector_20_Bishop_Mona_      0.979089 
+    eigenvector_20_Bishop_Leland_Harris_      0.946559 
+     eigenvector_20_Bishop_Mills_Valley_      0.899841 
+            eigenvector_20_Bishop_Snake_      0.964615 
+        eigenvector_20_Bishop_Mud_Basin_      0.924093 
+        eigenvector_20_Clear_Lake_Gandy_      0.921988 
+         eigenvector_20_Clear_Lake_Mona_       0.95848 
+eigenvector_20_Clear_Lake_Leland_Harris_      0.978851 
+ eigenvector_20_Clear_Lake_Mills_Valley_      0.878197 
+        eigenvector_20_Clear_Lake_Snake_      0.937533 
+    eigenvector_20_Clear_Lake_Mud_Basin_      0.965617 
+              eigenvector_20_Gandy_Mona_      0.960316 
+     eigenvector_20_Gandy_Leland_Harris_      0.903094 
+      eigenvector_20_Gandy_Mills_Valley_      0.958175 
+             eigenvector_20_Gandy_Snake_       0.95194 
+         eigenvector_20_Gandy_Mud_Basin_      0.913665 
+      eigenvector_20_Mona_Leland_Harris_       0.94014 
+       eigenvector_20_Mona_Mills_Valley_      0.901451 
+              eigenvector_20_Mona_Snake_      0.995724 
+          eigenvector_20_Mona_Mud_Basin_      0.943509 
+eigenvector_20_Leland_Harris_Mills_Valley_      0.863099 
+     eigenvector_20_Leland_Harris_Snake_      0.909522 
+ eigenvector_20_Leland_Harris_Mud_Basin_       0.98117 
+      eigenvector_20_Mills_Valley_Snake_      0.889284 
+  eigenvector_20_Mills_Valley_Mud_Basin_      0.891996 
+         eigenvector_20_Snake_Mud_Basin_       0.90917 
+
+## Statistical significance of differences beween populations:
+                                pop1                  pop2      chisq          p-value   |pop1|   |pop2|
+popdifference:                Bishop            Clear_Lake       994.692  5.28968e-198      23      28
+popdifference:                Bishop                 Gandy       637.361  3.81679e-122      23      19
+popdifference:                Bishop                  Mona       942.174  8.24279e-187      23      39
+popdifference:                Bishop         Leland_Harris       933.312  6.36016e-185      23      29
+popdifference:                Bishop          Mills_Valley      1517.424  7.27321e-310      23      47
+popdifference:                Bishop                 Snake      1474.928  9.51909e-301      23      45
+popdifference:                Bishop             Mud_Basin       918.298   1.0013e-181      23      15
+popdifference:            Clear_Lake                 Gandy      1040.748  7.92794e-208      28      19
+popdifference:            Clear_Lake                  Mona      1267.153  3.19037e-256      28      39
+popdifference:            Clear_Lake         Leland_Harris      1180.749  9.78536e-238      28      29
+popdifference:            Clear_Lake          Mills_Valley      1284.080  7.58473e-260      28      47
+popdifference:            Clear_Lake                 Snake      1655.555             0      28      45
+popdifference:            Clear_Lake             Mud_Basin       905.654  4.92073e-179      28      15
+popdifference:                 Gandy                  Mona      1189.129  1.57948e-239      19      39
+popdifference:                 Gandy         Leland_Harris       940.814  1.60604e-186      19      29
+popdifference:                 Gandy          Mills_Valley      1576.469   1.5316e-322      19      47
+popdifference:                 Gandy                 Snake      1689.228             0      19      45
+popdifference:                 Gandy             Mud_Basin       892.167  3.65007e-176      19      15
+popdifference:                  Mona         Leland_Harris       950.649  1.28982e-188      39      29
+popdifference:                  Mona          Mills_Valley      1488.603  1.10976e-303      39      47
+popdifference:                  Mona                 Snake       799.741  1.60627e-156      39      45
+popdifference:                  Mona             Mud_Basin       816.357  4.76222e-160      39      15
+popdifference:         Leland_Harris          Mills_Valley      1573.931  5.43472e-322      29      47
+popdifference:         Leland_Harris                 Snake      1189.734  1.17274e-239      29      45
+popdifference:         Leland_Harris             Mud_Basin       866.897  8.65786e-171      29      15
+popdifference:          Mills_Valley                 Snake      1752.395             0      47      45
+popdifference:          Mills_Valley             Mud_Basin       606.386  1.29913e-115      47      15
+popdifference:                 Snake             Mud_Basin      1152.378  1.13898e-231      45      15
+
+eigbestsnp    1             21211_84  1      7683793     4.923
+eigbestsnp    1              3241_51  1       914634     4.912
+eigbestsnp    1            26741_129  1      9773652     4.860
+eigbestsnp    1            25936_124  1      9458446     4.719
+eigbestsnp    1             11906_74  1      4191122     4.649
+eigbestsnp    1              28147_7  1     10315093     4.640
+eigbestsnp    1             12426_46  1      4369647     4.611
+eigbestsnp    1             29531_79  1     10668812     4.608
+eigbestsnp    1              6023_31  1      1959671     4.596
+eigbestsnp    1            28345_120  1     10393490     4.577
+eigbestsnp    2             11902_63  1      4187780     5.064
+eigbestsnp    2             26389_23  1      9634297     5.007
+eigbestsnp    2             11462_70  1      4012201     4.938
+eigbestsnp    2            32058_128  1     10877804     4.931
+eigbestsnp    2             26167_38  1      9551009     4.920
+eigbestsnp    2              4281_79  1      1296557     4.850
+eigbestsnp    2            16836_130  1      6082004     4.811
+eigbestsnp    2             28722_17  1     10521785     4.771
+eigbestsnp    2             10913_79  1      3803831     4.758
+eigbestsnp    2             10161_89  1      3523902     4.726
+eigbestsnp    3            27858_117  1     10214224     5.647
+eigbestsnp    3             20421_52  1      7391570     5.573
+eigbestsnp    3             16075_81  1      5776542     5.511
+eigbestsnp    3             33601_92  1     10898814     5.273
+eigbestsnp    3             23466_49  1      8538357     5.230
+eigbestsnp    3             2301_133  1       570029     5.159
+eigbestsnp    3            20009_213  1      7240498     5.156
+eigbestsnp    3            27785_113  1     10181208     5.089
+eigbestsnp    3             9394_214  1      3232301     5.032
+eigbestsnp    3             7336_104  1      2432598     5.009
+eigbestsnp    4             31409_43  1     10822375     6.257
+eigbestsnp    4            13877_127  1      4937629     5.788
+eigbestsnp    4             6102_133  1      1993334     5.628
+eigbestsnp    4             24425_33  1      8902697     5.607
+eigbestsnp    4             18312_65  1      6621505     5.539
+eigbestsnp    4             16485_43  1      5945740     5.474
+eigbestsnp    4              2693_96  1       712314     5.465
+eigbestsnp    4              3975_24  1      1179001     5.362
+eigbestsnp    4              5210_86  1      1641307     5.358
+eigbestsnp    4             27849_93  1     10209434     5.272
+eigbestsnp    5             9391_112  1      3229739     7.879
+eigbestsnp    5             13348_40  1      4734067     7.132
+eigbestsnp    5             23065_73  1      8376798     7.026
+eigbestsnp    5            18175_121  1      6568113     6.876
+eigbestsnp    5            14878_385  1      5320085     6.860
+eigbestsnp    5             23360_40  1      8497963     6.646
+eigbestsnp    5             21815_62  1      7924267     6.631
+eigbestsnp    5            269013_34  1     11834646     6.564
+eigbestsnp    5              19703_9  1      7126469     6.475
+eigbestsnp    5            522670_58  1     13358838     6.286
+eigbestsnp    6            114829_27  1     11068679     5.133
+eigbestsnp    6             26666_46  1      9741184     4.894
+eigbestsnp    6             13270_51  1      4702611     4.878
+eigbestsnp    6             13613_21  1      4837016     4.872
+eigbestsnp    6             16573_70  1      5985532     4.735
+eigbestsnp    6              5557_40  1      1766464     4.706
+eigbestsnp    6              5493_44  1      1743453     4.684
+eigbestsnp    6              3403_62  1       977395     4.638
+eigbestsnp    6             14075_35  1      5017902     4.600
+eigbestsnp    6             18313_77  1      6622280     4.354
+eigbestsnp    7             20215_68  1      7317470     6.213
+eigbestsnp    7              7594_35  1      2532189     5.363
+eigbestsnp    7              22211_6  1      8077095     4.815
+eigbestsnp    7               829_76  1       159240     4.791
+eigbestsnp    7             25576_99  1      9325613     4.647
+eigbestsnp    7             12227_16  1      4299963     4.580
+eigbestsnp    7             23919_91  1      8721000     4.570
+eigbestsnp    7             25811_33  1      9411407     4.567
+eigbestsnp    7              1124_59  1       229854     4.504
+eigbestsnp    7             24124_60  1      8793664     4.469
+eigbestsnp    8             24154_49  1      8807604     7.418
+eigbestsnp    8             25571_60  1      9323256     7.205
+eigbestsnp    8             27821_10  1     10197083     7.139
+eigbestsnp    8              8347_19  1      2833809     7.116
+eigbestsnp    8            15477_413  1      5549621     6.893
+eigbestsnp    8             21415_48  1      7767102     6.830
+eigbestsnp    8             19800_15  1      7162108     6.532
+eigbestsnp    8            28396_113  1     10412976     6.373
+eigbestsnp    8             28636_38  1     10491966     6.349
+eigbestsnp    8              902_102  1       176026     6.322
+eigbestsnp    9             19800_15  1      7162108    10.660
+eigbestsnp    9            28396_113  1     10412976     9.042
+eigbestsnp    9             18992_24  1      6876625     8.137
+eigbestsnp    9            21170_107  1      7669973     7.821
+eigbestsnp    9             30617_34  1     10747283     7.723
+eigbestsnp    9             12715_96  1      4482430     7.688
+eigbestsnp    9             26763_46  1      9782679     6.816
+eigbestsnp    9            19636_272  1      7101343     6.794
+eigbestsnp    9           470798_100  1     12937623     6.775
+eigbestsnp    9             3765_386  1      1105782     6.540
+eigbestsnp   10             7387_110  1      2452686    10.528
+eigbestsnp   10             29393_33  1     10660489    10.053
+eigbestsnp   10              20164_6  1      7300802     8.961
+eigbestsnp   10              5805_97  1      1875077     8.913
+eigbestsnp   10            22896_145  1      8321092     8.911
+eigbestsnp   10             8851_117  1      3023332     8.899
+eigbestsnp   10             4434_122  1      1353043     8.588
+eigbestsnp   10             12235_36  1      4303290     8.128
+eigbestsnp   10              681_132  1       128280     8.105
+eigbestsnp   10              3246_15  1       917523     7.831
+eigbestsnp   11             7387_110  1      2452686     6.843
+eigbestsnp   11             20626_79  1      7467298     6.205
+eigbestsnp   11             29393_33  1     10660489     6.192
+eigbestsnp   11              3246_15  1       917523     5.736
+eigbestsnp   11              20164_6  1      7300802     5.623
+eigbestsnp   11              5805_97  1      1875077     5.597
+eigbestsnp   11             8851_117  1      3023332     5.586
+eigbestsnp   11            22896_145  1      8321092     5.574
+eigbestsnp   11           549503_139  1     14055868     5.570
+eigbestsnp   11             4434_122  1      1353043     5.379
+eigbestsnp   12              5685_80  1      1818694    10.873
+eigbestsnp   12            14380_121  1      5131917    10.158
+eigbestsnp   12              1709_32  1       374609     7.339
+eigbestsnp   12            18070_525  1      6533682     7.257
+eigbestsnp   12            556953_61  1     14233579     7.235
+eigbestsnp   12             2623_237  1       682872     7.171
+eigbestsnp   12           597701_453  1     15214682     7.107
+eigbestsnp   12            66233_426  1     10952630     7.009
+eigbestsnp   12            26067_411  1      9512357     6.590
+eigbestsnp   12            17515_220  1      6324439     6.459
+eigbestsnp   13             20065_61  1      7266041     7.525
+eigbestsnp   13             20628_36  1      7468060     7.309
+eigbestsnp   13            11297_437  1      3952614     6.935
+eigbestsnp   13            14650_479  1      5226656     6.801
+eigbestsnp   13           332162_234  1     12440978     6.763
+eigbestsnp   13            24482_284  1      8926829     6.702
+eigbestsnp   13            28239_382  1     10356085     6.644
+eigbestsnp   13              7181_61  1      2376242     6.517
+eigbestsnp   13            15923_212  1      5712374     6.500
+eigbestsnp   13            564330_76  1     14414685     6.365
+eigbestsnp   14              2882_79  1       777531    11.603
+eigbestsnp   14             16697_13  1      6027899    11.365
+eigbestsnp   14               491_13  1        95472     9.900
+eigbestsnp   14             16577_32  1      5987182     8.630
+eigbestsnp   14            23294_121  1      8472760     7.846
+eigbestsnp   14             18444_43  1      6669490     7.528
+eigbestsnp   14             14740_83  1      5265491     7.407
+eigbestsnp   14              2697_91  1       713171     7.339
+eigbestsnp   14             4260_150  1      1285186     7.288
+eigbestsnp   14            23948_110  1      8734229     7.231
+eigbestsnp   15             12535_25  1      4413496    10.403
+eigbestsnp   15            12797_112  1      4512106     8.936
+eigbestsnp   15             21539_18  1      7814435     8.870
+eigbestsnp   15            15320_220  1      5494424     8.801
+eigbestsnp   15             7521_447  1      2507497     8.699
+eigbestsnp   15             1163_471  1       242194     8.356
+eigbestsnp   15           455189_234  1     12904187     8.112
+eigbestsnp   15             21142_60  1      7658297     8.038
+eigbestsnp   15            24066_502  1      8772786     7.729
+eigbestsnp   15            12143_108  1      4275205     7.332
+eigbestsnp   16             15253_81  1      5468993     9.421
+eigbestsnp   16            557702_50  1     14256178     7.875
+eigbestsnp   16            13220_106  1      4679993     7.651
+eigbestsnp   16             27342_97  1     10005473     7.298
+eigbestsnp   16           569951_377  1     14540496     6.859
+eigbestsnp   16           223375_419  1     11621309     6.773
+eigbestsnp   16            24640_121  1      8990163     6.682
+eigbestsnp   16             28887_36  1     10580328     6.176
+eigbestsnp   16            589263_61  1     15046259     5.938
+eigbestsnp   16            12947_394  1      4569050     5.706
+eigbestsnp   17              2882_79  1       777531     7.307
+eigbestsnp   17                97_11  1        16925     6.360
+eigbestsnp   17               4232_9  1      1273028     6.312
+eigbestsnp   17           553679_237  1     14155759     6.192
+eigbestsnp   17               491_13  1        95472     5.933
+eigbestsnp   17           459859_178  1     12912074     5.798
+eigbestsnp   17             26686_58  1      9752476     5.753
+eigbestsnp   17              4509_53  1      1384196     5.435
+eigbestsnp   17           543914_105  1     13945587     5.378
+eigbestsnp   17             10018_28  1      3471972     5.224
+eigbestsnp   18            21170_107  1      7669973     7.380
+eigbestsnp   18              1918_94  1       421996     6.400
+eigbestsnp   18             27560_73  1     10094626     6.313
+eigbestsnp   18             25818_39  1      9413825     6.222
+eigbestsnp   18            19636_272  1      7101343     5.722
+eigbestsnp   18              480_238  1        94166     5.650
+eigbestsnp   18            28726_323  1     10522845     5.615
+eigbestsnp   18             15139_38  1      5424607     5.517
+eigbestsnp   18             10959_61  1      3823159     5.455
+eigbestsnp   18             20366_61  1      7368643     5.423
+eigbestsnp   19           561023_355  1     14324214     6.457
+eigbestsnp   19             20626_79  1      7467298     5.812
+eigbestsnp   19            28726_323  1     10522845     5.462
+eigbestsnp   19             20083_46  1      7273327     4.980
+eigbestsnp   19                97_11  1        16925     4.947
+eigbestsnp   19             8691_123  1      2959753     4.906
+eigbestsnp   19               4232_9  1      1273028     4.874
+eigbestsnp   19           544900_106  1     13972345     4.849
+eigbestsnp   19             7030_112  1      2324663     4.815
+eigbestsnp   19             20370_56  1      7370299     4.814
+eigbestsnp   20             20626_79  1      7467298     7.350
+eigbestsnp   20            553777_43  1     14158022     6.788
+eigbestsnp   20              6251_61  1      2050885     6.740
+eigbestsnp   20           544831_131  1     13969093     6.606
+eigbestsnp   20             8170_226  1      2759763     5.742
+eigbestsnp   20             26686_58  1      9752476     5.701
+eigbestsnp   20             6391_103  1      2094286     5.616
+eigbestsnp   20           233208_151  1     11660252     5.418
+eigbestsnp   20              4509_53  1      1384196     5.391
+eigbestsnp   20            27672_127  1     10133258     5.387
+##end of smartpca:       26.149 seconds cpu        9.626 Mbytes in use

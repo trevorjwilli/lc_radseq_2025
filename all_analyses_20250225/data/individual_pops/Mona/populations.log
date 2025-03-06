@@ -1,0 +1,86 @@
+populations v2.64, executed 2024-05-16 21:48:18 (zlib-1.2.11)
+populations --in-path /home/mterribilini/LeCh/denovo.M4.rm_pcr_dups --popmap /home/mterribilini/LeCh/popmap_Mona.txt --out-path /home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mona/pop_r80_p2_mac3_cov5 --min-samples-per-pop 0.80 --min-populations 2 --min-mac 3 -t 32 --batch-size 100000 --hwe --fstats --structure --phylip --phylip-var --vcf --plink --write-single-snp
+Locus/sample distributions will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mona/pop_r80_p2_mac3_cov5/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0.8
+  Locus Population limit: 2
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  F-stats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 43 samples, 4 population(s), 1 group(s).
+Working on 43 samples.
+Working on 4 population(s):
+    Tooele_Army: 2022_Tooele_Army_LTC1, 2022_Tooele_Army_LTC2, 2022_Tooele_Army_LTC3, 2022_Tooele_Army_LTC4, 2022_Tooele_Army_LTC5, 2022_Tooele_Army_LTC6, 
+                 2022_Tooele_Army_LTC7, 2022_Tooele_Army_LTC_10, 2022_Tooele_Army_LTC_8, 2022_Tooele_Army_LTC_9
+    Jail_Pond: 2022_Jail_Pond_LTC1, 2022_Jail_Pond_LTC10, 2022_Jail_Pond_LTC11, 2022_Jail_Pond_LTC12, 2022_Jail_Pond_LTC13, 2022_Jail_Pond_LTC14, 
+               2022_Jail_Pond_LTC2, 2022_Jail_Pond_LTC3, 2022_Jail_Pond_LTC4, 2022_Jail_Pond_LTC5, 2022_Jail_Pond_LTC6, 2022_Jail_Pond_LTC7, 
+               2022_Jail_Pond_LTC8, 2022_Jail_Pond_LTC9
+    Mona: 2001_Mona_LTC1, 2001_Mona_LTC12, 2001_Mona_LTC2, 2001_Mona_LTC5
+    Big_Springs: 2022_Big_Springs_LTC_1, 2022_Big_Springs_LTC_10, 2022_Big_Springs_LTC_11, 2022_Big_Springs_LTC_12, 2022_Big_Springs_LTC_13, 
+                 2022_Big_Springs_LTC_14, 2022_Big_Springs_LTC_15, 2022_Big_Springs_LTC_2, 2022_Big_Springs_LTC_3, 2022_Big_Springs_LTC_4, 
+                 2022_Big_Springs_LTC_5, 2022_Big_Springs_LTC_6, 2022_Big_Springs_LTC_7, 2022_Big_Springs_LTC_8, 2022_Big_Springs_LTC_9
+Working on 1 group(s) of populations:
+    defaultgrp: Tooele_Army, Jail_Pond, Mona, Big_Springs
+
+Polymorphic sites in Structure format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mona/pop_r80_p2_mac3_cov5/populations.structure'
+Fixed difference sites in Phylip format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mona/pop_r80_p2_mac3_cov5/populations.fixed.phylip'
+Polymorphic sites in Phylip format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mona/pop_r80_p2_mac3_cov5/populations.var.phylip'
+SNPs and calls will be written in VCF format to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mona/pop_r80_p2_mac3_cov5/populations.snps.vcf'
+Polymorphic sites in PLINK format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mona/pop_r80_p2_mac3_cov5/populations.plink.ped'
+Raw haplotypes will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mona/pop_r80_p2_mac3_cov5/populations.haplotypes.tsv'
+Population-level summary statistics will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mona/pop_r80_p2_mac3_cov5/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mona/pop_r80_p2_mac3_cov5/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * compute SNP- and haplotype-wise deviation from HWE
+  * compute F-statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mona/pop_r80_p2_mac3_cov5/populations.log.distribs'.
+
+Now processing...
+Batch 1 
+
+Removed 506283 loci that did not pass sample/population constraints from 528666 loci.
+Kept 22383 loci, composed of 18024109 sites; 138198 of those sites were filtered, 6670 variant sites remained.
+Number of loci with PE contig: 22383.00 (100.0%);
+  Mean length of loci: 795.26bp (stderr 0.45);
+Number of loci with SE/PE overlap: 22382.00 (100.0%);
+  Mean length of overlapping loci: 805.26bp (stderr 0.45); mean overlap: 31.00bp (stderr 0.00);
+Mean genotyped sites per locus: 804.73bp (stderr 0.44).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  Tooele_Army: 9.0573 samples per locus; pi: 0.25804; all/variant/polymorphic sites: 17182212/5954/5159; private alleles: 188
+  Jail_Pond: 13.014 samples per locus; pi: 0.24744; all/variant/polymorphic sites: 15925043/4856/4348; private alleles: 83
+  Mona: 4 samples per locus; pi: 0.25701; all/variant/polymorphic sites: 13357074/2161/1398; private alleles: 7
+  Big_Springs: 13.885 samples per locus; pi: 0.24951; all/variant/polymorphic sites: 17507574/6377/5804; private alleles: 316
+
+Number of variable sites found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Tooele_Army: 49
+  Jail_Pond: 112
+  Mona: 0
+  Big_Springs: 220
+Number of loci found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Tooele_Army: 3789
+  Jail_Pond: 5303
+  Mona: 1413
+  Big_Springs: 5512
+(more detail in populations.sumstats.tsv and populations.hapstats.tsv)
+
+Population pair divergence statistics (more in populations.fst_summary.tsv and populations.phistats_summary.tsv):
+  Tooele_Army-Jail_Pond: mean Fst: 0.026185; mean Phi_st: 0.0042019; mean Fst': 0.0015457; mean Dxy: 0.00038882
+  Tooele_Army-Mona: mean Fst: 0.03903; mean Phi_st: -0.0081718; mean Fst': -0.0045208; mean Dxy: 0.00036768
+  Tooele_Army-Big_Springs: mean Fst: 0.028988; mean Phi_st: 0.011234; mean Fst': 0.0045135; mean Dxy: 0.00040747
+  Jail_Pond-Mona: mean Fst: 0.027173; mean Phi_st: -0.014696; mean Fst': -0.0071489; mean Dxy: 0.00033631
+  Jail_Pond-Big_Springs: mean Fst: 0.023698; mean Phi_st: 0.0079443; mean Fst': 0.0039057; mean Dxy: 0.00037743
+  Mona-Big_Springs: mean Fst: 0.033401; mean Phi_st: 0.0043914; mean Fst': -0.00023454; mean Dxy: 0.00034641
+
+Populations is done.

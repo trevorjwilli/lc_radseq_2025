@@ -1,0 +1,87 @@
+populations v2.64, executed 2024-05-16 23:27:01 (zlib-1.2.11)
+populations --in-path /home/mterribilini/LeCh/denovo.M4.rm_pcr_dups --popmap /home/mterribilini/LeCh/popmap_Mills_Valley.txt --out-path /home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mills_Valley/pop_r80_p2_mac3_cov5 --min-samples-per-pop 0.80 --min-populations 2 --min-mac 3 -t 32 --batch-size 100000 --hwe --fstats --structure --phylip --phylip-var --vcf --plink --write-single-snp
+Locus/sample distributions will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mills_Valley/pop_r80_p2_mac3_cov5/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0.8
+  Locus Population limit: 2
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  F-stats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 51 samples, 4 population(s), 1 group(s).
+Working on 51 samples.
+Working on 4 population(s):
+    Copilot: 2022_Copilot_LTC1, 2022_Copilot_LTC10, 2022_Copilot_LTC11, 2022_Copilot_LTC12, 2022_Copilot_LTC13, 2022_Copilot_LTC14, 2022_Copilot_LTC2, 
+             2022_Copilot_LTC3, 2022_Copilot_LTC4, 2022_Copilot_LTC5, 2022_Copilot_LTC6, 2022_Copilot_LTC7, 2022_Copilot_LTC8, 2022_Copilot_LTC9
+    Mills_Valley: 2022_Mills_Valley_LTC1, 2022_Mills_Valley_LTC2, 2022_Mills_Valley_LTC3, 2022_Mills_Valley_LTC4, 2022_Mills_Valley_LTC5, 2022_Mills_Valley_LTC6, 
+                  2022_Mills_Valley_LTC7, 2022_Mills_Valley_LTC8
+    Rosebud_Top_P: 2022_Rosebud_Top_P_LTC1, 2022_Rosebud_Top_P_LTC10, 2022_Rosebud_Top_P_LTC11, 2022_Rosebud_Top_P_LTC12, 2022_Rosebud_Top_P_LTC13, 
+                   2022_Rosebud_Top_P_LTC14, 2022_Rosebud_Top_P_LTC2, 2022_Rosebud_Top_P_LTC3, 2022_Rosebud_Top_P_LTC4, 2022_Rosebud_Top_P_LTC5, 
+                   2022_Rosebud_Top_P_LTC6, 2022_Rosebud_Top_P_LTC7, 2022_Rosebud_Top_P_LTC8, 2022_Rosebud_Top_P_LTC9
+    Cluster: 2022_Cluster_LTC_1, 2022_Cluster_LTC_10, 2022_Cluster_LTC_11, 2022_Cluster_LTC_12, 2022_Cluster_LTC_13, 2022_Cluster_LTC_14, 
+             2022_Cluster_LTC_15, 2022_Cluster_LTC_2, 2022_Cluster_LTC_3, 2022_Cluster_LTC_4, 2022_Cluster_LTC_5, 2022_Cluster_LTC_6, 
+             2022_Cluster_LTC_7, 2022_Cluster_LTC_8, 2022_Cluster_LTC_9
+Working on 1 group(s) of populations:
+    defaultgrp: Copilot, Mills_Valley, Rosebud_Top_P, Cluster
+
+Polymorphic sites in Structure format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mills_Valley/pop_r80_p2_mac3_cov5/populations.structure'
+Fixed difference sites in Phylip format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mills_Valley/pop_r80_p2_mac3_cov5/populations.fixed.phylip'
+Polymorphic sites in Phylip format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mills_Valley/pop_r80_p2_mac3_cov5/populations.var.phylip'
+SNPs and calls will be written in VCF format to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mills_Valley/pop_r80_p2_mac3_cov5/populations.snps.vcf'
+Polymorphic sites in PLINK format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mills_Valley/pop_r80_p2_mac3_cov5/populations.plink.ped'
+Raw haplotypes will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mills_Valley/pop_r80_p2_mac3_cov5/populations.haplotypes.tsv'
+Population-level summary statistics will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mills_Valley/pop_r80_p2_mac3_cov5/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mills_Valley/pop_r80_p2_mac3_cov5/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * compute SNP- and haplotype-wise deviation from HWE
+  * compute F-statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Mills_Valley/pop_r80_p2_mac3_cov5/populations.log.distribs'.
+
+Now processing...
+Batch 1 
+
+Removed 507815 loci that did not pass sample/population constraints from 528666 loci.
+Kept 20851 loci, composed of 16824246 sites; 87157 of those sites were filtered, 5926 variant sites remained.
+Number of loci with PE contig: 20851.00 (100.0%);
+  Mean length of loci: 796.88bp (stderr 0.46);
+Number of loci with SE/PE overlap: 20850.00 (100.0%);
+  Mean length of overlapping loci: 806.88bp (stderr 0.46); mean overlap: 31.00bp (stderr 0.00);
+Mean genotyped sites per locus: 806.20bp (stderr 0.46).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  Copilot: 13.065 samples per locus; pi: 0.20036; all/variant/polymorphic sites: 16101154/4746/3908; private alleles: 110
+  Mills_Valley: 7.5159 samples per locus; pi: 0.19645; all/variant/polymorphic sites: 15497817/4602/2717; private alleles: 53
+  Rosebud_Top_P: 13.089 samples per locus; pi: 0.20092; all/variant/polymorphic sites: 16082137/4976/4106; private alleles: 121
+  Cluster: 13.953 samples per locus; pi: 0.21346; all/variant/polymorphic sites: 16181259/5469/4635; private alleles: 275
+
+Number of variable sites found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Copilot: 88
+  Mills_Valley: 146
+  Rosebud_Top_P: 113
+  Cluster: 122
+Number of loci found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Copilot: 3259
+  Mills_Valley: 4776
+  Rosebud_Top_P: 4212
+  Cluster: 3167
+(more detail in populations.sumstats.tsv and populations.hapstats.tsv)
+
+Population pair divergence statistics (more in populations.fst_summary.tsv and populations.phistats_summary.tsv):
+  Copilot-Mills_Valley: mean Fst: 0.03415; mean Phi_st: 0.016638; mean Fst': 0.0058335; mean Dxy: 0.0003193
+  Copilot-Rosebud_Top_P: mean Fst: 0.019864; mean Phi_st: -0.00019513; mean Fst': -0.00029089; mean Dxy: 0.00030956
+  Copilot-Cluster: mean Fst: 0.022527; mean Phi_st: 0.0060829; mean Fst': 0.0019715; mean Dxy: 0.0003261
+  Mills_Valley-Rosebud_Top_P: mean Fst: 0.036334; mean Phi_st: 0.020807; mean Fst': 0.008431; mean Dxy: 0.00031886
+  Mills_Valley-Cluster: mean Fst: 0.037941; mean Phi_st: 0.02634; mean Fst': 0.010394; mean Dxy: 0.00033803
+  Rosebud_Top_P-Cluster: mean Fst: 0.023792; mean Phi_st: 0.0084374; mean Fst': 0.0030524; mean Dxy: 0.00032745
+
+Populations is done.

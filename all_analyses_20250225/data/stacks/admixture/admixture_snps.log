@@ -1,0 +1,32 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --allow-extra-chr 0
+  --file ../data/stacks/populations.plink
+  --make-bed
+  --out ../data/stacks/admixture/admixture_snps
+
+Hostname: trevor-MS-7D91
+Working directory: /home/trevor/Projects/least_chub_radseq/all_analyses_20250225/scripts
+Start time: Wed Feb 26 11:07:05 2025
+
+Random number seed: 1740586025
+64069 MB RAM detected; reserving 32034 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (13929 variants, 260 people).
+--file: ../data/stacks/admixture/admixture_snps-temporary.bed +
+../data/stacks/admixture/admixture_snps-temporary.bim +
+../data/stacks/admixture/admixture_snps-temporary.fam written.
+13929 variants loaded from .bim file.
+260 people (0 males, 0 females, 260 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ../data/stacks/admixture/admixture_snps.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 260 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.873762.
+13929 variants and 260 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to ../data/stacks/admixture/admixture_snps.bed +
+../data/stacks/admixture/admixture_snps.bim +
+../data/stacks/admixture/admixture_snps.fam ... done.
+
+End time: Wed Feb 26 11:07:05 2025

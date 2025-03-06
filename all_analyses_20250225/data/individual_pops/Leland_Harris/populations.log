@@ -1,0 +1,72 @@
+populations v2.64, executed 2024-05-16 18:36:02 (zlib-1.2.11)
+populations --in-path /home/mterribilini/LeCh/denovo.M4.rm_pcr_dups --popmap /home/mterribilini/LeCh/popmap_Leland_Harris.txt --out-path /home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Leland_Harris/pop_r80_p2_mac3_cov5 --min-samples-per-pop 0.80 --min-populations 2 --min-mac 3 -t 32 --batch-size 100000 --hwe --fstats --structure --phylip --phylip-var --vcf --plink --write-single-snp
+Locus/sample distributions will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Leland_Harris/pop_r80_p2_mac3_cov5/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0.8
+  Locus Population limit: 2
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  F-stats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 29 samples, 2 population(s), 1 group(s).
+Working on 29 samples.
+Working on 2 population(s):
+    Leland_Harris: 2022_Leland_Harris_LTC1, 2022_Leland_Harris_LTC10, 2022_Leland_Harris_LTC11, 2022_Leland_Harris_LTC12, 2022_Leland_Harris_LTC13, 
+                   2022_Leland_Harris_LTC14, 2022_Leland_Harris_LTC15, 2022_Leland_Harris_LTC2, 2022_Leland_Harris_LTC3, 2022_Leland_Harris_LTC4, 
+                   2022_Leland_Harris_LTC5, 2022_Leland_Harris_LTC6, 2022_Leland_Harris_LTC7, 2022_Leland_Harris_LTC8, 2022_Leland_Harris_LTC9
+    Lower_Rocky: 2022_Lower_Rocky_LTC1, 2022_Lower_Rocky_LTC2, 2022_Lower_Rocky_LTC3, 2022_Lower_Rocky_LTC4, 2022_Lower_Rocky_LTC_10, 2022_Lower_Rocky_LTC_11, 
+                 2022_Lower_Rocky_LTC_12, 2022_Lower_Rocky_LTC_13, 2022_Lower_Rocky_LTC_14, 2022_Lower_Rocky_LTC_5, 2022_Lower_Rocky_LTC_6, 
+                 2022_Lower_Rocky_LTC_7, 2022_Lower_Rocky_LTC_8, 2022_Lower_Rocky_LTC_9
+Working on 1 group(s) of populations:
+    defaultgrp: Leland_Harris, Lower_Rocky
+
+Polymorphic sites in Structure format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Leland_Harris/pop_r80_p2_mac3_cov5/populations.structure'
+Fixed difference sites in Phylip format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Leland_Harris/pop_r80_p2_mac3_cov5/populations.fixed.phylip'
+Polymorphic sites in Phylip format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Leland_Harris/pop_r80_p2_mac3_cov5/populations.var.phylip'
+SNPs and calls will be written in VCF format to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Leland_Harris/pop_r80_p2_mac3_cov5/populations.snps.vcf'
+Polymorphic sites in PLINK format will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Leland_Harris/pop_r80_p2_mac3_cov5/populations.plink.ped'
+Raw haplotypes will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Leland_Harris/pop_r80_p2_mac3_cov5/populations.haplotypes.tsv'
+Population-level summary statistics will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Leland_Harris/pop_r80_p2_mac3_cov5/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Leland_Harris/pop_r80_p2_mac3_cov5/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * compute SNP- and haplotype-wise deviation from HWE
+  * compute F-statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in '/home/mterribilini/LeCh/denovo.M4.rm_pcr_dups/Leland_Harris/pop_r80_p2_mac3_cov5/populations.log.distribs'.
+
+Now processing...
+Batch 1 
+
+Removed 509887 loci that did not pass sample/population constraints from 528666 loci.
+Kept 18779 loci, composed of 15137873 sites; 106577 of those sites were filtered, 3098 variant sites remained.
+Number of loci with PE contig: 18779.00 (100.0%);
+  Mean length of loci: 796.11bp (stderr 0.49);
+Number of loci with SE/PE overlap: 18778.00 (100.0%);
+  Mean length of overlapping loci: 806.11bp (stderr 0.49); mean overlap: 31.00bp (stderr 0.00);
+Mean genotyped sites per locus: 805.48bp (stderr 0.49).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  Leland_Harris: 13.467 samples per locus; pi: 0.29411; all/variant/polymorphic sites: 15123879/3098/2942; private alleles: 286
+  Lower_Rocky: 13.059 samples per locus; pi: 0.27482; all/variant/polymorphic sites: 15113259/3098/2812; private alleles: 156
+
+Number of variable sites found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Leland_Harris: 112
+  Lower_Rocky: 56
+Number of loci found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  Leland_Harris: 5656
+  Lower_Rocky: 4191
+(more detail in populations.sumstats.tsv and populations.hapstats.tsv)
+
+Population pair divergence statistics (more in populations.fst_summary.tsv and populations.phistats_summary.tsv):
+  Leland_Harris-Lower_Rocky: mean Fst: 0.037594; mean Phi_st: 0.032403; mean Fst': 0.016818; mean Dxy: 0.00044347
+
+Populations is done.

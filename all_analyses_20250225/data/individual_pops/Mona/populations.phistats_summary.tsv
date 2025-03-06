@@ -1,0 +1,17 @@
+# Phi_st Means
+	Tooele_Army	Jail_Pond	Mona	Big_Springs
+Tooele_Army		0.00420191	-0.00817176	0.0112342
+Jail_Pond			-0.014696	0.00794432
+Mona				0.00439138
+
+# Fst' Means
+	Tooele_Army	Jail_Pond	Mona	Big_Springs
+Tooele_Army		0.00154573	-0.00452084	0.00451351
+Jail_Pond			-0.00714894	0.00390574
+Mona				-0.000234539
+
+# Dxy Means
+	Tooele_Army	Jail_Pond	Mona	Big_Springs
+Tooele_Army		0.000388823	0.000367676	0.000407469
+Jail_Pond			0.000336307	0.000377431
+Mona				0.000346405
