@@ -1,0 +1,15 @@
+
+-------------------------------------------------------------------
+                            p o n g
+      by A. Behr, K. Liu, T. Devlin, G. Liu-Fang, and S. Ramachandran
+                       Version 1.5 (2021)
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+
+
+pong_filemap file: /Users/trevorwilliams/dev/lc_radseq_2025/all_analyses_20250225/data/ipyrad/admixture/plink.multiplerun.Qfilemap
+Distance metric: jaccard
+Similarity threshold: 0.970000
+Verbose: False
+
+Full command: /Users/trevorwilliams/miniconda3/envs/lc_rad/bin/pong -m plink.multiplerun.Qfilemap -i admixture_snps.ind2pop -n pop_order_collapsed.txt -l colors.txt

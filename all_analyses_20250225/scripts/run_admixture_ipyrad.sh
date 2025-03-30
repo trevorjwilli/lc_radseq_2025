@@ -29,7 +29,15 @@ mkdir $directory/admixture/cv
 awk -F'\t' -v OFS='\t' ' { sub(/RAD_/, "", $1)} 1' $directory/plink.bim > $directory/tmp.bim
 cp $directory/tmp.bim  $directory/plink.bim
 
-cut -f 1 -d ' ' $directory/plink.fam > $directory/admixture/admixture_snps.ind2pop
+# cut -f 1 -d ' ' $directory/plink.fam > $directory/admixture/admixture_snps.ind2pop
+
+if [ ! -f $directory/strata.txt]; then
+  Rscript --vanilla strata_from_vcf.R -i $directory/all_data_filtered.vcf 
+fi
+
+awk ' { print $3 } ' $directory/strata.txt > $directory/admixture/admixture_snps.ind2pop
+sed -i -E 's/Mud_Basin/Gunnison/' $directory/admixture/admixture_snps.ind2pop 
+sed -i -E 's/Leland/Leland_Harris/' $directory/admixture/admixture_snps.ind2pop
 
 for r in {1..20}
 do
