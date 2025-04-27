@@ -1,0 +1,23 @@
+﻿Population,Type,Source,Latitude,Longitude,Total Samples,Retained Samples 
+Bishop,extant,,39.4019,-113.8670,15,14 
+Red Knolls,refuge,Bishop,41.6694,-113.8500,15,12 
+Clear Lake,extant,,39.1060,-112.6267,15,15 
+Willow Pond,refuge,Clear,41.5281,-113.7468,15,13 
+Gandy,extant,,39.4549,-113.9562,15,15 
+Keg Springs,refuge,Gandy,41.5853,-113.7903,8,8 
+Gunnison,refuge,Gunnison,41.5228,-113.7790,15,15 
+Leland Harris,extant,,39.5532,-113.8962,15,15 
+CoPilot,refuge,Mills,41.9366,-113.0385,15,14 
+Mills Valley,extant,Mills,39.4664,-112.0349,8,8 
+Rosebud Top Pond,refuge,Mills,41.5984,-113.6070,14,14 
+Lower Rocky/Pilot,refuge,Leland,41.9425,-113.0495,14,14 
+Cluster,refuge,Mills,41.5763,-113.8386,15,15 
+Mona,Extinct,,39.8001,-111.8662,15,4 
+Jail Pond,refuge,Mona,40.6982,-111.9145,14,14 
+Tooele Army Depot,refuge,Mona,40.3273,-112.3260,14,10 
+Big Springs,refuge,Mona,40.2615,-112.0985,15,15 
+Cartier Slough,unknown,Snake,43.8144,-111.9193,15,15 
+Harris Ponds,unknown,Snake,43.8964,-111.8254,10,10 
+Henrys Fork,unknown,Snake,43.9444,-111.7287,10,10 
+Deer Parks,unknown,Snake,43.7709,-112.0130,10,10 
+Redside shiner,outgroup,Snake,43.8144,-111.9193,3,3 

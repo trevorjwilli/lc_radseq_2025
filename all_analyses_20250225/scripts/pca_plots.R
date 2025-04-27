@@ -22,8 +22,8 @@ admix$pop <- fam$V1
 admix_long <- admix |>
   pivot_longer(1:7)
 
-
-names(cbPalette) <- c('K1', 'K2', 'K3', 'K4', 'K5', 'K6')
+cbPalette <- c("#009E73", "#E69F00", "#56B4E9", "#999999", "#D55E00", "#0072B2","#F0E442")
+names(cbPalette) <- c('K1', 'K2', 'K3', 'K4', 'K5', 'K6', 'K7')
 
 admix_fil <- admix_long |>
   group_by(sample) |>
@@ -34,7 +34,6 @@ evec <- evec |>
   left_join(admix_fil, by = 'sample') |>
   mutate(pop = str_replace(pop.x, "_", " "))
 
-cbPalette <- c("#009E73", "#E69F00", "#56B4E9", "#999999", "#D55E00", "#0072B2", "#F0E442")
 
 ggplot(evec, aes(PC1, PC2, shape = pop, fill = name, color = pop)) +
   geom_point(size = 3) +
@@ -46,7 +45,7 @@ ggplot(evec, aes(PC1, PC2, shape = pop, fill = name, color = pop)) +
                      guide = guide_legend(override.aes=list(
                        shape = c(22,23,8,25,10,7,21,24),
                        color = c('black', 'black',"#56B4E9",'black',"#E69F00", "#999999",  'black', 'black'),
-                       fill = c("#56B4E9", "#0072B2", "#56B4E9","#F0E442", "#E69F00", "#999999",    "#E69F00", "#009E73")))) +
+                       fill = c("#56B4E9", "#0072B2", "#56B4E9","#F0E442", "#E69F00", "#999999",  "#D55E00", "#009E73")))) +
   coord_fixed(0.0501529549/0.0739751967) +
   xlab('PC1 (7.4%)') +
   ylab('PC2 (5.0%)') +
@@ -113,6 +112,7 @@ ggplot() +
   geom_text(data = evec_mean, aes(x=PC1, y=PC2, label=pop.y))
 
 cbPalette <- c("#D55E00",  "#0072B2", "#009E73", "#F0E442", "#999999",  "#E69F00", "#56B4E9")
+names(cbPalette) <- c('K1', 'K2', 'K3', 'K4', 'K5', 'K6', 'K7')
 
 ggplot(evec, aes(PC1, PC2, shape = pop.y, fill = name, color = pop.y)) +
   geom_point(size = 3) +
