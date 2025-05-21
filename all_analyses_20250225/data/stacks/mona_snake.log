@@ -1,0 +1,17 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf populations.snps.vcf.gz
+	--keep mona_snake_samples.txt
+	--max-missing 0.8
+	--out mona_snake
+	--recode
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 88 out of 260 Individuals
+Outputting VCF file...
+After filtering, kept 13334 out of a possible 13929 Sites
+Run Time = 2.00 seconds

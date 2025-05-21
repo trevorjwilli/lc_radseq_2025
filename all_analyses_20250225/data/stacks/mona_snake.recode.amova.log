@@ -1,0 +1,27 @@
+[1] "Time Run: 2025-03-08 10:18:37.048599"
+
+	Analysis of Molecular Variance
+
+Call: pegas::amova(formula = hier, data = hierdf, nperm = nperm, is.squared = FALSE)
+
+           SSD        MSD df
+pop   20923.80 20923.8049  1
+Error 33252.31   386.6547 86
+Total 54176.11   622.7139 87
+
+Variance components:
+      sigma2 P.value
+pop   466.99       0
+Error 386.65        
+
+Phi-statistics:
+pop.in.GLOBAL 
+    0.5470567 
+
+Variance coefficients:
+       a 
+43.97727 
+
+
+Between_Strata Between_Individuals
+[1] 0.5470567 0.4529433
