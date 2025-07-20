@@ -4,6 +4,8 @@ This repository contains the scripts and data (VCF files) pertaining to the anal
 
 Billman et al. 2025. Genetic analysis of recently discovered Least Chub populations in the upper Snake River and Bonneville drainages. *Ecology and Evolution* (in review).
 
+Zenodo DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16229886.svg)](https://doi.org/10.5281/zenodo.16229886)
+
 ## Methods
 
 Individual least chub were collected between 2001 and 2022 from extant (source), refuge, and newly discovered populations and sequenced via single digest restriction-site associated DNA sequencing (RADseq) using the SbfI enzyme. Following sequencing, individuals were genotyped using Stacks (Catchen et al., 2011, 2013) and ipyrad (Eaton and Overcast 2020) de-novo based assembly pipelines. Additional methodology can be found within the methods section of the paper.
